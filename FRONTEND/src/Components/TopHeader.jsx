@@ -26,13 +26,13 @@ const TopHeader = () => {
 
   return (
     <header className={`top-header ${scrollingUp ? 'visible' : 'hidden'}`}>
-      <div className="top-header-content flex gap-7 justify-end pr-10 text-xl my-2 text-white">
-        <div className="logo">
+      <div className="top-header-content flex gap-10 justify-end pr-10 text-xl my-2 text-white">
+        <button className="logo">
           Logo
-        </div>
-        <div className="user-section flex gap-7">
-          <span className="user-icon">?</span>
-          <span className="user-name">User</span>
+        </button>
+        <div className="user-section flex gap-10">
+          <button className="user-icon">?</button>
+          <button className="user-name">User</button>
         </div>
       </div>
     </header>
