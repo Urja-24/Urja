@@ -1,0 +1,19 @@
+.leaderboard {
+    background: linear-gradient(0deg, #321708, #0000, #0000), url(../assets/stadium.png);
+    background-size: cover;
+    height: 80vh;
+    display: flex;
+    font-family: 'Kodchasan';
+}
+
+.team-status {
+    -webkit-backdrop-filter: blur(3px);
+    backdrop-filter: blur(3px);
+    background-color: #ca944d80;
+    border: 1px solid pink;
+    border-radius: 50px;
+    height: 45vh;
+    justify-content: space-evenly;
+    width: 50%;
+    margin: auto;
+}

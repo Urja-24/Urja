@@ -1,3 +1,7 @@
-.top-navigate{
+.top-navigate {
     z-index: 1000;
+    font-family: 'Kodchasan';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
 }
