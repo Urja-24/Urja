@@ -38,30 +38,96 @@ export class LinkedList {
         const prev2 = node2.prev;
         const next2 = node2.next;
 
-        const node1Rect = node1.element.getBoundingClientRect();
-        const node2Rect = node2.element.getBoundingClientRect();
-        const deltaX = node2Rect.left - node1Rect.left;
-        const deltaY = node2Rect.top - node1Rect.top;
+        if (node2.next === node1) {
+            // Adjust node2's previous node to point to node1
+            if (prev2) {
+                prev2.next = node1;
+            } else {
+                // If node2 was the head, now node1 becomes the head
+                this.head = node1;
+            }
 
-        node1.element.style.transform = `translate(${deltaX}px, ${deltaY}px)`;
-        node2.element.style.transform = `translate(${-deltaX}px, ${-deltaY}px)`;
+            // Adjust node1's next node to point to node2
+            if (next1) {
+                next1.prev = node2;
+            } else {
+                // If node1 was the tail, now node2 becomes the tail
+                this.tail = node2;
+            }
+
+            // Now swap the pointers between node1 and node2
+            node2.next = next1;
+            node1.prev = prev2;
+
+            node1.next = node2;
+            node2.prev = node1;
+        }
+        else if (node1.next != node2) {
+            if (prev1) prev1.next = next1;
+            if (next1) next1.prev = prev1;
+            if (prev2) prev2.next = node1;
+            node1.next = node2;
+            node1.prev = prev2;
+            node2.prev = node1
+
+            if (this.head === node1) this.head = next1;
+            else if (this.head === node2) this.head = node1;
+
+            if (this.tail === node1) this.tail = prev1;
+            // else if (this.tail === node2) this.tail = node1;
+        }
+        this.updateDOM(container);
+
+    }
 
 
-        node1.element.style.transform = '';
-        node2.element.style.transform = '';
+    swap_reverse(node1, node2, container) {
+        if (node1 === node2) return;
 
-        if (prev1) prev1.next = node2;
-        if (next1) next1.prev = node2;
-        if (prev2) prev2.next = node1;
-        if (next2) next2.prev = node1;
+        const prev1 = node1.prev;
+        const next1 = node1.next;
+        const prev2 = node2.prev;
+        const next2 = node2.next;
 
-        [node1.prev, node2.prev] = [node2.prev, node1.prev];
-        [node1.next, node2.next] = [node2.next, node1.next];
-        if (this.head === node1) this.head = node2;
-        else if (this.head === node2) this.head = node1;
+        if (node1.next === node2) {
+            // Adjust node1's previous node to point to node2
+            if (prev1) {
+                prev1.next = node2;
+            } else {
+                // If node1 was the head, now node2 becomes the head
+                this.head = node2;
+            }
 
-        if (this.tail === node1) this.tail = node2;
-        else if (this.tail === node2) this.tail = node1;
+            // Adjust node2's next node to point to node1
+            if (next2) {
+                next2.prev = node1;
+            } else {
+                // If node2 was the tail, now node1 becomes the tail
+                this.tail = node1;
+            }
+
+            // Now swap the pointers between node1 and node2
+            node1.next = next2;
+            node1.prev = node2;
+
+            node2.next = node1;
+            node2.prev = prev1;
+        } else if (node2.next !== node1) {
+            // Handle the general case where node1 and node2 are not adjacent
+
+            if (prev1) prev1.next = next1;
+            if (next1) next1.prev = prev1;
+
+            if (next2) next2.prev = node1;
+            node1.next = next2;
+            node1.prev = node2;
+
+            node2.next = node1;
+
+            if (this.head === node1) this.head = next1;
+
+            if (this.tail === node1) this.tail = prev1;
+        }
 
         this.updateDOM(container);
 
@@ -80,4 +146,19 @@ export class LinkedList {
         container.innerHTML = '';
         elements.forEach(el => container.appendChild(el));
     }
+    isBefore(element1, element2) {
+        let current = this.head;
+        while (current) {
+            if (current.element == element1) {
+                return 1; // element1 is before element2
+            }
+            if (current.element == element2) {
+                return 0; // element2 is before element1
+            }
+            current = current.next;
+        }
+    
+        return -1; // This case handles if neither element is found
+    }
+    
 }
