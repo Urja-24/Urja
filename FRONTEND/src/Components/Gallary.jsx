@@ -54,8 +54,7 @@ function Gallary() {
 
   return (
     <div className='bg-black'>
-      <Navbar />
-      <div className='flex flex-wrap gap-x-5 justify-evenly gap-y-20 py-24 gallary container'>
+      <div className='flex flex-wrap gap-x-5 justify-evenly gap-y-20 py-24 gallary container mx-auto'>
         {images.map(ele => <Photos key={Math.random()} img={ele} />)}
       </div>
     </div>

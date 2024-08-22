@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import Navbar from './Navbar'
 import '../CSS/Top.css'
-
+import '../CSS/Navbar.css'
 
 function Top() {
     useEffect(() => {

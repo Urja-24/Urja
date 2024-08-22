@@ -17,3 +17,23 @@
     width: 50%;
     margin: auto;
 }
+@media (max-width: 1985px){
+    .team-status{
+        width: 60%;
+    }
+}
+@media (max-width: 1485px){
+    .team-status{
+        width: 70%;
+    }
+}
+@media (max-width: 1363px){
+    .team-status{
+        width: 85%;
+    }
+}
+@media (max-width: 784px){
+    .team-status{
+        width: 95vw;
+    }
+}
