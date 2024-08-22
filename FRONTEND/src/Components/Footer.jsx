@@ -6,11 +6,11 @@ function Footer() {
     return (
         <div className='bg-black p-4'>
             <div className="main-footer p-4 rounded-3xl flex flex-row justify-around">
-                <div className="left flex flex-row pr-2 border-red-300 w-1/2 text-white">
+                <div className="left flex pr-2 border-red-300 w-1/2 text-white">
                     <div className="logo-con">
                         Logo
                     </div>
-                    <div className="container flex flex-col pl-4 w-1/2">
+                    <div className="container footer-content flex flex-col pl-4 w-1/2">
                         <div className="text-white text-xl pt-3">
                             <p className="para-head text-right">URJA'25</p>
                         </div>
@@ -20,7 +20,7 @@ function Footer() {
                     </div>
                 </div>
                 <div className="right flex flex-col">
-                    <div className="links flex justify-around pt-3 gap-3">
+                    <div className="links flex justify-around pt-3 gap-3 flex-wrap">
                         <div>
                             <Link aria-current="page" className="text-white px-3 active" to="/">Home</Link>
                         </div>
