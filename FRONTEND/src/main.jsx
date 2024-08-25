@@ -5,6 +5,7 @@ import './index.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Home from './Components/Home.jsx'
 import Gallary from './Components/Gallary.jsx'
+import PointTable from './Components/PointTable.jsx'
 const router = createBrowserRouter([{
   path: '/',
   element: <App />,
@@ -12,7 +13,12 @@ const router = createBrowserRouter([{
     {
       path: "",
       element: <Home />
-    },{
+    },
+    {
+      path: "/point-table",
+      element: <PointTable />
+    },
+    {
       path:"/gallary",
       element:<Gallary/>
     }
