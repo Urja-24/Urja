@@ -1,5 +1,6 @@
-
-import './App.css'
+import { useState } from 'react'
+import './index.css'
+import Navbar from './Components/Navbar'
 import { Outlet } from 'react-router-dom'
 import Footer from './Components/Footer'
 import Top from './Components/Top'
