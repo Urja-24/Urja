@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
-import { NavLink } from 'react-router-dom';
-import '../CSS/Navbar.css'; // Optional: For custom styling
-import { FaBars, FaTimes } from 'react-icons/fa'; // For hamburger icon
+import "../CSS/Navbar.css"; // Optional: For custom styling
+import { useState } from "react";
+import { NavLink } from "react-router-dom";
+import { FaBars, FaTimes } from "react-icons/fa";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -11,46 +11,63 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="navbar rounded-full py-2 w-9/12 mx-auto">
+    <nav className="navbar py-3 mx-auto bg-[#1E1E1E] text-[#F5DEB3]">
       <div className="navbar-container flex justify-between items-center">
         <div className="logo">
-          <NavLink to="/" className="text-2xl font-bold p- 6">
-           Logo
+          <NavLink to="/" className="text-3xl font-extrabold tracking-wide">
+            URJA'25
           </NavLink>
         </div>
         <div className="menu-icon md:hidden mr-5" onClick={toggleMenu}>
-          {isOpen ? <FaTimes size={24} /> : <FaBars size={24} />}
+          {isOpen ? <FaTimes size={28} /> : <FaBars size={28} />}
         </div>
         <ul
-          className={`navbar-list flex-col md:flex md:flex-row md:justify-evenly text-2xl ${isOpen ? 'flex' : 'hidden'
-            }`}
-        >
-          <li className="navbar-item">
-            <NavLink to="/" className={({ isActive }) => (isActive ? 'active' : '')}>
-              Home
-            </NavLink>
-          </li>
-          <li className="navbar-item">
-            <NavLink to="/gallary" className={({ isActive }) => (isActive ? 'active' : '')}>
-              Gallary
-            </NavLink>
-          </li>
-          <li className="navbar-item">
-            <NavLink to="/matches" className={({ isActive }) => (isActive ? 'active' : '')}>
-              Matches
-            </NavLink>
-          </li>
-          <li className="navbar-item">
-            <NavLink to="/our-team" className={({ isActive }) => (isActive ? 'active' : '')}>
-              Our Team
-            </NavLink>
-          </li>
-          <li className="navbar-item">
-            <NavLink to="/detailed-points-table" className={({ isActive }) => (isActive ? 'active' : '')}>
-              Detailed Points Table
-            </NavLink>
-          </li>
-        </ul>
+  className={`navbar-list flex-col md:flex md:justify-center md:flex-row md:space-x-8 text-lg font-medium ${
+    isOpen ? "flex" : "hidden"
+  } transition-all duration-300 ease-in-out`}
+>
+  <li className="navbar-item mt-2 md:mt-0">
+    <NavLink
+      to="/"
+      className="hover:text-[#FFD700] transition duration-300 ease-in-out"
+    >
+      Home
+    </NavLink>
+  </li>
+  <li className="navbar-item mt-2 md:mt-0">
+    <NavLink
+      to="/gallery"
+      className="hover:text-[#FFD700] transition duration-300 ease-in-out"
+    >
+      Gallery
+    </NavLink>
+  </li>
+  <li className="navbar-item mt-2 md:mt-0">
+    <NavLink
+      to="/matches"
+      className="hover:text-[#FFD700] transition duration-300 ease-in-out"
+    >
+      Matches
+    </NavLink>
+  </li>
+  <li className="navbar-item mt-2 md:mt-0">
+    <NavLink
+      to="/our-team"
+      className="hover:text-[#FFD700] transition duration-300 ease-in-out"
+    >
+      Our Team
+    </NavLink>
+  </li>
+  <li className="navbar-item mt-2 md:mt-0">
+    <NavLink
+      to="/detailed-points-table"
+      className="hover:text-[#FFD700] transition duration-300 ease-in-out"
+    >
+      Detailed Points Table
+    </NavLink>
+  </li>
+</ul>
+
       </div>
     </nav>
   );

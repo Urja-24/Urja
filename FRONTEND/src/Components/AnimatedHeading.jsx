@@ -22,9 +22,3 @@ const SportsHeader = ({ heading }) => {
 };
 
 export default SportsHeader;
-
-
-
-
-
-

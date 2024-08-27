@@ -15,7 +15,7 @@ const router = createBrowserRouter([{
       element: <Home />
     },
     {
-      path: "/point-table",
+      path: "/detailed-points-table",
       element: <PointTable />
     },
     {

@@ -54,7 +54,7 @@ const Leaderboard = () => {
         </div>
       </div>
       <div className="my-2 ml-28">
-        <Link to={"/point-table"}>
+        <Link to={"/detailed-points-table"}>
           <button className="bg-[#562e00] text-[#F5DEB3] border border-[#562e00] px-6 py-3 rounded-sm font-semibold transition duration-300 ease-in-out transform hover:bg-[#704000] hover:text-white hover:scale-105 focus:outline-none focus:ring-4 focus:ring-[#704000] focus:ring-opacity-50">
             View Point Table
           </button>

@@ -1,3 +1,4 @@
+import { motion } from 'framer-motion';
 import React from 'react';
 
 const PointTable = () => {
@@ -10,7 +11,20 @@ const PointTable = () => {
 
   return (
     <div className="mt-36 mb-4 container mx-auto px-4">
-      <div className="overflow-x-auto">
+      <motion.h1
+        className="text-center text-6xl font-extrabold"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 2, ease: 'easeInOut' }}
+      >
+        <span>POINTS-TABLE</span>
+      </motion.h1>
+      <motion.div
+        className="overflow-x-auto"
+        initial={{ x: '-100vw', opacity: 0 }}
+        animate={{ x: 0, opacity: 1 }}
+        transition={{ duration: 1.5, ease: 'easeOut' }}
+      >
         <table className="min-w-full table-auto border-collapse border border-gray-500">
           <thead>
             <tr className="bg-[#562e00] text-[#F5DEB3]">
@@ -41,7 +55,7 @@ const PointTable = () => {
             ))}
           </tbody>
         </table>
-      </div>
+      </motion.div>
     </div>
   );
 };
