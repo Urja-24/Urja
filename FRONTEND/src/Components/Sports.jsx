@@ -32,17 +32,6 @@ const Sports = () => {
           {sportsData.map((sport, index) => (
             <div key={index} className="flex items-center justify-center ">
               <Link to="/desired-route">
-                {/* <GlareCard className="flex flex-col items-center justify-center bg-white">
-                  <img
-                    className="h-3/5 inset-0 object-cover pt-5 bg-transparent"
-                    src={sport.imgSrc}
-                    alt={sport.name}
-                  />
-                  <div className="flex-grow"></div>
-                  <p className="font-bold  text-4xl pb-4" style={{color:"white"}}>
-                    {sport.name}
-                  </p>
-                </GlareCard> */}
                 <GlareCard className="flex flex-col items-end justify-end py-8 px-6">
                   <div>
                     <img

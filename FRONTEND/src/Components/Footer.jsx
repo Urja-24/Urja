@@ -26,9 +26,8 @@ function Footer() {
             <div className="links flex flex-wrap justify-center md:justify-end gap-4 mb-8">
               <Link className="hover:text-[#FFD700] transition duration-300" to="/">Home</Link>
               <Link className="hover:text-[#FFD700] transition duration-300" to="/matches">Matches</Link>
-              <Link className="hover:text-[#FFD700] transition duration-300" to="/gallery">Gallery</Link>
-              <Link className="hover:text-[#FFD700] transition duration-300" to="/teams">Our Team</Link>
-              <Link className="hover:text-[#FFD700] transition duration-300" to="/points-table">Points Table</Link>
+              <Link className="hover:text-[#FFD700] transition duration-300" to="/our-team">Our Team</Link>
+              <Link className="hover:text-[#FFD700] transition duration-300" to="/detailed-points-table">Points Table</Link>
             </div>
   
             {/* Social Media Icons */}
