@@ -36,20 +36,13 @@ const Navbar = () => {
   </li>
   <li className="navbar-item mt-2 md:mt-0">
     <NavLink
-      to="/gallery"
-      className="hover:text-[#FFD700] transition duration-300 ease-in-out"
-    >
-      Gallery
-    </NavLink>
-  </li>
-  <li className="navbar-item mt-2 md:mt-0">
-    <NavLink
       to="/matches"
       className="hover:text-[#FFD700] transition duration-300 ease-in-out"
     >
       Matches
     </NavLink>
   </li>
+
   <li className="navbar-item mt-2 md:mt-0">
     <NavLink
       to="/our-team"

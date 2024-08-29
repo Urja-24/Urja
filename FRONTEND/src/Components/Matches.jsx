@@ -8,7 +8,7 @@ const img1 = 'https://i.pinimg.com/564x/4b/77/12/4b771221629ca9d264393973faa29ff
 const img2 = 'https://i.pinimg.com/564x/f4/01/33/f40133e28a8928d38ca5768596daad25.jpg'
 const img4 = 'https://i.pinimg.com/564x/cc/15/23/cc152387fe66349b720991ae97592cea.jpg'
 const images = [img1, img, img1, img, img2, img, img, img4, img, img4, img2, img1]
-function Gallary() {
+function Matches() {
   useEffect(() => {
     const container = document.querySelector(".container");
     const boxes = document.querySelectorAll(".box");
@@ -61,4 +61,4 @@ function Gallary() {
   )
 }
 
-export default Gallary
+export default Matches;  

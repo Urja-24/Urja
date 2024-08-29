@@ -4,8 +4,9 @@ import App from './App.jsx'
 import './index.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Home from './Components/Home.jsx'
-import Gallary from './Components/Gallary.jsx'
+import Matches from './Components/Matches.jsx'
 import PointTable from './Components/PointTable.jsx'
+import OurTeam from './Components/OurTeam.jsx'
 const router = createBrowserRouter([{
   path: '/',
   element: <App />,
@@ -19,8 +20,12 @@ const router = createBrowserRouter([{
       element: <PointTable />
     },
     {
-      path:"/gallary",
-      element:<Gallary/>
+      path:"/matches",
+      element:<Matches/>
+    },
+    {
+      path:"/our-team",
+      element:<OurTeam/>
     }
   ]
 }])
