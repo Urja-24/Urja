@@ -3,14 +3,20 @@ import { createRoot } from "react-dom/client";
 import App from "./App.jsx";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./Components/Home.jsx";
-import Gallary from "./Components/Gallary.jsx";
 import PointTable from "./Components/PointTable.jsx";
+import Matches from "./Components/Matches.jsx";
+import OurTeam from "./Components/OurTeam.jsx";
+import Gallery from "./Components/Gallery.jsx";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
     children: [
+      {
+        path: "/matches",
+        element: <Matches />,
+      },
       {
         path: "",
         element: <Home />,
@@ -20,8 +26,12 @@ const router = createBrowserRouter([
         element: <PointTable />,
       },
       {
-        path: "/gallary",
-        element: <Gallary />,
+        path: "/gallery",
+        element: <Gallery />,
+      },
+      {
+        path: "/our-team",
+        element: <OurTeam />,
       },
     ],
   },

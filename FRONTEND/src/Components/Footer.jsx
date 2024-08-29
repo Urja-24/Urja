@@ -40,13 +40,13 @@ function Footer() {
             </Link>
             <Link
               className="hover:text-[#FFD700] transition duration-300"
-              to="/teams"
+              to="/our-team"
             >
               Our Team
             </Link>
             <Link
               className="hover:text-[#FFD700] transition duration-300"
-              to="/points-table"
+              to="/detailed-points-table"
             >
               Points Table
             </Link>
