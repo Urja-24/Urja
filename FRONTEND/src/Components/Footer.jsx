@@ -1,17 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { FaFacebook, FaTwitter, FaInstagram, FaYoutube } from "react-icons/fa";
+import logo from '../assets/Urja.png';
 
 function Footer() {
   return (
     <footer className="bg-black p-8 text-white">
       <div className="container mx-auto flex flex-col md:flex-row justify-between items-start md:items-center rounded-3xl">
         <div className="left w-full md:w-1/2 flex">
-          <div className="logo-con text-3xl font-bold pr-4">
-            <p>Logo</p>
-          </div>
           <div className="footer-content">
-            <h3 className="text-2xl font-bold mb-2">URJA '25</h3>
+          <img className="h-12" src={logo} />
             <p className="text-sm max-w-md leading-relaxed">
               Join us for a thrilling showcase of sportsmanship and camaraderie
               at NIT Jamshedpur. URJA '25 is not just a sports fest, it’s a

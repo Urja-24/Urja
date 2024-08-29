@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import React from 'react';
+import SportsHeader from './AnimatedHeading';
 
 const PointTable = () => {
   const tableData = [
@@ -10,17 +11,12 @@ const PointTable = () => {
   ];
 
   return (
-    <div className="mt-36 mb-4 container mx-auto px-4">
-      <motion.h1
-        className="text-center text-6xl font-extrabold"
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 2, ease: 'easeInOut' }}
-      >
-        <span>POINTS-TABLE</span>
-      </motion.h1>
+    <div className="mt-40 mb-4 container mx-auto px-4">
+      <h2>
+            <SportsHeader heading="Point-Table" />
+          </h2>
       <motion.div
-        className="overflow-x-auto"
+        className="overflow-x-auto mt-2"
         initial={{ x: '-100vw', opacity: 0 }}
         animate={{ x: 0, opacity: 1 }}
         transition={{ duration: 1.5, ease: 'easeOut' }}

@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { motion } from 'framer-motion';
+import logo from '../assets/Urja.png';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -19,9 +20,9 @@ const Navbar = () => {
       <div className="w-full flex justify-center items-center py-4">
         <NavLink
           to="/"
-          className="text-4xl font-extrabold text-[#F5DEB3]"
+          className="font-extrabold text-[#F5DEB3]"
         >
-          URJA'25
+          <img className='h-16' src={logo} alt="Urja Logo" />
         </NavLink>
       </div>
 
@@ -92,7 +93,7 @@ const Navbar = () => {
       </div>
 
       {/* Hamburger Menu Icon (Visible on Mobile) */}
-      <div className="absolute top-4 md:hidden cursor-pointer px-4 py-2" onClick={toggleMenu}>
+      <div className="absolute top-6 right-4 md:hidden cursor-pointer px-4 py-2" onClick={toggleMenu}>
         {!isOpen &&<FaBars size={28} className="text-white" />}
       </div>
 
