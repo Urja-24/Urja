@@ -4,7 +4,10 @@ import App from './App.jsx'
 import './index.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Home from './Components/Home.jsx'
-import Gallary from './Components/Gallary.jsx'
+import Matches from './Components/Matches.jsx'
+import PointTable from './Components/PointTable.jsx'
+import CustomSport from './Components/CustomSport.jsx'
+import CustomMatches from './Components/CustomMatches.jsx'
 import OurTeam from './Components/OurTeam.jsx'
 const router = createBrowserRouter([{
   path: '/',
@@ -13,12 +16,26 @@ const router = createBrowserRouter([{
     {
       path: "",
       element: <Home />
-    }, {
-      path: "/gallary",
-      element: <Gallary />
-    }, {
-      path: '/team',
-      element: <OurTeam />
+    },
+    {
+      path: "/detailed-points-table",
+      element: <PointTable />
+    },
+    {
+      path:"/matches",
+      element:<Matches/>
+    },
+    {
+      path:"/our-team",
+      element:<OurTeam/>
+    },
+    {
+      path: "/sports/:key",
+      element: <CustomSport />,
+    },
+    {
+      path:"/customMatches/:id" , 
+      element:<CustomMatches/>  ,
     }
   ]
 }])

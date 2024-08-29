@@ -2,6 +2,7 @@ import React from 'react';
 import '../CSS/Team.css'; // Ensure you have the CSS for styling
 import { Photos } from './Photos';
 import TeamMember from './TeamMember';
+import SportsHeader from './AnimatedHeading';
 
 const secratray = [
     {
@@ -74,19 +75,23 @@ const teamMembers = [
 
 const OurTeam = () => {
     return (
-        <section className="team-section mt-12">
+        <section className="team-section mt-14">
             <div className='bg-black p-10'>
                 <div className="container mx-auto text-center">
-                    <h2 className="text-4xl font-bold text-white">Our Team</h2>
-                    <p className="text-lg text-white mt-4">Meet the people who make it all happen</p>
+                    {/* <h2 className="text-4xl font-bold text-white">Our Team</h2> */}
+                    <div className='flex gap-8 justify-center'>
+                    <SportsHeader heading={"Our"}></SportsHeader>
+                    <SportsHeader heading={"Team"}/>
+                    </div>
+                    {/* <p className="text-lg text-white mt-4">Meet the people who make it all happen</p> */}
                     <div className=' flex flex-wrap justify-around mt-10 gap-y-14'>
                         {secratray.map((member, index) => (
                             <div key={index} className="team-card shadow-lg rounded-lg">
                                 <TeamMember{...member}/>
-                                <div className="team-content p-4">
+                                {/* <div className="team-content p-4">
                                     <h3 className="text-2xl font-bold">{member.name}</h3>
                                     <p className="text-lg text-gray-600">{member.title}</p>
-                                </div>
+                                </div> */}
                             </div>
                         ))}
                     </div>

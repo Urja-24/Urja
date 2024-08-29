@@ -34,8 +34,8 @@ const TeamMember = ({...member}) => {
             fontWeight: 'bold'
           }}
         >
-          <h4>{member.name}</h4>
-          <span>{member.title}</span>
+          <h4 className='bg-transparent'>{member.name}</h4>
+          <span className='bg-transparent'>{member.title}</span>
         </div>
       </div>
     </div>
