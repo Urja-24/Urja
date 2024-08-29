@@ -16,9 +16,9 @@ function FrontDisplay() {
 
       <div className="absolute top-0 left-0 w-full h-full bg-black bg-opacity-40 z-10"></div>
 
-      <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center z-20">
+      <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center z-20 bg-transparent">
         <motion.p
-          className="text-white font-semibold text-lg md:text-xl lg:text-2xl"
+          className="text-white font-semibold text-lg md:text-xl lg:text-2xl bg-transparent"
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, ease: "easeOut" }}
@@ -27,7 +27,7 @@ function FrontDisplay() {
         </motion.p>
 
         <motion.h1
-          className="text-white font-bold text-4xl md:text-6xl lg:text-8xl mt-4 font-serif"
+          className="text-white font-bold text-4xl md:text-6xl lg:text-8xl mt-4 font-serif bg-transparent"
           initial={{ scale: 0.8, opacity: 0 }}
           animate={{ scale: 1, opacity: 1 }}
           transition={{ duration: 1.5, ease: "easeOut" }}
@@ -36,7 +36,7 @@ function FrontDisplay() {
         </motion.h1>
 
         <motion.p
-          className="text-white font-semibold text-lg md:text-xl lg:text-2xl mt-4"
+          className="text-white font-semibold text-lg md:text-xl lg:text-2xl mt-4 bg-transparent"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, ease: "easeOut", delay: 0.5 }}

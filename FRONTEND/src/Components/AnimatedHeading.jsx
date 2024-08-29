@@ -6,7 +6,7 @@ const SportsHeader = ({ heading }) => {
 
   return (
     <>
-      <div className="row mb-5">
+      <div className="row mb-5 bg-transparent">
         <div className="col-lg-12 d-flex justify-content-center">
           <div className="waviy">
             {letters.map((letter, index) => (

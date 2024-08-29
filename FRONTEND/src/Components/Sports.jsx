@@ -7,7 +7,7 @@ import SportsHeader from "./AnimatedHeading";
 import { GlareCard } from "./glare-card";
 const Sports = () => {
   return (
-    <section id="services" className="services section-bg mt-5">
+    <section id="services" className="services section-bg mt-5 ">
       <div className="container " data-aos="fade-up">
         <div className="col-12 title-section text-center">
           <h2>
