@@ -31,7 +31,7 @@ const Sports = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mx-auto">
           {sportsData.map((sport, index) => (
             <div key={index} className="flex items-center justify-center ">
-              <Link to="/desired-route">
+              <Link to={`sports/${index}`}>
                 <GlareCard className="flex flex-col items-end justify-end py-8 px-6">
                   <div>
                     <img

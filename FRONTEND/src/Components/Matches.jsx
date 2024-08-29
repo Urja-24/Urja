@@ -1,8 +1,9 @@
 import React, { useEffect } from "react";
-import { Photos } from "./Photos";
+import MatchesCard from "./MatchesCards";
 import "../CSS/Gallary.css";
 import Navbar from "./Navbar";
 import SportsHeader from "./AnimatedHeading";
+import { Link } from "react-router-dom";
 import { LinkedList } from "../utils/DragDrop";
 const img =
   "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=2560&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D";
@@ -73,16 +74,14 @@ function Matches() {
   return (
     <div className="bg-black">
       <div className="flex flex-col  justify-evenly  py-24 ">
-        
-          <div className="flex items-center justify-center">
-            <SportsHeader heading={"Matches"} />
-          </div>
-          <div className=" flex flex-wrap gap-x-5 justify-evenly gap-y-20 py-24 gallary container mx-auto">
-            {images.map((ele) => (
-              <Photos key={Math.random()} img={ele} />
-            ))}
-          </div>
-       
+        <div className="flex items-center justify-center">
+          <SportsHeader heading={"Matches"} />
+        </div>
+        <div className=" flex flex-wrap gap-x-5 justify-evenly gap-y-20 py-24 gallary container mx-auto">
+          {images.map((ele, index) => (
+            <MatchesCard key={index} img={ele} id={index} />
+          ))}
+        </div>
       </div>
     </div>
   );
