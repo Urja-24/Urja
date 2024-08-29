@@ -20,7 +20,7 @@ function Top() {
     }, []);
     return (
         <div className='fixed top-0 w-full top-navigate'>
-            <div>
+            <div className='navigation'>
                 <Navbar />
             </div>
         </div>
