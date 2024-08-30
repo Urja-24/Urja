@@ -1,7 +1,8 @@
-import "../CSS/Navbar.css"; // Optional: For custom styling
-import { useState } from "react";
-import { NavLink } from "react-router-dom";
-import { FaBars, FaTimes } from "react-icons/fa";
+import React, { useState } from 'react';
+import { NavLink } from 'react-router-dom';
+import { FaBars, FaTimes } from 'react-icons/fa';
+import { motion } from 'framer-motion';
+import logo from '../assets/Urja.png';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -11,57 +12,158 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="navbar py-4 mx-auto text-[#F5DEB3]">
-  <div className="navbar-container navbar flex justify-between items-center">
-    <div>
-      <NavLink to="/" className="text-2xl font-bold tracking-wide font-serif">
-        URJA'25
-      </NavLink>
-    </div>
-    <div className="menu-icon md:hidden mr-5" onClick={toggleMenu}>
-      {isOpen ? <FaTimes size={24} /> : <FaBars size={24} />}
-    </div>
-    <ul
-      className={`navbar-list flex-col md:flex  md:justify-center md:flex-row md:space-x-8 text-lg font-medium ${
-        isOpen ? "flex" : "hidden"
-      } transition-all duration-300 ease-in-out`}
+    <nav
+      style={{ backgroundImage: "url('https://i.postimg.cc/Vk7WZy9J/wooden-bg.jpg')" }}
+      className="bg-[#1E1E1E] text-[#F5DEB3] overflow-x-hidden w-full scroll"
     >
-      <li className="navbar-item mt-2 md:mt-0">
+      {/* Logo Section */}
+      <div className="w-full flex justify-center items-center py-4">
         <NavLink
           to="/"
-          className="hover:text-[#FFD700] transition duration-300 ease-in-out"
+          className="font-extrabold text-[#F5DEB3]"
         >
-          Home
+          <img className='h-16' src={logo} alt="Urja Logo" />
         </NavLink>
-      </li>
-      <li className="navbar-item mt-2 md:mt-0">
-        <NavLink
-          to="/matches"
-          className="hover:text-[#FFD700] transition duration-300 ease-in-out"
-        >
-          Matches
-        </NavLink>
-      </li>
+      </div>
 
-      <li className="navbar-item mt-2 md:mt-0">
-        <NavLink
-          to="/our-team"
-          className="hover:text-[#FFD700] transition duration-300 ease-in-out"
+      {/* Navbar Links Section for Desktop */}
+      <div className="hidden md:flex justify-between items-center px-6 py-2 mx-auto max-w-7xl">
+        <ul className="flex md:flex-row md:justify-center md:w-full md:space-x-8 text-lg font-medium">
+          <li>
+            <NavLink
+              to="/"
+              className={({ isActive }) =>
+                isActive
+                  ? 'border-b-2 pb-2 border-white'
+                  : 'hover:text-white transition duration-300 ease-in-out'
+              }
+
+            >
+              Home
+            </NavLink>
+          </li>
+         
+          <li>
+            <NavLink
+              to="/matches"
+              className={({ isActive }) =>
+                isActive
+                  ? 'border-b-2 pb-2 border-white'
+                  : 'hover:text-white transition duration-300 ease-in-out'
+              }
+
+
+            >
+              Matches
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              to="/our-team"
+              className={({ isActive }) =>
+                isActive
+                  ? 'border-b-2 pb-2 border-white'
+                  : 'hover:text-white transition duration-300 ease-in-out'
+              }
+            >
+              Our Team
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              to="/detailed-points-table"
+              className={({ isActive }) =>
+                isActive
+                  ? 'border-b-2 pb-2 border-white'
+                  : 'hover:text-white transition duration-300 ease-in-out'
+              }
+            >
+              Detailed Points Table
+            </NavLink>
+          </li>
+        </ul>
+      </div>
+
+      {/* Hamburger Menu Icon (Visible on Mobile) */}
+      <div className="absolute top-6 right-4 md:hidden cursor-pointer px-4 py-2" onClick={toggleMenu}>
+        {!isOpen &&<FaBars size={28} className="text-white" />}
+
+      </div>
+
+      {/* Popup Navigation for Mobile */}
+      {isOpen && (
+        <motion.div
+          initial={{ x: '100%' }}
+          animate={{ x: 0 }}
+          exit={{ x: '100%' }}
+          transition={{ type: 'tween', duration: 0.4 }}
+          className="fixed top-0 right-0 bottom-0 w-3/4 bg-[#1E1E1E] text-[#F5DEB3] shadow-lg z-50 flex flex-col p-8"
         >
-          Our Team
-        </NavLink>
-      </li>
-      <li className="navbar-item mt-2 md:mt-0">
-        <NavLink
-          to="/detailed-points-table"
-          className="hover:text-[#FFD700] transition duration-300 ease-in-out"
-        >
-          Detailed Points Table
-        </NavLink>
-      </li>
-    </ul>
-  </div>
-</nav>
+          <div className="flex justify-end">
+            <FaTimes
+              size={28}
+              className="text-white cursor-pointer"
+              onClick={toggleMenu}
+            />
+          </div>
+          <ul className="flex flex-col space-y-6 mt-8 text-lg font-medium">
+            <li>
+              <NavLink
+                to="/"
+                className={({ isActive }) =>
+                  isActive
+                    ? 'border-b-2 pb-2 border-white'
+                    : 'hover:text-white transition duration-300 ease-in-out'
+                }
+                onClick={toggleMenu}
+              >
+                Home
+              </NavLink>
+            </li>
+          
+            <li>
+              <NavLink
+                to="/matches"
+                className={({ isActive }) =>
+                  isActive
+                    ? 'border-b-2 pb-2 border-white'
+                    : 'hover:text-white transition duration-300 ease-in-out'
+                }
+                onClick={toggleMenu}
+              >
+                Matches
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                to="/our-team"
+                className={({ isActive }) =>
+                  isActive
+                    ? 'border-b-2 pb-2 border-white'
+                    : 'hover:text-white transition duration-300 ease-in-out'
+                }
+                onClick={toggleMenu}
+              >
+                Our Team
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                to="/detailed-points-table"
+                className={({ isActive }) =>
+                  isActive
+                    ? 'border-b-2 pb-2 border-white'
+                    : 'hover:text-white transition duration-300 ease-in-out'
+                }
+                onClick={toggleMenu}
+              >
+                Detailed Points Table
+              </NavLink>
+            </li>
+          </ul>
+        </motion.div>
+      )}
+    </nav>
   );
 };
 

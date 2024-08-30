@@ -9,6 +9,7 @@ import PointTable from './Components/PointTable.jsx'
 import CustomSport from './Components/CustomSport.jsx'
 import CustomMatches from './Components/CustomMatches.jsx'
 import OurTeam from './Components/OurTeam.jsx'
+import Register from './Components/Register.jsx'
 const router = createBrowserRouter([{
   path: '/',
   element: <App />,
@@ -36,6 +37,10 @@ const router = createBrowserRouter([{
     {
       path:"/customMatches/:id" , 
       element:<CustomMatches/>  ,
+    },
+    {
+      path:"/register/:id" , 
+      element:<Register/>  ,
     }
   ]
 }])

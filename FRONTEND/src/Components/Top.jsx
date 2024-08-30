@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react'
 import Navbar from './Navbar'
 import '../CSS/Top.css'
-import '../CSS/Navbar.css'
 
 function Top() {
     useEffect(() => {
@@ -19,10 +18,10 @@ function Top() {
         };
     }, []);
     return (
-        <div className='fixed top-0 w-full top-navigate'>
-            <div>
+        <div className='fixed top-0 w-full top-navigate mb-2'>
+         
                 <Navbar />
-            </div>
+           
         </div>
     )
 }

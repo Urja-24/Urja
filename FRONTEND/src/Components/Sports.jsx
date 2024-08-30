@@ -4,7 +4,6 @@ import "../CSS/sportsGridStyle.css";
 import "../index.css";
 import SportsHeader from "./AnimatedHeading";
 import { GlareCard } from "./glare-card";
-
 const sportsData = [
   { name: "Basketball", imgSrc: "src/assets/images/Basketball.png" },
   { name: "Football", imgSrc: "src/assets/images/foot1.png" },
@@ -52,5 +51,4 @@ const Sports = () => {
     </section>
   );
 };
-
 export default Sports;
