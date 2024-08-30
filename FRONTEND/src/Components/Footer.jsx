@@ -34,12 +34,7 @@ function Footer() {
             >
               Matches
             </Link>
-            <Link
-              className="hover:text-[#FFD700] transition duration-300"
-              to="/gallery"
-            >
-              Gallery
-            </Link>
+           
             <Link
               className="hover:text-[#FFD700] transition duration-300"
               to="/our-team"

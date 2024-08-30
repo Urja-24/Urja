@@ -42,18 +42,7 @@ const Navbar = () => {
               Home
             </NavLink>
           </li>
-          <li>
-            <NavLink
-              to="/gallery"
-              className={({ isActive }) =>
-                isActive
-                  ? 'border-b-2 pb-2 border-white'
-                  : 'hover:text-white transition duration-300 ease-in-out'
-              }
-            >
-              Gallery
-            </NavLink>
-          </li>
+         
           <li>
             <NavLink
               to="/matches"
@@ -131,19 +120,7 @@ const Navbar = () => {
                 Home
               </NavLink>
             </li>
-            <li>
-              <NavLink
-                to="/gallery"
-                className={({ isActive }) =>
-                  isActive
-                    ? 'border-b-2 pb-2 border-white'
-                    : 'hover:text-white transition duration-300 ease-in-out'
-                }
-                onClick={toggleMenu}
-              >
-                Gallery
-              </NavLink>
-            </li>
+          
             <li>
               <NavLink
                 to="/matches"

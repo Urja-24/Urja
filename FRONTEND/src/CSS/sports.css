@@ -12,8 +12,8 @@
   display: inline-block;
   color: #333;
   text-transform: uppercase;
-  animation: waviy 1s infinite;
-  animation-delay: calc(.1s * var(--i));
+  /* animation: waviy 1s infinite;
+  animation-delay: calc(.1s * var(--i)); */
 }
 
 @media screen and (max-width: 768px) {

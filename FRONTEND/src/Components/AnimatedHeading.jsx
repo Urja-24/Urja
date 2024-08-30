@@ -11,7 +11,7 @@ const SportsHeader = ({ heading }) => {
 
           <div className="waviy">
             {letters.map((letter, index) => (
-              <span key={index} style={{ '--i': index + 1 }}>
+              <span key={index} style={{ '--i': index + 1 , color :"white"}}>
                 {letter}
               </span>
             ))}
