@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { FaFacebook, FaTwitter, FaInstagram, FaYoutube } from "react-icons/fa";
-import logo from '../assets/Urja.png';
+import logo from "../assets/Urja.png";
 
 function Footer() {
 
@@ -10,7 +10,7 @@ function Footer() {
       <div className="container mx-auto flex flex-col md:flex-row justify-between items-start md:items-center rounded-3xl">
         <div className="left w-full md:w-1/2 flex">
           <div className="footer-content">
-          <img className="h-12" src={logo} />
+            <img className="h-12" src={logo} />
             <p className="text-sm max-w-md leading-relaxed">
               Join us for a thrilling showcase of sportsmanship and camaraderie
               at NIT Jamshedpur. URJA '25 is not just a sports fest, it’s a
@@ -52,7 +52,12 @@ function Footer() {
           <div className="socials flex justify-center md:justify-end gap-6 text-2xl">
             <FaFacebook className="hover:text-[#FFD700] cursor-pointer transition duration-300" />
             <FaTwitter className="hover:text-[#FFD700] cursor-pointer transition duration-300" />
-            <FaInstagram className="hover:text-[#FFD700] cursor-pointer transition duration-300" />
+            <a
+              href="https://www.instagram.com/urja_nitjsr/?igsh=dmhlZWlqbzNnOXo5"
+              target="_blank"
+            >
+              <FaInstagram className="hover:text-[#FFD700] cursor-pointer transition duration-300" />
+            </a>
             <FaYoutube className="hover:text-[#FFD700] cursor-pointer transition duration-300" />
           </div>
         </div>
@@ -61,7 +66,7 @@ function Footer() {
         © 2024 URJA Sports Event. All rights reserved.
       </div>
     </footer>
-  );
+    )
 }
 
 export default Footer;
