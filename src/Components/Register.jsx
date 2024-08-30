@@ -6,7 +6,7 @@ import "react-toastify/dist/ReactToastify.css";
 
 function Register() {
   const { id } = useParams();
-  const backendUrl = 'http://localhost:3080';
+  const backendUrl = 'https://urjabackend.onrender.com';
   const sports = ["Cricket", "Football", "Hockey"];
   const branches = ["CE", "CSE", "MME", "ECE", "ME", "PIE+ECM", "PG", "EE"];
   const [formData, setFormData] = useState({

@@ -8,7 +8,7 @@ import "jspdf-autotable";
 
 function Players() {
   const { id } = useParams();
-  const backendUrl = 'http://localhost:3080';
+  const backendUrl = 'https://urjabackend.onrender.com';
   const [players, setPlayers] = useState([]);
   const sports = ["Cricket", "Football", "Hockey"];
   const branches = ["CE", "CSE", "MME", "ECE", "ME", "PIE+ECM", "PG", "EE"];
