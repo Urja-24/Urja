@@ -6,6 +6,7 @@ import "react-toastify/dist/ReactToastify.css";
 
 function Register() {
   const { id } = useParams();
+  const backendUrl = 'http://localhost:3080';
   const sports = ["Cricket", "Football", "Hockey"];
   const branches = ["CE", "CSE", "MME", "ECE", "ME", "PIE+ECM", "PG", "EE"];
   const [formData, setFormData] = useState({
@@ -24,7 +25,7 @@ function Register() {
     e.preventDefault();
 
     try {
-      const response = await fetch("http://localhost:3080/api/player/register", {
+      const response = await fetch(`${backendUrl}/api/player/register`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

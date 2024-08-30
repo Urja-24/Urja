@@ -6,8 +6,9 @@ import { jsPDF } from "jspdf";
 import "react-toastify/dist/ReactToastify.css";
 import "jspdf-autotable";
 
-function Register() {
+function Players() {
   const { id } = useParams();
+  const backendUrl = 'http://localhost:3080';
   const [players, setPlayers] = useState([]);
   const sports = ["Cricket", "Football", "Hockey"];
   const branches = ["CE", "CSE", "MME", "ECE", "ME", "PIE+ECM", "PG", "EE"];
@@ -22,17 +23,16 @@ function Register() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+   
+    console.log(`${backendUrl}/api/player/getPlayers`);
     try {
-      const response = await fetch(
-        "http://localhost:3080/api/player/getPlayers",
-        {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify(formData),
-        }
-      );
+      const response = await fetch(`${backendUrl}/api/player/getPlayers`, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
+      });
 
       if (response.ok) {
         const result = await response.json();
@@ -55,13 +55,12 @@ function Register() {
     const doc = new jsPDF();
     doc.text("Players List", 20, 10);
     doc.autoTable({
-      head: [["Player Name", "Registration Number", "Branch", "Sport", "Sport ID"]],
+      head: [["Player Name", "Registration Number", "Branch", "Sport"]],
       body: players.map((player) => [
         player.playerName,
         player.registrationNumber,
         player.branch,
         player.sport,
-        player.sportId,
       ]),
     });
     doc.save("players_list.pdf");
@@ -123,6 +122,7 @@ function Register() {
         {players.length > 0 && (
           <button
             onClick={downloadPDF}
+            type="button"
             className="bg-green-500 text-white py-2 px-4 rounded hover:bg-green-600 ml-4"
           >
             Download PDF
@@ -139,7 +139,6 @@ function Register() {
                 <th className="p-2 border border-gray-500">Registration Number</th>
                 <th className="p-2 border border-gray-500">Branch</th>
                 <th className="p-2 border border-gray-500">Sport</th>
-                <th className="p-2 border border-gray-500">Sport ID</th>
               </tr>
             </thead>
             <tbody>
@@ -149,7 +148,6 @@ function Register() {
                   <td className="p-2 border border-gray-500">{player.registrationNumber}</td>
                   <td className="p-2 border border-gray-500">{player.branch}</td>
                   <td className="p-2 border border-gray-500">{player.sport}</td>
-                  <td className="p-2 border border-gray-500">{player.sportId}</td>
                 </tr>
               ))}
             </tbody>
@@ -160,4 +158,4 @@ function Register() {
   );
 }
 
-export default Register;
+export default Players;
