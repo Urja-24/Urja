@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import SportsHeader from "./AnimatedHeading";
 import { useParams } from "react-router-dom";
 
@@ -8,6 +8,8 @@ function Register() {
     playerName: "",
     registrationNumber: "",
     branch: "CSE",
+    sport : "" ,   
+    sportId : id ,  
   });
   const sports = ["Cricket", "Football", "Hockey"];
   const branches = ["CE", "CSE", "MME", "ECE", "ME", "PIE+ECM", "PG", "EE"];
@@ -18,6 +20,7 @@ function Register() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    setFormData({ ...formData, sport : sports[id] }); 
     console.log(formData); // Handle form submission here
   };
 
