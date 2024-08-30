@@ -4,7 +4,8 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
+html,body {
     font-family: "Poppins", sans-serif;
-    background-color: black;
+    background-color: #17171a;
+    /* background-color: black; */
 }
