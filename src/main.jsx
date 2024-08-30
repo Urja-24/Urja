@@ -4,7 +4,7 @@ import App from './App.jsx'
 import './index.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Home from './Components/Home.jsx'
-import Matches from './Components/Matches.jsx'
+import Gallery from './Components/Gallery.jsx'
 import PointTable from './Components/PointTable.jsx'
 import CustomSport from './Components/CustomSport.jsx'
 import CustomMatches from './Components/CustomMatches.jsx'
@@ -24,8 +24,8 @@ const router = createBrowserRouter([{
       element: <PointTable />
     },
     {
-      path:"/matches",
-      element:<Matches/>
+      path:"/gallery",
+      element:<Gallery/>
     },
     {
       path:"/our-team",

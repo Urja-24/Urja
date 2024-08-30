@@ -27,7 +27,7 @@ const images = [
   img2,
   img1,
 ];
-function Matches() {
+function Gallery() {
   useEffect(() => {
     const container = document.querySelector(".container");
     const boxes = document.querySelectorAll(".box");
@@ -87,4 +87,4 @@ function Matches() {
   );
 }
 
-export default Matches;
+export default Gallery;

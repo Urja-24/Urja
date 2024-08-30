@@ -30,9 +30,9 @@ function Footer() {
             </Link>
             <Link
               className="hover:text-[#FFD700] transition duration-300"
-              to="/matches"
+              to="/gallery"
             >
-              Matches
+              Gallery
             </Link>
            
             <Link

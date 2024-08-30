@@ -45,7 +45,7 @@ const Navbar = () => {
          
           <li>
             <NavLink
-              to="/matches"
+              to="/gallery"
               className={({ isActive }) =>
                 isActive
                   ? 'border-b-2 pb-2 border-white'
@@ -54,7 +54,7 @@ const Navbar = () => {
 
 
             >
-              Matches
+              Gallery
             </NavLink>
           </li>
           <li>
@@ -123,7 +123,7 @@ const Navbar = () => {
           
             <li>
               <NavLink
-                to="/matches"
+                to="/gallery"
                 className={({ isActive }) =>
                   isActive
                     ? 'border-b-2 pb-2 border-white'
@@ -131,7 +131,7 @@ const Navbar = () => {
                 }
                 onClick={toggleMenu}
               >
-                Matches
+                Gallery
               </NavLink>
             </li>
             <li>
