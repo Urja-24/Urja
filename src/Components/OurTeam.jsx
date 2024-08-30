@@ -8,7 +8,7 @@ const secratray = [
     name: "Ravindra Raj",
     title: "Sports Secretary",
     imgSrc: "https://urja-2023.netlify.app/static/media/ravindraRajImg.b1579a0b4171c12408cb.jpeg",
-    phone: 123
+    phone: 1234567890
   },
   {
     name: "Anubhav",
@@ -95,7 +95,7 @@ function OurTeam() {
             <AnimatedHeading heading="Our" />
             <AnimatedHeading heading="Team" />
           </div>
-          <div className=' flex flex-wrap justify-around mt-10 gap-y-14'>
+          <div className=' flex flex-wrap justify-around mt-14 gap-y-14'>
             {secratray.map((member, index) => (
               <div key={index} className="team-card shadow-lg rounded-lg">
                 <TeamMember{...member} />
@@ -103,7 +103,7 @@ function OurTeam() {
               </div>
             ))}
           </div>
-          <div className="team-grid mt-10 gap-x-44 gap-y-20">
+          <div className="team-grid mt-10 gap-x-44 gap-y-24">
             {teamMembers.map((member, index) => (
               <div key={index} className="team-card shadow-lg rounded-lg">
                 <TeamMember {...member} />
