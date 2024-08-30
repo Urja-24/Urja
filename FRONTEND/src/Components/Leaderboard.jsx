@@ -16,23 +16,27 @@ const Leaderboard = () => {
     <>
       <div className="mt-8 mb-4 container mx-auto px-4">
         <div className="overflow-x-auto">
-          <table className="min-w-full table-auto border-collapse border border-gray-500">
-            <thead>
-              <tr className="bg-[#562e00] text-white">
-                <th className="border border-gray-500 px-4 py-2">Sr. No.</th>
-                <th className="border border-gray-500 px-4 py-2">Branch</th>
-                <th className="border border-gray-500 px-4 py-2">Points</th>
+          <table className="min-w-full table-auto border-collapse border border-gray-200">
+          <thead
+              style={{
+                backgroundImage:
+                  "url('https://i.postimg.cc/Vk7WZy9J/wooden-bg.jpg')",
+                backgroundColor: "#333",
+              }}
+            >
+              <tr className="text-white">
+                <th className="border border-gray-200 px-4 py-2">Sr. No.</th>
+                <th className="border border-gray-200 px-4 py-2">Branch</th>
+                <th className="border border-gray-200 px-4 py-2">Points</th>
               </tr>
             </thead>
             <tbody className="text-white">
               {leaderboardData.map((item, index) => (
                 <tr
                   key={item.id}
-                  className={`${
-                    index % 2 === 0 ? "bg-gray-100" : "bg-gray-200"
-                  }`}
+                  className={`${index % 2 === 0 ? "bg-[#444]" : "bg-[#555]"}`}
                 >
-                  <td className="border border-gray-500 px-4 py-2 text-center">
+                  <td className="border border-gray-200 px-4 py-2 text-center">
                     {index === 0
                       ? "🥇"
                       : index === 1
@@ -41,10 +45,10 @@ const Leaderboard = () => {
                       ? "🥉"
                       : index + 1}
                   </td>
-                  <td className="border border-gray-500 px-4 py-2 text-center">
-                    <strong >{item.branch}</strong>
+                  <td className="border border-gray-200 px-4 py-2 text-center">
+                    <strong>{item.branch}</strong>
                   </td>
-                  <td className="border border-gray-500 px-4 py-2 text-center">
+                  <td className="border border-gray-200 px-4 py-2 text-center">
                     {item.points}
                   </td>
                 </tr>
@@ -55,7 +59,7 @@ const Leaderboard = () => {
       </div>
       <div className="my-2 ml-28">
         <Link to={"/detailed-points-table"}>
-          <button className="bg-[#562e00] text-[#F5DEB3] border border-[#562e00] px-6 py-3 rounded-sm font-semibold transition duration-300 ease-in-out transform hover:bg-[#704000] hover:text-white hover:scale-105 focus:outline-none focus:ring-4 focus:ring-[#704000] focus:ring-opacity-50">
+          <button className="bg-[#333] text-[#F5DEB3] border border-[#333] px-6 py-3 rounded-sm font-semibold transition duration-300 ease-in-out transform hover:bg-[#444] hover:text-white hover:scale-105 focus:outline-none focus:ring-4 focus:ring-[#444] focus:ring-opacity-50">
             View Point Table
           </button>
         </Link>
