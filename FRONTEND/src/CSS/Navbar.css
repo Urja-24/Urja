@@ -14,8 +14,12 @@
   color: rgb(245, 222, 179);
   flex-direction: column;
   display: none; /* Hide the list initially */
+  background: transparent;
 }
-
+.navbar-item
+{
+  background: transparent;
+}
 .navbar-list.flex {
   display: flex; /* Show the list when the menu is toggled */
 }

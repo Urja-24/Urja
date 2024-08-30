@@ -18,10 +18,10 @@ function Top() {
         };
     }, []);
     return (
-        <div className='fixed top-0 w-full top-navigate'>
-            <div>
+        <div className='fixed top-0 w-full top-navigate mb-2'>
+         
                 <Navbar />
-            </div>
+           
         </div>
     )
 }

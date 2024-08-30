@@ -1,9 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
 
 .waviy {
+
   position: relative;
-  -webkit-box-reflect: below -35px linear-gradient(transparent, rgba(255, 255, 255, 0.35));
+
+  -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(255, 255, 255, 0.5));
+
   font-size: 60px;
+
 }
 
 .waviy span {
@@ -12,8 +16,8 @@
   display: inline-block;
   color: #333;
   text-transform: uppercase;
-  animation: waviy 1s infinite;
-  animation-delay: calc(.1s * var(--i));
+  /* animation: waviy 1s infinite;
+  animation-delay: calc(.1s * var(--i)); */
 }
 
 @media screen and (max-width: 768px) {

@@ -37,22 +37,12 @@ const Navbar = () => {
                   ? 'border-b-2 pb-2 border-white'
                   : 'hover:text-white transition duration-300 ease-in-out'
               }
+
             >
               Home
             </NavLink>
           </li>
-          <li>
-            <NavLink
-              to="/gallery"
-              className={({ isActive }) =>
-                isActive
-                  ? 'border-b-2 pb-2 border-white'
-                  : 'hover:text-white transition duration-300 ease-in-out'
-              }
-            >
-              Gallery
-            </NavLink>
-          </li>
+         
           <li>
             <NavLink
               to="/matches"
@@ -61,6 +51,8 @@ const Navbar = () => {
                   ? 'border-b-2 pb-2 border-white'
                   : 'hover:text-white transition duration-300 ease-in-out'
               }
+
+
             >
               Matches
             </NavLink>
@@ -95,6 +87,7 @@ const Navbar = () => {
       {/* Hamburger Menu Icon (Visible on Mobile) */}
       <div className="absolute top-6 right-4 md:hidden cursor-pointer px-4 py-2" onClick={toggleMenu}>
         {!isOpen &&<FaBars size={28} className="text-white" />}
+
       </div>
 
       {/* Popup Navigation for Mobile */}
@@ -127,19 +120,7 @@ const Navbar = () => {
                 Home
               </NavLink>
             </li>
-            <li>
-              <NavLink
-                to="/gallery"
-                className={({ isActive }) =>
-                  isActive
-                    ? 'border-b-2 pb-2 border-white'
-                    : 'hover:text-white transition duration-300 ease-in-out'
-                }
-                onClick={toggleMenu}
-              >
-                Gallery
-              </NavLink>
-            </li>
+          
             <li>
               <NavLink
                 to="/matches"

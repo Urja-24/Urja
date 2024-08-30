@@ -1,6 +1,8 @@
 import React, { useEffect } from "react";
 import { Photos } from "./Photos";
 import "../CSS/Gallary.css";
+
+
 import SportsHeader from "./AnimatedHeading";
 import { LinkedList } from "../utils/DragDrop";
 const img =
@@ -29,6 +31,7 @@ function OurTeam() {
   useEffect(() => {
     const container = document.querySelector(".container");
     const boxes = document.querySelectorAll(".box");
+
     const list = new LinkedList();
     boxes.forEach((box) => list.append(box));
     let draggedElementNode = null,
@@ -80,9 +83,11 @@ function OurTeam() {
             <Photos key={Math.random()} img={ele} />
           ))}
         </div>
+
       </div>
     </div>
   );
 }
 
 export default OurTeam;
+
