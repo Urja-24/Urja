@@ -4,6 +4,7 @@ import { FaFacebook, FaTwitter, FaInstagram, FaYoutube } from "react-icons/fa";
 import logo from '../assets/Urja.png';
 
 function Footer() {
+
   return (
     <footer className="bg-black p-8 text-white">
       <div className="container mx-auto flex flex-col md:flex-row justify-between items-start md:items-center rounded-3xl">
@@ -15,6 +16,7 @@ function Footer() {
               at NIT Jamshedpur. URJA '25 is not just a sports fest, it’s a
               celebration of energy, passion, and relentless spirit.
             </p>
+
           </div>
         </div>
 

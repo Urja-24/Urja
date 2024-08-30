@@ -37,6 +37,7 @@ const Navbar = () => {
                   ? 'border-b-2 pb-2 border-white'
                   : 'hover:text-white transition duration-300 ease-in-out'
               }
+
             >
               Home
             </NavLink>
@@ -61,6 +62,8 @@ const Navbar = () => {
                   ? 'border-b-2 pb-2 border-white'
                   : 'hover:text-white transition duration-300 ease-in-out'
               }
+
+
             >
               Matches
             </NavLink>
@@ -95,6 +98,7 @@ const Navbar = () => {
       {/* Hamburger Menu Icon (Visible on Mobile) */}
       <div className="absolute top-6 right-4 md:hidden cursor-pointer px-4 py-2" onClick={toggleMenu}>
         {!isOpen &&<FaBars size={28} className="text-white" />}
+
       </div>
 
       {/* Popup Navigation for Mobile */}

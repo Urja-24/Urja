@@ -18,13 +18,13 @@ const Leaderboard = () => {
         <div className="overflow-x-auto">
           <table className="min-w-full table-auto border-collapse border border-gray-500">
             <thead>
-              <tr className="bg-[#562e00] text-[#F5DEB3]">
+              <tr className="bg-[#562e00] text-white">
                 <th className="border border-gray-500 px-4 py-2">Sr. No.</th>
                 <th className="border border-gray-500 px-4 py-2">Branch</th>
                 <th className="border border-gray-500 px-4 py-2">Points</th>
               </tr>
             </thead>
-            <tbody>
+            <tbody className="text-white">
               {leaderboardData.map((item, index) => (
                 <tr
                   key={item.id}
@@ -42,7 +42,7 @@ const Leaderboard = () => {
                       : index + 1}
                   </td>
                   <td className="border border-gray-500 px-4 py-2 text-center">
-                    <strong className="text-gray-800">{item.branch}</strong>
+                    <strong >{item.branch}</strong>
                   </td>
                   <td className="border border-gray-500 px-4 py-2 text-center">
                     {item.points}

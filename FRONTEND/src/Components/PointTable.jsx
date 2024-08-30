@@ -15,6 +15,7 @@ const PointTable = () => {
       <h2>
             <SportsHeader heading="Point-Table" />
           </h2>
+
       <motion.div
         className="overflow-x-auto mt-2"
         initial={{ x: '-100vw', opacity: 0 }}
@@ -37,7 +38,7 @@ const PointTable = () => {
           </thead>
           <tbody>
             {tableData.map((row, index) => (
-              <tr key={index} className="bg-gray-100 even:bg-gray-200">
+              <tr key={index} className="bg-gray-100 even:bg-gray-200 text-white">
                 <td className="border border-gray-500 px-4 py-2">{row.sport}</td>
                 <td className="border border-gray-500 px-4 py-2 text-center">{row.CSE}</td>
                 <td className="border border-gray-500 px-4 py-2 text-center">{row.ECE}</td>
