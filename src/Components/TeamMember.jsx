@@ -36,6 +36,7 @@ const TeamMember = ({...member}) => {
         >
           <h4 className='bg-transparent'>{member.name}</h4>
           <span className='bg-transparent'>{member.title}</span>
+          <span className='bg-transparent'>Contact: {member.phone}</span>
         </div>
       </div>
     </div>
