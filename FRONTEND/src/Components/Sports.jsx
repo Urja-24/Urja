@@ -6,17 +6,17 @@ import SportsHeader from "./AnimatedHeading";
 import { GlareCard } from "./glare-card";
 
 const sportsData = [
-  { name: "Basketball", imgSrc: "src/assets/images/Basketball.png" },
-  { name: "Football", imgSrc: "src/assets/images/foot1.png" },
-  { name: "Cricket", imgSrc: "src/assets/images/cricket.png" },
-  { name: "Tennis", imgSrc: "src/assets/images/tennis.png" },
-  { name: "Yoga", imgSrc: "src/assets/images/Yoga.png" },
-  { name: "Chess", imgSrc: "src/assets/images/chess.png" },
-  { name: "Athletics", imgSrc: "src/assets/images/running.png" },
-  { name: "Hockey", imgSrc: "src/assets/images/hockey.png" },
-  { name: "Badminton", imgSrc: "src/assets/images/bad.png" },
-  { name: "Volleyball", imgSrc: "src/assets/images/volley.png" },
-  { name: "Table Tennis", imgSrc: "src/assets/images/tt1.png" },
+  { name: "basketball", imgSrc: "src/assets/images/Basketball.png" },
+  { name: "football", imgSrc: "src/assets/images/foot1.png" },
+  { name: "cricket", imgSrc: "src/assets/images/cricket.png" },
+  { name: "tennis", imgSrc: "src/assets/images/tennis.png" },
+  { name: "yoga", imgSrc: "src/assets/images/Yoga.png" },
+  { name: "chess", imgSrc: "src/assets/images/chess.png" },
+  { name: "athletics", imgSrc: "src/assets/images/running.png" },
+  { name: "hockey", imgSrc: "src/assets/images/hockey.png" },
+  { name: "badminton", imgSrc: "src/assets/images/bad.png" },
+  { name: "volleyball", imgSrc: "src/assets/images/volley.png" },
+  { name: "tabletennis", imgSrc: "src/assets/images/tt1.png" },
 ];
 
 const Sports = () => {
@@ -30,8 +30,8 @@ const Sports = () => {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mx-auto">
           {sportsData.map((sport, index) => (
-            <div key={index} className="flex items-center justify-center ">
-              <Link to={`sports/${index}`}>
+            <div key={sport.name} className="flex items-center justify-center ">
+              <Link to={`sports/${sport.name}`}>
                 <GlareCard className="flex flex-col items-end justify-end py-8 px-6">
                   <div>
                     <img

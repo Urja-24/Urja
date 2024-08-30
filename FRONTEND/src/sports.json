@@ -1,0 +1,366 @@
+﻿{
+  "cricket": {
+    "title": "CRICKET",
+
+    "quote": "Cricket is not just a game; it is a way of life for many people in this world.        – Sachin Tendulkar",
+    "description": "Cricket is a super popular sport played with a bat and ball along with great passion by two teams of 11 players each. It's all about scoring runs and getting the other team out. Cricket’s formats range from Test matches, which unfold over five days, to One Day Internationals with 50 overs per side, and T20 matches, which offer explosive action in 20 overs. Each format impacts the game uniquely, influencing strategy, pace, and spectator engagement, thereby enriching the sport’s global appeal.",
+
+    "rules": [
+      "League Format:",
+      "1. Urja '24 cricket will be played with tennis ball.",
+      "2. The Tournament will kick off with group stage matches followed by semis and finals.",
+      "3. The group stage will be consisting of 2 groups out of which 2 teams from each group will be qualifying for semis.",
+      " ",
+
+      "Point System:",
+      "1. 2 Points will be awarded to the winning team.",
+      "2. 0 Point will be awarded to the losing team.",
+      "3. 1 Point will be awarded to both teams if the match could not take place due to unavoidable circumstances.",
+      "4. In case of a tie in points, the team with a higher Net Run Rate will be placed higher.",
+      " ",
+      "Rules And Format of Matches:",
+      "1. A maximum of 14 overs will be played per inning.",
+      "2. For the initial 5 overs of each innings, field restrictions known as the powerplay will be in effect. During this period, only 2 fielders are permitted outside the inner circle.",
+      "3. Only 4 bowlers willbe allowed to bowl a maximum of 3 over spell.",
+      "4. If the batsman is declared catch-out, the new batsman will be taking the strike irrespective of the position of non-striker batsman.",
+      "5. Mankading will be considered legal and will be counted as runout.",
+      "6. Any kind of no-ball will result in a free hit (batsman can only be dismissed via runout) to the batting team on the following delivery.",
+      "7. LBW dismissals will not be considered.",
+      "8. No runs will be counted through Leg byes.",
+      "9. Extras will include runs through wides, no ball and byes",
+      "10. If the match is tied up, then the result of the match will be decided on ‘SUPER OVER’ (6 balls each team), the team batting second will bat first in the super over.",
+      "11. The super overs will keep going on until the result is declared. (In case there is a situation of tie in super over). ",
+      "12. The final decisions on the field will be taken by the umpires and no objections will be entertained.",
+
+      "Discipline And Regulations:",
+      "1. Players and team officials must always respect the umpire’s decisions. Players are prohibited from expressing dissent or reacting provocatively towards the umpire, other players, or spectators.",
+      "2. Captains are accountable for making sure their team arrives at the ground before the scheduled time.",
+      "3. Any player violating any disciplinary regulations will face serious consequences."
+    ],
+    "coordinator_Name1": "xyz",
+    "position1": "Captain",
+    "coordinator_Name2": "xyz2",
+
+    "position2": "Vice-Captain",
+    "coordinator1_image": "abc.jpg",
+    "coordinator2_image": "abc.jpg",
+    "boysMatchSchedule": "xyz.png",
+    "girlsMatchSchedule": "xyz.png"
+  },
+  "football": {
+    "title": "FOOTBALL",
+    "quote": " To be a footballer, you have to be passionate and dedicated. It’s not just about the game; it’s about giving your all every single day.              – Sunil Chhetri",
+    "description": "Football is a collective game where two teams compete to score by placing the ball into the opponent’s goal. The sport is renowned for its expert and accurate passing, as well as the teamwork and collaboration exhibited by players working together to achieve success.",
+    "rules": [
+      "Rule Book will be provided to the teams. Point distribution will be as follows",
+      "1st : 10 Points",
+      "2nd : 7 Points",
+      "3rd : 5 Point"
+    ],
+    "coordinator_Name1": "xyz1",
+    "position1": "Captain",
+    "coordinator_Name2": "xyz2",
+    "position2": "Vice-Captain",
+    "coordinator1_image": "xyz.jpg",
+    "coordinator2_image": "xyz2.jpg",
+    "boysMatchSchedule": "abc.png",
+    "girlsMatchSchedule": "abc.png"
+  },
+  "badminton": {
+    "title": "BADMINTON",
+    "quote": "Badminton is not just a sport; it’s a way of life. Every game teaches you something new, and every challenge makes you stronger.                      -Lin Dan ",
+    "description": "Badminton is a dynamic racquet sport with roots tracing back to ancient civilizations, but its modern form originated in British India during the mid-19th century. Initially played by British officers stationed there, it was known as \"Poona\" before being formalized in England as badminton, named after the Badminton House in Gloucestershire. Played either indoors or outdoors, badminton involves two players (singles) or two pairs (doubles) who use racquets to hit a shuttlecock over a net. The objective is to score points by landing the shuttlecock in the opponent’s court, with play alternating between the teams or players.",
+"rules": [
+      "RULES FOR MEN’S TEAM EVENT:",
+      "1. Each team is required to have a minimum of 6 players with an upper bound of 7 players per team.",
+      "2. Every tie consists of 5 matches in a tie (explained below) and every match shall be best of 3 games of 15 points each (with deuce and advantage concept till 21-21. If the score reaches 21-21, the first person to score 22nd point wins that game). The sequence of a tie would be:",
+      "- 1st Singles",
+      "- 2nd Singles",
+      "- 1st Doubles",
+      "- 3rd Singles",
+      "- 2nd Doubles",
+      "3. Only one player will be allowed to play both singles as well as doubles match for the team.",
+      "4. Every match won will contribute +1 to the overall tie score of the team and every match lost will contribute +0 to the overall tie score of the team.",
+      "5. The team with more points at the end of the 5 matches wins the tie and will proceed to the next round.",
+      "6. Semi-finals and finals matches will consist of 3 games of 21 points each (with deuce and advantage concept till 30-30. If the score reaches 30-30, the first person to score 31st point wins that game).",
+      "RULES FOR WOMEN’S TEAM EVENT:",
+      "1. Each team is required to have a minimum of 3 players with an upper bound of 5 players per team.",
+      "2. Every match shall be best of 3 games of 21 points each (with deuce and advantage concept till 30-30. If the score reaches 30-30, the first person to score the 31st point wins that game).",
+      "3. Only one player will be allowed to play both singles as well as doubles match for the team.",
+      "4. Every match won will contribute +1 to the overall score of the team and every match lost will contribute +0 to the overall score of the team.",
+      "5. The sequence of the matches will be:",
+      "- 1st Singles",
+      "- 1st Doubles",
+      "- 2nd Singles",
+      "6. The team with more points at the end of the 3 matches wins.",
+      "RULES FOR THE TOURNAMENT",
+      "1. Each team must arrive at least 20 minutes before the scheduled match time; otherwise, they will forfeit the game by walkover.",
+      "2. Decisions taken by the umpires and the sports head during the tournament/match will be final and have to be accepted by all without any complaint. It will not be changed in any scenario.",
+      "3. A roster of all players from each team must be submitted before the match, listed in the order they will participate. Once provided, the lineup specified by the team captains cannot be altered.",
+      "4.  Point distribution will be as follows",
+      "1st : 10 Points",
+      "2nd : 7 Points",
+      "3rd : 5 Point"
+    ],
+    "coordinator_Name1": "xy",
+    "position1": "Boy's Captain",
+    "coordinator_Name2": "xx",
+    "position2": "Girl's Captain",
+    "coordinator1_image": "xy.jpg",
+    "coordinator2_image": "xx.jpg",
+    "boysMatchSchedule": "abc.png",
+    "girlsMatchSchedule": "abc.png"
+  },
+  "basketball": {
+    "title": "BASKETBALL",
+    "quote": "Basketball is like photography, if you don’t focus, all you have is the negative.          -Michael Jordan",
+    "description": [
+      " Basketball is a high-energy team sport played on a rectangular court. Two teams, each with five players, strive to score points by shooting the ball into the opponent’s hoop. The game consists of four quarters (in the NBA) or halves (in youth and recreational leagues), with overtime periods to resolve ties. Field goals score 2 points (3 points if made from beyond the three-point line), while free throws are worth 1 point each. The game features a 24/30-second shot clock to regulate possession, and players must dribble while moving. Common infractions include traveling and double dribbling, while fouls lead to free throws for the opposing team. Experience the thrill of the game!",
+      "EVENTS FOR BASKETBALL:         ",
+      "1. Men’s team event          ",
+      "2. Women’s team event"
+    ],
+
+    "rules": [
+      "RULES FOR MEN’S TEAM EVENT:",
+      "1. Each team will have to begin with 5 players on the court.",
+      "2. Each game will be consisting of four 8-minute quarters. 1 minute between each quarter and a maximum of 5 minutes half time.",
+      "3. 5 personal fouls will result in a player’s fouling off the game.",
+      "4. In case of Tie, the game can be extended up to 4 minutes.",
+      "5. Top two teams from each group will be qualified for semifinals.",
+      "6. Each quarter of Finals and Semifinals will be of 10 minutes.",
+
+      "RULES FOR WOMEN’S TEAM EVENT:",
+      "1. Each team has to begin with 5 players on the court.",
+      "2. Each game consists of four 6-minute quarters. 1 minute between each quarter and a maximum of 5 minutes half time.",
+      "3. 5 personal fouls will result in a player’s fouling off the game.",
+      "4. In case of Tie, the game can be extended up to 3 minutes.",
+      "5. Top two teams will be qualified for Finals.",
+
+      "RULES FOR THE TOURNAMENT:",
+      "1. Each team has to report at least half an hour before the match starts, failing to do so will result in a walkover.",
+      "2. No player is allowed to have an argument with the referee. Decisions taken by the referee and the sports head during the tournament/match will be final and will not be changed under any circumstances.",
+      "3. A roster of all players from each team must be submitted before the match, listed in the order they will participate. Once provided, the lineup specified by the team captains cannot be altered.",
+      "In case of rain, the Game will be rescheduled to further available slots.",
+
+      "4. POINTS DISTRIBUTION",
+      "1st - 10 Points",
+      "2nd - 7 Points",
+      "3rd - 5 Points"
+    ],
+    "coordinator_Name1": "Coordinator1",
+    "position1": "Captain",
+    "coordinator_Name2": "Coordinator2",
+    "position2": "Vice-Captain",
+    "coordinator1_image": "xyz.jpg",
+    "coordinator2_image": "xyz.jpg",
+    "boysMatchSchedule": "abc.png",
+    "girlsMatchSchedule": "abc.png"
+  },
+  "hockey": {
+    "title": "HOCKEY",
+    "quote": " You know, if you’re a hockey player, you love to play. And when you’re playing, you’re not thinking about the risks.   -Bobby Orr",
+    "description": "Hockey is a team sport played on a rectangular field where two teams of eleven players each try to score goals by hitting a ball into the opponent’s net. The team with the highest number of goals at the end of the match is declared the winner. Players are required to wear protective gear to ensure their safety. Rules may differ slightly based on the level of competition.",
+    "rules": [
+      "1. Use of Stick: Players must use the flat side of their field hockey sticks to control, pass, and shoot the ball. Using the rounded side will be considered a foul.",
+      "2. No Body Contact: Hockey being a no-contact sport, players are not allowed to use their bodies to obstruct or tackle opponents. Doing so will result in a foul.",
+      "3. Obstruction: Players are not allowed to obstruct opponents from reaching the ball. This includes using their body or stick to block an opponent's path.",
+      "4. Dangerous Play: Actions considered hazardous, such as using a high stick or making a reckless swing, are deemed fouls. Ensuring player safety is a top priority in field hockey.",
+      "5. Penalty Corners: When a foul occurs within the striking circle, the attacking team will be awarded a penalty corner. This is a set piece where the ball is placed at the circle's edge, and the attacking team has the opportunity to take a shot on goal."
+    ],
+    "coordinator_Name1": "xyz",
+    "position1": "Captain",
+    "coordinator_Name2": "xyz",
+    "position2": "Vice-Captain",
+    "coordinator1_image": "yz.jpg",
+    "coordinator2_image": "xyz.jpg",
+    "boysMatchSchedule": "xyz.png",
+    "girlsMatchSchedule": "xyz.png"
+  },
+  "athletics": {
+    "title": "ATHLETICS",
+
+    "quote": "The battles that count aren’t the ones for gold medals. The struggles within yourself—the ones that make you a better person—are the ones that ultimately define your athletics."
+,
+    "description": "Athletics refers to a collection of sports and physical activities that involve running, jumping, throwing, and walking. These activities are typically organized into track and field events, including sprints, distance running, hurdles, high jump, long jump, shot put, javelin throw, and decathlon/heptathlon. The term also encompasses competitive events where individuals or teams strive to achieve personal bests, break records, and demonstrate their physical process.",
+
+    "rules": [
+      "1. An athlete can participate in 3 individual events only (excluding cross country, relays)",
+      "2. If an event has less than 7 participants, the event can be scrapped",
+      "3. Participation of the athlete will be cancelled if they don’t report at designated time.",
+      "4. It is mandatory for all the participants to carry their ID card (Especially, in Tug of War)",
+      "5. In the case of girls’ tug of war as well, above mentioned points will be applicable",
+      "6. In the case of 100m, 200m , finals results will be decided based on the video recordings."
+    ],
+
+    "coordinator_Name1": "xyz",
+    "position1": "Captain",
+    "coordinator_Name2": "xyz",
+    "position2": "Vice-Captain",
+    "coordinator1_image": "xyz.jpg",
+    "coordinator2_image": "xyz.jpg",
+    "boysMatchSchedule": "xyz.png",
+    "girlsMatchSchedule": "xyz.png"
+  },
+  "tabletennis": {
+    "title": "TABLE  TENNIS",
+    "quote": "Table tennis is not just a game of skill, but a game of strategy and mental toughness.    -Jan Ove Waldner",
+
+    "description": [
+      "Table tennis is a high-speed indoor sport played with small paddles and a lightweight ball. Players face off across a rectangular table, striving to score points by sending the ball over the net and into the opponent’s side. The game requires rapid reflexes, exceptional hand-eye coordination, and precise ball control, making it an exciting and skill full sport enjoyed by people of all ages worldwide.",
+      "EVENTS FOR TABLE TENNIS:           ",
+      "1. Men’s team event          ",
+      "2. Women’s team event"
+    ],
+
+    "rules": [
+      "Men's Team Event Rules",
+      "1. Team Composition: Each team must consist of 3  players along with an extra player.",
+      "2. Doubles Match: 1 double match will be played. In the doubles match, each team has to select 2 players to participate.",
+      "3. Singles Matches: There will be 4 singles’ matches in total. Each player can play a maximum of 2 matches.",
+      "4. Order of Play: The order of game for singles matches can be determined by each team before the tournament begins. These rules must ensure a fair and balanced table tennis tournament. There will be 5 matches in total. 3 players are allowed per team along with a limit of 2 matches per player.",
+
+      "5. Points Distribution (Men's Team Event): 1st - 10 Points, 2nd - 7 Points, 3rd - 5 Points.",
+      " Each team has to report at least 20 minutes before the match timing to avowing walkover from it.",
+
+      "Women's Team Event Rules",
+      "1. Team Composition: Each team must consist of 2 players along with 1 extra player.",
+      "2. Doubles Match: 1 double match will be played. In the doubles match, each team selects 2 players to participate.",
+      "3. Singles Matches: There will be 2 singles matches in total. Each player can play a maximum of 2 matches.",
+      "4. Order of Play: The order of play for singles matches can be determined by each team before the tournament begins. These rules must ensure a fair and balanced table tennis tournament. There will be 3 matches in total. 2/3 players are allowed per team with a limit of 2 matches per player.",
+
+      "5. Points Distribution (Women's Team Event): 1st - 10 Points, 2nd - 7 Points, 3rd - 5 Points. ",
+      "Each team has to report at least 20 minutes before the match timing to avoid a walkover."
+    ],
+    "coordinator_Name1": "xyz",
+    "position1": "Boy's Team Captain",
+    "coordinator_Name2": "xyz",
+    "position2": "Girl's team Captain ",
+    "coordinator1_image": "xyz.jpg",
+    "coordinator2_image": "xyz.jpg",
+    "boysMatchSchedule": "xyz.png",
+    "girlsMatchSchedule": "xyz.png"
+  },
+  "tennis": {
+    "title": "LAWN TENNIS",
+    "quote": "Tennis is all about mental toughness. If you think you’re going to lose, you probably will.         -Serena Williams",
+    "description": "Lawn tennis is played on a rectangular court using racquets, where points are scored in increments of 15, 30, and 40, with a game won by securing a two-point advantage. To win a set, a player must win six games with at least a two-game lead, with tiebreakers used if the score reaches 6-6. Servers must aim diagonally, and minor interruptions result in lets. To win from deuce, a player must score two consecutive points. In tiebreakers, players serve two points each. The sport blends strategy, skill, and athleticism, providing continuous excitement.",
+    "rules": ["Will be updated soon."],
+    "coordinator_Name1": "xyz",
+    "position1": "Captain",
+    "coordinator_Name2": "xyz",
+
+    "position2": "Vice-Captain",
+    "coordinator1_image": "xyz.jpg",
+    "coordinator2_image": "xyz.jpg",
+    "boysMatchSchedule": "xyz.png",
+    "girlsMatchSchedule": "xyz.png"
+  },
+
+  "chess": {
+    "title": "CHESS",
+    "quote": "Chess is life in miniature. Chess is a struggle, chess is battles                  -Gary Kasparov",
+    "description": "Chess is a strategic board game played between two opponents on an 8x8 grid. Each player starts with 16 pieces: one king, one queen, two rooks, two knights, two bishops, and eight pawns. The objective is to checkmate the opponent's king, placing it in a position where it cannot escape capture. Chess combines deep tactical and strategic thinking, requiring players to anticipate their opponent's moves and plan several steps ahead. The game emphasizes skill, patience, and foresight, making it a timeless and intellectually stimulating challenge. Its rich history and global appeal underscore its significance as a classic strategy game.",
+    "rules": [
+      "1. Both the teams would be having 5 main players.",
+      "2. The matches will be played in a limited time format.",
+      "3. Each team will play 3 league matches.",
+      "4. The aim is to checkmate the king or make the opponent resign.",
+      "5. Points Offered will be as follows:",
+      "- Win: 1 point",
+      "- Draw: 1/2 point",
+      "- Loss: 0 points",
+      "6. All the standard rules of stalemate, en passant, and threefold repetition will be followed.",
+      "7. All the official FIDE rules regarding points, legal & illegal moves, and in times of appeal will be followed.",
+      "8. Points Distribution of the tournament:",
+      "1st - 10 Points",
+      "2nd - 7 Points",
+      "3rd - 5 Points"
+    ],
+    "coordinator_Name1": "xyz",
+    "position1": "Boy's Captain",
+    "coordinator_Name2": "xyz",
+
+    "position2": "Girl's Captain",
+    "coordinator1_image": "xyz.jpg",
+    "coordinator2_image": "xyz.jpg",
+    "boysMatchSchedule": "xyz.png",
+    "girlsMatchSchedule": "xyz.png"
+  },
+  "volleyball": {
+    "title": "VOLLEYBALL",
+    "quote": "Volleyball is a game of momentum. If you can build it, you can control the game.         -Karch Kiraly",
+    "description": "Volleyball is an engaging team sport played on a rectangular court divided by a net. Two teams of six players each compete to score points by sending a ball over the net and into the opponent's court, with the aim of making the ball touch the ground within the opposing team's boundaries. Each team can touch the ball up to three times before returning it, and the game emphasizes skills such as serving, passing, setting, attacking, and blocking. Matches are typically played in sets, with the team that first reaches the required number of points winning the set. Volleyball promotes teamwork, coordination, and strategic thinking, making it both a challenging and exciting sport.",
+    "rules": [
+      "1. Both the teams will consist of 6 players.",
+      "2. The league stage would be a ‘Best of 3’ contest.",
+      "3. The finals would be played for 5 sets.",
+      "4. Every set would be of 25 points except the deciding set which would be of 15 points.",
+      "5. No rotation is required.",
+      "6. All the standard rules such as net touch, line cross, over ball, double would be considered.",
+      "7.Server needs to be changed once the rally is broken."
+    ],
+    "coordinator_Name1": "xyz",
+    "position1": "Captain",
+    "coordinator_Name2": "xyz",
+
+    "position2": "Vice-Captain",
+    "coordinator1_image": "yxz.jpg",
+    "coordinator2_image": "xyz.jpg",
+    "boysMatchSchedule": "xyz.jpg",
+    "girlsMatchSchedule": "xyz.jpg"
+  },
+
+  "yoga": {
+    "title": "YOGA",
+    "quote": "The mind is a powerful thing. It can take you through the darkest of times or bring you into the light. Yoga helps you control it.",
+
+    "description": "In a pioneering move, NIT Jamshedpur had officially added yoga as a sport last year at the Urja '24, its esteemed sports festival. Traditionally renowned for its vibrant display of various sports, including cricket, football, athletics, and badminton, Urja expanded its scope and the legacy og yoga will be continued this yead as well in Urja ’25. The introduction of yoga promises to elevate the festival into a comprehensive celebration of both physical and mental well-being, marking a significant shift towards a more inclusive and yogic approach to athletics.",
+
+    "rules": [
+      "Students participating will have to display their yoga skills and compete in different categories. Participants will be required to perform Surya Namaskar, four compulsory asanas, and one optional asana. Details of the competition categories and the specific asanas are listed below.:",
+      "Categories:",
+      "(I) Surya Namaskar - 20 points",
+      "(II) Compulsory Asanas:",
+      "1. Paschimottanasana/Paadahastasana - 10 points",
+      "2. Purna Dhanurasana /Chakrasana - 10 points",
+      "3. Sarvangasana - 10 points",
+      "4. Karna Pidasana - 10 points",
+      "(III) Optional asana: It can be any one asana from the below-mentioned list - 20 points",
+      "List of optional asanas for boys:",
+      "1. Mayurasana",
+      "2. Padmabakasana (Urdhava Kukkutasana)",
+      "3. Hanumanasana",
+      "4. Tittiabhasana",
+      "5. Purna Chakrasana",
+      "6. Setubandha Sarvangasana",
+      "7. Vrischikasana",
+      "8. Purna Shalbhasana",
+      "List of optional asanas for girls:",
+      "1. Vatayanasana",
+      "2. Purna Bhujangasana",
+      "3. Purna Matsyendrasana",
+      "4. Ekapada Shirasana.",
+      "5. Ardha Baddha Padmottanasana",
+      "6. Vibaktha Paschimottanasana",
+      "7. Natarajasana",
+      "8. Ekapada Rajkapotasana",
+      "Each branch's collective score will be determined based on the performance of its team of five. The team can have a mix of both boys and girls, or only either of them.",
+      "Marking Criteria:",
+      "1st Place Branch Team: 10 points",
+      "2nd Place Branch Team: 7 points",
+      "3rd Place Branch Team: 5 points"
+    ],
+
+    "coordinator_Name1": "xyz",
+    "position1": "Captain",
+    "coordinator_Name2": "xyz",
+
+    "position2": "Vice-Captain",
+    "coordinator1_image": "xyz.jpg",
+    "coordinator2_image": "xyz.jpg",
+    "boysMatchSchedule": "xyz.png",
+    "girlsMatchSchedule": "xyz.png"
+  }
+}
+

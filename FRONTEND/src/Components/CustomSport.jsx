@@ -1,48 +1,54 @@
-import React, { useEffect } from "react";
-
-// import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-// **** In data.json image Url needs to be updated for the sports coordinator one sample will be done **** //
+import jsonData from '../sports.json'; 
+import GlowingButton from './GlowingButton';
+import AnimatedHeading from './AnimatedHeading';
+import sportsCoordinator from './SportsCoordinator';
 
 const CustomSport = () => {
+  const { key } = useParams();
+  const [data, setData] = useState(null);
 
   useEffect(() => {
     window.scrollTo(0, 0);
-  }, []);
+    const fetchData = async () => {
+      try {
+        const fetchedData = jsonData[key] || jsonData;
+        setData(fetchedData);
+      } catch (error) {
+        console.error('Error fetching data:', error);
+      }
+    };
 
-  const { key } = useParams();
+    fetchData();
+  }, [key]);
+
+  if (!data) {
+    return <div>Loading...</div>;
+  }
 
   return (
     <>
-      <div className="site-section " style={{ backgroundColor: "#222831" }}>
-        <div className="container" style={{ marginTop: "2em" }}>
+      <div className="site-section bg-orange-900">
+        <div className="container mt-8">
 
-          <div className="mt-5 pt-5">
-            {/* <AnimatedHeading heading={jsonData.title ? jsonData.title : ""} /> */}
+          <div className="mt-5 pt-24 flex justify-center items-center h-full">
+            <AnimatedHeading heading={data.title ? data.title : ""} />
           </div>
-          {/* <div className="row mb-5">
+          <div className="row mb-5">
             <div
-              className="col-lg-12 d-flex flex-column justify-content-center"
-              style={{
-                padding: "16px 20px",
-                color: "#fff",
-              }}
+              className="col-lg-12 flex flex-col justify-center p-4 text-white"
             >
-              <h5
-                style={{
-                  color: "#ee1e46",
-                  marginBottom: "20px",
-                  fontWeight: "bold",
-                }}
-              >
+              <h5 className="text-red-600 mb-5 font-bold">
+              
                 {" "}
-                "{jsonData.quote?jsonData.quote:""}"
+                "{data.quote?data.quote:""}"
               </h5>
               <p>
-                {jsonData.description ? jsonData.description : ""}
+                {data.description ? data.description : ""}
               </p>
             </div>
-          </div> */}
+          </div>
 
           <div className="row mb-5">
             <div className="col-lg-12">
@@ -50,28 +56,23 @@ const CustomSport = () => {
                 <div
                  
                 >
-                  <h4
-                  
-                  >
-                    Rules
+                  <h4 className="text-2xl font-bold mb-2">
+                       Rules
                   </h4>
                 </div>
-                {/* <div className="widget-body mb-3">
+                <div className="widget-body mb-3">
                   <div className="widget-vs">
-                    <div
-                      className="d-flex align-items-left justify-content-around justify-content-between w-100"
-                      style={{ color: "white", flexDirection: "column" }}
-                    >
-                      <ul style={{ listStyleType: "none" }}>
-                        {jsonData.rules
-                          ? jsonData.rules.map((rules) => (
+                  <div className="flex flex-col text-white">
+                      <ul className="list-none">
+                        {data.rules
+                          ? data.rules.map((rules) => (
                               <li key={rules}>{` ${rules}`}</li>
                             ))
                           : "Will be Updated Soon"}
                       </ul>
                     </div>
                   </div>
-                </div> */}
+                </div>
               </div>
             </div>
           </div>
@@ -79,108 +80,85 @@ const CustomSport = () => {
         <section className="services section-bg mt-5">
           <div className="container " data-aos="fade-up">
             <div
-             
+             className="mb-4"
             >
               <h4
-              
+               className="text-2xl font-bold mb-2"
               >
                 Sports Coordinator
               </h4>
             </div>
 
-            {/* <div className="row mt-3 justify-content-evenly">
-              <SportsCoordinator
+            <div className="row mt-3 justify-evenly">
+              <sportsCoordinator
                 name={
-                  jsonData.coordinator_Name1 ? jsonData.coordinator_Name1 : ""
+                  data.coordinator_Name1 ? data.coordinator_Name1 : ""
                 }
-                position={jsonData.position1 ? jsonData.position1 : ""}
+                position={data.position1 ? data.position1 : ""}
                 image={
-                  jsonData.coordinator1_image ? jsonData.coordinator1_image : ""
+                  data.coordinator1_image ? data.coordinator1_image : ""
                 }
               />
-              <SportsCoordinator
+              <sportsCoordinator
                 name={
-                  jsonData.coordinator_Name2 ? jsonData.coordinator_Name2 : ""
+                  data.coordinator_Name2 ? data.coordinator_Name2 : ""
                 }
-                position={jsonData.position2 ? jsonData.position2 : ""}
+                position={data.position2 ? data.position2 : ""}
                 image={
-                  jsonData.coordinator2_image ? jsonData.coordinator2_image : ""
+                  data.coordinator2_image ? data.coordinator2_image : ""
                 }
               />
-            </div> */}
+            </div>
 
             <div
-             
+             className="mb-4"
             >
               <h4
-               
+               className="text-2xl font-bold mb-2"
               >
                 Schedule of Matches
               </h4>
             </div>
-            {/* <div>
+            <div>
               <GlowingButton text={"Go to Matches page"} toLink={"/matches/"+key}/>
-              <div>
-                <h4
-                  style={{
-                    margin: "0px",
-
-                    fontWeight: "700",
-                    color: "#fff",
-                    marginTop: "50px",
-                    padding: "16px 20px",
-                    backgroundColor: "#ee1e46",
-                    display: "inline-flex",
-                  }}
-                >
+              <div className="mt-12">
+                <h4 className="text-white font-bold mt-12 p-4 bg-red-600 inline-flex">
                   BOYS
                 </h4>
               </div>
-              <div
-                style={{
-                  display: "flex",
-                  justifyContent: "center",
-                  flexDirection: "column",
-                  paddingTop: "4%",
-                }}
-              >
+              <div  className="flex flex-col justify-center pt-4">
                 <img
                   src={
-                    jsonData.boysMatchSchedule
-                      ? jsonData.boysMatchSchedule
+                    data.boysMatchSchedule
+                      ? data.boysMatchSchedule
                       : "https://i.ibb.co/s3xr1zz/Screenshot-2023-09-07-034542.png"
                   }
                   alt=""
                   srcset=""
                 />
               </div>
-            </div> */}
+            </div>
             <div>
               <div>
                 <h4
-                 
-                >
+                 className="text-2xl font-bold mb-2">
+                
                   GIRLS
                 </h4>
               </div>
-              {/* <div
-                style={{
-                  display: "flex",
-                  justifyContent: "center",
-                  flexDirection: "column",
-                  paddingTop: "4%",
-                }}
+              <div
+                 className="flex flex-col justify-center pt-4" 
               >
                 <img
                   src={
-                    jsonData.girlsMatchSchedule
-                      ? jsonData.girlsMatchSchedule
+                    data.girlsMatchSchedule
+                      ? data.girlsMatchSchedule
                       : "https://i.ibb.co/s3xr1zz/Screenshot-2023-09-07-034542.png"
                   }
                   alt=""
                   srcset=""
                 />
-              </div> */}
+              </div>
             </div>
           </div>
         </section>
