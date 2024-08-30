@@ -22,6 +22,25 @@ const addUser = expressAsyncHandler(async (req, res) => {
   }
 });
 
-module.exports = { addUser };
+
+const getPlayers = expressAsyncHandler(async(req,res) => {
+    try{
+        const { branch , sport } = req.body;
+        const players = await UrjaPlayers.find({branch , sport}) ;  
+        res.status(200).json({
+            players ,  
+            message: "success",
+          });
+    }
+    catch (e) 
+    {
+        console.log("Error : ", e);
+        res.status(400).json({
+          error: e,
+        });
+    }
+})
+
+module.exports = { addUser,getPlayers };
 
 

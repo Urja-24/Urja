@@ -1,5 +1,4 @@
 const mongoose = require("mongoose");
-const bcrypt = require("bcryptjs");
 
 const UrjaPlayersSchema = new mongoose.Schema({
   playerName: {
@@ -14,8 +13,16 @@ const UrjaPlayersSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
-  sport: { type: String, required: true },
-  sportId: { type: String, required: true },
+  sport: { 
+    type: String, 
+    required: true 
+  },
+  sportId: { 
+    type: String, 
+    required: true 
+  },
 });
+
+UrjaPlayersSchema.index({ registrationNumber: 1, sportId: 1 }, { unique: true });
 
 module.exports = mongoose.model("UrjaPlayers", UrjaPlayersSchema);

@@ -1,31 +1,62 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import SportsHeader from "./AnimatedHeading";
 import { useParams } from "react-router-dom";
+import { toast, ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 function Register() {
   const { id } = useParams();
+  const sports = ["Cricket", "Football", "Hockey"];
+  const branches = ["CE", "CSE", "MME", "ECE", "ME", "PIE+ECM", "PG", "EE"];
   const [formData, setFormData] = useState({
     playerName: "",
     registrationNumber: "",
     branch: "CSE",
-    sport : "" ,   
-    sportId : id ,  
+    sport: sports[id],
+    sportId: id,
   });
-  const sports = ["Cricket", "Football", "Hockey"];
-  const branches = ["CE", "CSE", "MME", "ECE", "ME", "PIE+ECM", "PG", "EE"];
 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    setFormData({ ...formData, sport : sports[id] }); 
-    console.log(formData); // Handle form submission here
+
+    try {
+      const response = await fetch("http://localhost:3080/api/player/register", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
+      });
+
+      if (response.ok) {
+        const result = await response.json();
+        toast.success("Form submitted successfully!");
+        console.log("Form submitted successfully:", result);
+      } else {
+        toast.error("Failed to submit form!");
+        console.error("Failed to submit form:", response.statusText);
+      }
+    } catch (error) {
+      toast.error("Error submitting form!");
+      console.error("Error submitting form:", error);
+    } finally {
+      setFormData({
+        playerName: "",
+        registrationNumber: "",
+        branch: "CSE",
+        sport: sports[id],
+        sportId: id,
+      });
+    }
   };
 
   return (
     <div className="mt-40 p-4 text-white mx-5">
+      <ToastContainer />
       <div>
         <SportsHeader heading={"Register"} />
       </div>
@@ -45,7 +76,7 @@ function Register() {
             name="playerName"
             value={formData.playerName}
             onChange={handleChange}
-            className="w-full p-2 border border-gray-300 rounded"
+            className="w-full p-2 border border-gray-300 rounded text-black"
             placeholder="Enter player name"
             required
           />
@@ -59,7 +90,7 @@ function Register() {
             name="registrationNumber"
             value={formData.registrationNumber}
             onChange={handleChange}
-            className="w-full p-2 border border-gray-300 rounded"
+            className="w-full p-2 border border-gray-300 rounded text-black"
             placeholder="Registration number e.g. 2022UGCS006"
             required
           />
@@ -72,7 +103,7 @@ function Register() {
             name="branch"
             value={formData.branch}
             onChange={handleChange}
-            className="w-full p-2 border border-gray-300 rounded"
+            className="w-full p-2 border border-gray-300 rounded text-black"
             required
           >
             <option value="">Select Branch</option>
