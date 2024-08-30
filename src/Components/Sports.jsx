@@ -4,20 +4,32 @@ import "../CSS/sportsGridStyle.css";
 import "../index.css";
 import SportsHeader from "./AnimatedHeading";
 import { GlareCard } from "./glare-card";
+import baskImg from "../assets/images/Basketball.png";
+import footImg from "../assets/images/foot1.png";
+import cricImg from "../assets/images/cricket.png";
+import tennisImg from "../assets/images/tennis.png";
+import yogaImg from "../assets/images/Yoga.png";
+import chessImg from "../assets/images/chess.png";
+import athleticsImg from "../assets/images/running.png";
+import hockeyImg from "../assets/images/hockey.png";
+import badImg from "../assets/images/bad.png"; 
+import volleyImg from "../assets/images/volley.png";
+import ttImg from "../assets/images/tt1.png";
 
 const sportsData = [
-  { name: "Basketball", imgSrc: "src/assets/images/Basketball.png" },
-  { name: "Football", imgSrc: "src/assets/images/foot1.png" },
-  { name: "Cricket", imgSrc: "src/assets/images/cricket.png" },
-  { name: "Tennis", imgSrc: "src/assets/images/tennis.png" },
-  { name: "Yoga", imgSrc: "src/assets/images/Yoga.png" },
-  { name: "Chess", imgSrc: "src/assets/images/chess.png" },
-  { name: "Athletics", imgSrc: "src/assets/images/running.png" },
-  { name: "Hockey", imgSrc: "src/assets/images/hockey.png" },
-  { name: "Badminton", imgSrc: "src/assets/images/bad.png" },
-  { name: "Volleyball", imgSrc: "src/assets/images/volley.png" },
-  { name: "Table Tennis", imgSrc: "src/assets/images/tt1.png" },
+  { name: "Basketball", imgSrc: baskImg },
+  { name: "Football", imgSrc: footImg },
+  { name: "Cricket", imgSrc: cricImg },
+  { name: "Tennis", imgSrc: tennisImg },
+  { name: "Yoga", imgSrc: yogaImg },
+  { name: "Chess", imgSrc: chessImg },
+  { name: "Athletics", imgSrc: athleticsImg },
+  { name: "Hockey", imgSrc: hockeyImg },
+  { name: "Badminton", imgSrc: badImg },
+  { name: "Volleyball", imgSrc: volleyImg },
+  { name: "Table Tennis", imgSrc: ttImg },
 ];
+
 
 const Sports = () => {
   return (
@@ -28,6 +40,7 @@ const Sports = () => {
             <SportsHeader heading="Sports" />
           </h2>
         </div>
+        frontend\src\assets\images\chess.png
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mx-auto">
           {sportsData.map((sport, index) => (
             <div key={index} className="flex items-center justify-center ">
@@ -52,5 +65,4 @@ const Sports = () => {
     </section>
   );
 };
-
 export default Sports;
