@@ -1,5 +1,5 @@
 ﻿{
-  "cricket": {
+  "Cricket": {
     "title": "CRICKET",
 
     "quote": "Cricket is not just a game; it is a way of life for many people in this world.        – Sachin Tendulkar",
@@ -47,7 +47,7 @@
     "boysMatchSchedule": "xyz.png",
     "girlsMatchSchedule": "xyz.png"
   },
-  "football": {
+  "Football": {
     "title": "FOOTBALL",
     "quote": " To be a footballer, you have to be passionate and dedicated. It’s not just about the game; it’s about giving your all every single day.              – Sunil Chhetri",
     "description": "Football is a collective game where two teams compete to score by placing the ball into the opponent’s goal. The sport is renowned for its expert and accurate passing, as well as the teamwork and collaboration exhibited by players working together to achieve success.",
@@ -66,7 +66,7 @@
     "boysMatchSchedule": "abc.png",
     "girlsMatchSchedule": "abc.png"
   },
-  "badminton": {
+  "Badminton": {
     "title": "BADMINTON",
     "quote": "Badminton is not just a sport; it’s a way of life. Every game teaches you something new, and every challenge makes you stronger.                      -Lin Dan ",
     "description": "Badminton is a dynamic racquet sport with roots tracing back to ancient civilizations, but its modern form originated in British India during the mid-19th century. Initially played by British officers stationed there, it was known as \"Poona\" before being formalized in England as badminton, named after the Badminton House in Gloucestershire. Played either indoors or outdoors, badminton involves two players (singles) or two pairs (doubles) who use racquets to hit a shuttlecock over a net. The objective is to score points by landing the shuttlecock in the opponent’s court, with play alternating between the teams or players.",
@@ -111,7 +111,7 @@
     "boysMatchSchedule": "abc.png",
     "girlsMatchSchedule": "abc.png"
   },
-  "basketball": {
+  "Basketball": {
     "title": "BASKETBALL",
     "quote": "Basketball is like photography, if you don’t focus, all you have is the negative.          -Michael Jordan",
     "description": [
@@ -157,7 +157,7 @@
     "boysMatchSchedule": "abc.png",
     "girlsMatchSchedule": "abc.png"
   },
-  "hockey": {
+  "Hockey": {
     "title": "HOCKEY",
     "quote": " You know, if you’re a hockey player, you love to play. And when you’re playing, you’re not thinking about the risks.   -Bobby Orr",
     "description": "Hockey is a team sport played on a rectangular field where two teams of eleven players each try to score goals by hitting a ball into the opponent’s net. The team with the highest number of goals at the end of the match is declared the winner. Players are required to wear protective gear to ensure their safety. Rules may differ slightly based on the level of competition.",
@@ -177,7 +177,7 @@
     "boysMatchSchedule": "xyz.png",
     "girlsMatchSchedule": "xyz.png"
   },
-  "athletics": {
+  "Athletics": {
     "title": "ATHLETICS",
 
     "quote": "The battles that count aren’t the ones for gold medals. The struggles within yourself—the ones that make you a better person—are the ones that ultimately define your athletics."
@@ -202,7 +202,7 @@
     "boysMatchSchedule": "xyz.png",
     "girlsMatchSchedule": "xyz.png"
   },
-  "tabletennis": {
+  "Table Tennis": {
     "title": "TABLE  TENNIS",
     "quote": "Table tennis is not just a game of skill, but a game of strategy and mental toughness.    -Jan Ove Waldner",
 
@@ -241,7 +241,7 @@
     "boysMatchSchedule": "xyz.png",
     "girlsMatchSchedule": "xyz.png"
   },
-  "tennis": {
+  "Tennis": {
     "title": "LAWN TENNIS",
     "quote": "Tennis is all about mental toughness. If you think you’re going to lose, you probably will.         -Serena Williams",
     "description": "Lawn tennis is played on a rectangular court using racquets, where points are scored in increments of 15, 30, and 40, with a game won by securing a two-point advantage. To win a set, a player must win six games with at least a two-game lead, with tiebreakers used if the score reaches 6-6. Servers must aim diagonally, and minor interruptions result in lets. To win from deuce, a player must score two consecutive points. In tiebreakers, players serve two points each. The sport blends strategy, skill, and athleticism, providing continuous excitement.",
@@ -257,7 +257,7 @@
     "girlsMatchSchedule": "xyz.png"
   },
 
-  "chess": {
+  "Chess": {
     "title": "CHESS",
     "quote": "Chess is life in miniature. Chess is a struggle, chess is battles                  -Gary Kasparov",
     "description": "Chess is a strategic board game played between two opponents on an 8x8 grid. Each player starts with 16 pieces: one king, one queen, two rooks, two knights, two bishops, and eight pawns. The objective is to checkmate the opponent's king, placing it in a position where it cannot escape capture. Chess combines deep tactical and strategic thinking, requiring players to anticipate their opponent's moves and plan several steps ahead. The game emphasizes skill, patience, and foresight, making it a timeless and intellectually stimulating challenge. Its rich history and global appeal underscore its significance as a classic strategy game.",
@@ -287,7 +287,7 @@
     "boysMatchSchedule": "xyz.png",
     "girlsMatchSchedule": "xyz.png"
   },
-  "volleyball": {
+  "Volleyball": {
     "title": "VOLLEYBALL",
     "quote": "Volleyball is a game of momentum. If you can build it, you can control the game.         -Karch Kiraly",
     "description": "Volleyball is an engaging team sport played on a rectangular court divided by a net. Two teams of six players each compete to score points by sending a ball over the net and into the opponent's court, with the aim of making the ball touch the ground within the opposing team's boundaries. Each team can touch the ball up to three times before returning it, and the game emphasizes skills such as serving, passing, setting, attacking, and blocking. Matches are typically played in sets, with the team that first reaches the required number of points winning the set. Volleyball promotes teamwork, coordination, and strategic thinking, making it both a challenging and exciting sport.",
@@ -311,7 +311,7 @@
     "girlsMatchSchedule": "xyz.jpg"
   },
 
-  "yoga": {
+  "Yoga": {
     "title": "YOGA",
     "quote": "The mind is a powerful thing. It can take you through the darkest of times or bring you into the light. Yoga helps you control it.",
 
