@@ -9,7 +9,7 @@ function CustomSport() {
     <div className="mt-40">
       <div>
         <SportsHeader heading={"Custom_Sport_Page"} />
-        <SportPointsTable />
+        <SportPointsTable title={"Basket_Ball"} />
       </div>
       <div className="text-white">
         Id : {key}
