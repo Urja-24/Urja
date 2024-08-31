@@ -3,6 +3,7 @@ import SportsHeader from "./AnimatedHeading";
 import { Link, useParams } from "react-router-dom";
 import data from "../assets/sports.json";
 import Modal from "./Modal";
+import SportsPointTable from "./CustomSportsTable";
 
 function CustomSport() {
   const { key } = useParams();
@@ -46,6 +47,7 @@ function CustomSport() {
               </div>
             ))}
           </div>
+        <SportsPointTable Title="Point Table" />
         </div>
 
         <div className="container mx-auto p-4">
