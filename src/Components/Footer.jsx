@@ -6,7 +6,7 @@ import logo from "../assets/Urja.png";
 function Footer() {
 
   return (
-    <footer className="bg-black p-8 text-white">
+    <footer className="bg-black p-8 text-white mt-8">
       <div className="container mx-auto flex flex-col md:flex-row justify-between items-start md:items-center rounded-3xl">
         <div className="left w-full md:w-1/2 flex">
           <div className="footer-content">
