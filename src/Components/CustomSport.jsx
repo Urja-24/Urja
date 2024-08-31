@@ -4,6 +4,8 @@ import SportPointsTable from "./SportPointsTable";
 import { Link, useParams } from "react-router-dom";
 import data from "../assets/sports.json";
 import Modal from "./Modal";
+import SportsPointTable from "./CustomSportsTable";
+import { AiOutlineLogin } from "react-icons/ai";
 
 function CustomSport() {
   const { key } = useParams();
@@ -24,6 +26,16 @@ function CustomSport() {
           </p>
         </div>
 
+
+        <div className="max-w-[75vw] flex justify-center items-center mx-auto">
+          <Link className="container mx-4" to={`/register/${key}`}>
+            {/* Added a leading slash to ensure it navigates from the base URL */}
+            <button className="bg-yellow-600 flex-1 flex justify-center items-center gap-2 text-white font-semibold py-3 px-12 rounded hover:bg-yellow-500">
+              Register<AiOutlineLogin />
+            </button>
+          </Link>
+        </div>
+
         <div className="container mx-auto p-4">
         <h2 className="text-[#F5DEB3] mb-2 underline underline-offset-4 text-xl">
             Points Table
@@ -35,6 +47,7 @@ function CustomSport() {
           <h2 className="text-[#F5DEB3] mb-2 underline underline-offset-4 text-xl">
             Sports Coordinator
           </h2>
+
 
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
             {data[key].coordinator.map((ele, index) => (
@@ -54,6 +67,7 @@ function CustomSport() {
               </div>
             ))}
           </div>
+        <SportsPointTable Title="Point Table" />
         </div>
 
         <div className="container mx-auto p-4">
@@ -97,14 +111,7 @@ function CustomSport() {
           </Modal>
         )}
 
-        <div className="max-w-[75vw] mx-auto">
-          <Link className="container mx-4" to={`/register/${key}`}>
-            {/* Added a leading slash to ensure it navigates from the base URL */}
-            <button className="bg-yellow-600 text-white font-semibold py-2 px-4 rounded hover:bg-yellow-500">
-              Register
-            </button>
-          </Link>
-        </div>
+        
       </div>
     </div>
   );
