@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-import React from "react";
 import SportsHeader from "./AnimatedHeading";
 
 const PointTable = () => {
@@ -89,7 +88,7 @@ const PointTable = () => {
           </thead>
           <tbody className="text-white">
             {tableData.map((row, index) => (
-              <tr className={`${index % 2 === 0 ? "bg-[#444]" : "bg-[#555]"}`}>
+              <tr key={index} className={`${index % 2 === 0 ? "bg-[#444]" : "bg-[#555]"}`}>
                 <td className="border border-gray-200 px-4 py-2 text-center">
                   {row.sport}
                 </td>

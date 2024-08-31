@@ -1,6 +1,6 @@
-import React from "react";
 import SportsHeader from "./AnimatedHeading";
 import { Link, useParams } from "react-router-dom";
+import SportsPointTable from "./SportsPointsTable";
 
 function CustomSport() {
   const { key } = useParams();
@@ -9,6 +9,9 @@ function CustomSport() {
     <div className="mt-40">
       <div>
         <SportsHeader heading={"Custom_Sport_Page"} />
+      </div>
+      <div>
+        <SportsPointTable Title={"Basket Ball Points Table"} />
       </div>
       <div className="text-white">
         Id : {key}
