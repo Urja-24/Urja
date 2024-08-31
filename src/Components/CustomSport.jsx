@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import SportsHeader from "./AnimatedHeading";
+import SportPointsTable from "./SportPointsTable";
 import { Link, useParams } from "react-router-dom";
 import data from "../assets/sports.json";
 import Modal from "./Modal";
@@ -17,7 +18,7 @@ function CustomSport() {
         <SportsHeader heading={data[key].title} />
       </div>
 
-      <div className="text-white max-w-[75vw] mx-auto">
+      <div className="text-white px-2 md:max-w-[75vw] mx-auto">
         <div>
           <p className="mb-2 mx-6">
             " {data[key].quote} "<br />
@@ -33,6 +34,13 @@ function CustomSport() {
               Register<AiOutlineLogin />
             </button>
           </Link>
+        </div>
+
+        <div className="container mx-auto p-4">
+        <h2 className="text-[#F5DEB3] mb-2 underline underline-offset-4 text-xl">
+            Points Table
+          </h2>
+          <SportPointsTable />
         </div>
 
         <div className="container mx-auto p-4">

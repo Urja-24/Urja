@@ -27,17 +27,17 @@
       }
     ],
     "rules": {
-      "leagueFormat": [
+      "League Format": [
         "1. Urja '24 basketball tournament will follow a knockout format.",
         "2. The tournament will consist of quarterfinals, semifinals, and a final.",
         "3. Each match will be played between two teams, with the winner advancing to the next round."
       ],
-      "pointSystem": [
+      "Point System": [
         "1. 2 Points will be awarded to the winning team.",
         "2. 0 Points will be awarded to the losing team.",
         "3. In case of a tie in points after the group stage, the team with the highest point differential will advance."
       ],
-      "matchFormat": [
+      "Match Format": [
         "1. Each match will consist of 4 quarters of 10 minutes each.",
         "2. In case of a tie at the end of regulation time, an additional 5-minute overtime period will be played.",
         "3. The game will be played according to standard basketball rules, including fouls, free throws, and 3-point shots.",
@@ -82,23 +82,23 @@
       }
     ],
     "rules": {
-      "leagueFormat": [
+      "League Format": [
         "1. Urja '24 football will follow a league format with teams divided into groups.",
         "2. The top teams from each group will advance to the knockout stage.",
         "3. Matches will be played in two halves of 30 minutes each."
       ],
-      "pointSystem": [
+      "Point System": [
         "1. 3 Points for a win.",
         "2. 1 Point for a draw.",
         "3. 0 Points for a loss."
       ],
-      "matchFormat": [
+      "Match Format": [
         "1. Each match will consist of two 30-minute halves with a 10-minute halftime break.",
         "2. In the event of a tie during knockout rounds, the match will be decided by a penalty shootout.",
         "3. Standard football rules will apply, including offsides, fouls, and yellow/red cards.",
         "4. Substitutions: Each team can make up to 3 substitutions during the match."
       ],
-      "disciplineAndRegulations": [
+      "Discipline And Regulations": [
         "1. All players must respect the referee's decisions and conduct themselves with sportsmanship.",
         "2. Violent conduct or abusive language will result in a red card and immediate ejection from the match.",
         "3. Teams must be ready to start the match at the scheduled time."
@@ -137,18 +137,18 @@
       }
     ],
     "rules": {
-      "leagueFormat": [
+      "League Format": [
         "1. Urja '24 cricket will be a tennis ball tournament.",
         "2. The Tournament will consist of group stages followed by semis and finals.",
         "3. The group stage consists of 2 groups, from which 2 teams from each group will qualify for the semis."
       ],
-      "pointSystem": [
+      "Point System": [
         "1. 2 Points will be awarded to the winning team.",
         "2. 0 Points will be awarded to the losing team.",
         "3. 1 Point will be awarded to both teams if the match could not take place due to unavoidable circumstances.",
         "4. In case of a tie in points, the team with a higher Net Run Rate will be placed higher."
       ],
-      "matchFormat": [
+      "Match Format": [
         "1. Every match will have a maximum of 14 Overs.",
         "2. There will be field restrictions (powerplay) for the first 5 overs of each innings where only 2 fielders will be allowed outside the inner circle.",
         "3. Only 4 bowlers are allowed to bowl a maximum of 3 overs each.",
@@ -162,7 +162,7 @@
         "11. If the Super Over ends in a tie, the result will be decided by another Super Over, and it will continue until there is an outcome.",
         "12. The final decisions on the field will be taken by the umpires, and no objections will be entertained."
       ],
-      "disciplineAndRegulations": [
+      "Discipline And Regulations": [
         "1. Players and team officials must at all times accept the umpire’s decision. Players must not show dissent at the umpire’s decision or react in a provocative or disapproving manner towards another player or a spectator.",
         "2. The captains are responsible at all times for ensuring that their team has reached the ground before the scheduled time.",
         "3. Any player violating any disciplinary regulations will face serious consequences."
@@ -201,23 +201,23 @@
       }
     ],
     "rules": {
-      "leagueFormat": [
+      "League Format": [
         "1. Urja '24 tennis tournament will be a knockout format.",
         "2. Matches will be best of 3 sets.",
         "3. The tournament will have separate categories for singles and doubles."
       ],
-      "pointSystem": [
+      "Point System": [
         "1. 2 Points will be awarded to the winner of each match.",
         "2. 0 Points will be awarded to the loser of the match.",
         "3. In case of a tie in points, the winner of the head-to-head match between tied players will be ranked higher."
       ],
-      "matchFormat": [
+      "Match Format": [
         "1. Each set will be played up to 6 games, with a tiebreaker at 6-6.",
         "2. In the case of a 3rd set, it will be played as a super tiebreaker if both players have won one set each.",
         "3. Players must win by at least 2 games to win a set.",
         "4. Standard tennis rules apply including foot faults, let serves, and correct scoring."
       ],
-      "disciplineAndRegulations": [
+      "Discipline And Regulations": [
         "1. Players must adhere to the dress code specified by the tournament organizers.",
         "2. Players are expected to maintain sportsmanship and respect opponents and officials.",
         "3. Any form of unsportsmanlike conduct, including abuse of equipment, will result in penalties or disqualification."
@@ -256,22 +256,22 @@
       }
     ],
     "rules": {
-      "leagueFormat": [
+      "League Format": [
         "1. Urja '24 yoga will be a demonstration-based event.",
         "2. Participants will be judged on their performance and technique.",
         "3. Each participant will have 5 minutes to perform a sequence of poses."
       ],
-      "pointSystem": [
+      "Point System": [
         "1. Points will be awarded based on the clarity and execution of poses.",
         "2. A panel of judges will score each performance out of 10.",
         "3. The participant with the highest total score will be declared the winner."
       ],
-      "matchFormat": [
+      "Match Format": [
         "1. Each participant will perform a sequence of poses in a pre-defined order.",
         "2. The performance will be evaluated based on grace, alignment, and adherence to the poses.",
         "3. Participants are expected to demonstrate smooth transitions between poses."
       ],
-      "disciplineAndRegulations": [
+      "Discipline And Regulations": [
         "1. Participants must arrive on time and be dressed in appropriate yoga attire.",
         "2. Use of props is allowed but must be declared beforehand.",
         "3. Disrespectful behavior towards others or the judges will result in disqualification."
@@ -310,22 +310,22 @@
       }
     ],
     "rules": {
-      "leagueFormat": [
+      "League Format": [
         "1. Urja '24 chess tournament will be played in a round-robin format.",
         "2. Each player will compete against every other player once.",
         "3. The top players based on the number of wins will advance to the knockout stage."
       ],
-      "pointSystem": [
+      "Point System": [
         "1. 1 Point for a win.",
         "2. 0.5 Points for a draw.",
         "3. 0 Points for a loss."
       ],
-      "matchFormat": [
+      "Match Format": [
         "1. Each match will consist of one game played with standard chess rules.",
         "2. Time control will be 15 minutes per player with a 10-second increment per move.",
         "3. If a game is drawn, it will be counted as 0.5 points for each player."
       ],
-      "disciplineAndRegulations": [
+      "Discipline And Regulations": [
         "1. Players must respect their opponents and the tournament officials.",
         "2. Any form of cheating or unsportsmanlike behavior will result in immediate disqualification.",
         "3. Players are required to keep their devices off during the game."
@@ -364,22 +364,22 @@
       }
     ],
     "rules": {
-      "leagueFormat": [
+      "League Format": [
         "1. Urja '24 athletics will feature individual and relay events.",
         "2. Participants will compete in preliminary heats, with the top finishers advancing to the finals.",
         "3. Each event will be timed or measured as per standard athletics rules."
       ],
-      "pointSystem": [
+      "Point System": [
         "1. Points will be awarded based on final placement in each event.",
         "2. 1st place – 10 Points, 2nd place – 8 Points, 3rd place – 6 Points, and so on.",
         "3. In case of a tie, points will be evenly distributed among the tied participants."
       ],
-      "matchFormat": [
+      "Match Format": [
         "1. Track events will be conducted over specified distances.",
         "2. Field events will be performed in sequential order based on categories.",
         "3. Each participant will have a specific number of attempts in field events."
       ],
-      "disciplineAndRegulations": [
+      "Discipline And Regulations": [
         "1. Athletes must follow the instructions of the event officials.",
         "2. Any form of cheating, including false starts or equipment tampering, will lead to disqualification.",
         "3. Participants must adhere to the event schedule and be present at their designated times."
@@ -418,22 +418,22 @@
       }
     ],
     "rules": {
-      "leagueFormat": [
+      "League Format": [
         "1. Urja '24 hockey tournament will follow a round-robin format.",
         "2. Teams will play against each other once, with the top teams advancing to the knockout stage.",
         "3. Matches will consist of two halves of 35 minutes each."
       ],
-      "pointSystem": [
+      "Point System": [
         "1. 3 Points for a win.",
         "2. 1 Point for a draw.",
         "3. 0 Points for a loss."
       ],
-      "matchFormat": [
+      "Match Format": [
         "1. Each match will have two halves of 35 minutes.",
         "2. In case of a tie, the match will be decided by a penalty shootout.",
         "3. The game will be played according to standard hockey rules, including fouls and penalties."
       ],
-      "disciplineAndRegulations": [
+      "Discipline And Regulations": [
         "1. Players must respect the referees and adhere to the rules of the game.",
         "2. Unsportsmanlike behavior or violent conduct will result in penalties or ejection from the game.",
         "3. Teams must be present and ready to start the match at the scheduled time."
@@ -472,22 +472,22 @@
       }
     ],
     "rules": {
-      "leagueFormat": [
+      "League Format": [
         "1. Urja '24 badminton will be held in a round-robin format.",
         "2. Each player or team will compete against every other participant or team once.",
         "3. The top players or teams based on wins will advance to the knockout stage."
       ],
-      "pointSystem": [
+      "Point System": [
         "1. 1 Point for each set won.",
         "2. Matches are best of 3 sets.",
         "3. The player or team that wins 2 sets first wins the match."
       ],
-      "matchFormat": [
+      "Match Format": [
         "1. Each match consists of 3 sets.",
         "2. Each set is played to 21 points, with a 2-point advantage required to win.",
         "3. In the event of a 20-20 tie, play continues until one player or team has a 2-point lead."
       ],
-      "disciplineAndRegulations": [
+      "Discipline And Regulations": [
         "1. Players must follow the dress code specified by the tournament organizers.",
         "2. Unsportsmanlike conduct or verbal abuse will result in penalties or disqualification.",
         "3. Players must be punctual and ready for their matches at the scheduled times."
@@ -526,22 +526,22 @@
       }
     ],
     "rules": {
-      "leagueFormat": [
+      "League Format": [
         "1. Urja '24 volleyball will be played in a round-robin format.",
         "2. Teams will play against each other once in the preliminary rounds.",
         "3. The top teams will advance to the knockout stage."
       ],
-      "pointSystem": [
+      "Point System": [
         "1. 3 Points for a win.",
         "2. 1 Point for a loss.",
         "3. Matches are best of 5 sets."
       ],
-      "matchFormat": [
+      "Match Format": [
         "1. Each match consists of 5 sets.",
         "2. The first team to reach 25 points wins a set, with a 2-point advantage required.",
         "3. If the match reaches a 2-2 tie, the final set will be played to 15 points."
       ],
-      "disciplineAndRegulations": [
+      "Discipline And Regulations": [
         "1. Teams must adhere to the dress code and wear appropriate volleyball attire.",
         "2. Any form of misconduct or unsportsmanlike behavior will result in penalties or disqualification.",
         "3. Teams must be ready to play at the scheduled times and follow the official's decisions."
@@ -580,22 +580,22 @@
       }
     ],
     "rules": {
-      "leagueFormat": [
+      "League Format": [
         "1. Urja '24 table tennis will be played in a round-robin format.",
         "2. Each player will compete against every other player once.",
         "3. The top players based on the number of wins will advance to the knockout stage."
       ],
-      "pointSystem": [
+      "Point System": [
         "1. 1 Point for each match won.",
         "2. Matches are played best of 5 sets.",
         "3. Each set is played to 11 points, with a 2-point lead required to win."
       ],
-      "matchFormat": [
+      "Match Format": [
         "1. Each match is played as the best of 5 sets.",
         "2. The first player to reach 11 points wins a set.",
         "3. In the event of a 10-10 tie, play continues until one player achieves a 2-point lead."
       ],
-      "disciplineAndRegulations": [
+      "Discipline And Regulations": [
         "1. Players must adhere to the dress code specified by the tournament organizers.",
         "2. Disrespect towards opponents or officials will result in penalties or disqualification.",
         "3. Players should be punctual and ready to play at their scheduled times."
