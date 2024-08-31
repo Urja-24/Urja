@@ -30,8 +30,9 @@ const TeamMember = ({...member}) => {
             position: 'relative', 
             borderRadius: '8px', 
             transition: 'transform 0.3s, box-shadow 0.3s', 
-            color: 'white', 
-            fontWeight: 'bold'
+            color: 'black', 
+            fontWeight: 'bold',
+            background:'#F5DEB3',
           }}
         >
           <h4 className='bg-transparent'>{member.name}</h4>
