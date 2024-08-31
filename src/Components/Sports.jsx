@@ -40,7 +40,6 @@ const Sports = () => {
             <SportsHeader heading="Sports" />
           </h2>
         </div>
-        frontend\src\assets\images\chess.png
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mx-auto">
           {sportsData.map((sport, index) => (
             <div key={index} className="flex items-center justify-center ">
