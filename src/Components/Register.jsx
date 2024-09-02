@@ -51,11 +51,11 @@ function Register() {
         toast.success("Form submitted successfully!");
         console.log("Form submitted successfully:", result);
       } else {
-        toast.error("Failed to submit form!");
+        toast.error("Cannot register twice ");
         console.error("Failed to submit form:", response.statusText);
       }
     } catch (error) {
-      toast.error("Cannot register twice !");
+      toast.error("Failed to submit form!");
       console.error("Error submitting form:", error);
     } finally {
       setFormData({
