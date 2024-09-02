@@ -5,28 +5,41 @@ import "../CSS/Gallary.css";
 
 import SportsHeader from "./AnimatedHeading";
 import { LinkedList } from "../utils/DragDrop";
-const img =
-  "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=2560&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D";
-const img1 =
-  "https://i.pinimg.com/564x/4b/77/12/4b771221629ca9d264393973faa29ff4.jpg";
-const img2 =
-  "https://i.pinimg.com/564x/f4/01/33/f40133e28a8928d38ca5768596daad25.jpg";
-const img4 =
-  "https://i.pinimg.com/564x/cc/15/23/cc152387fe66349b720991ae97592cea.jpg";
-const images = [
-  img1,
-  img,
-  img1,
-  img,
-  img2,
-  img,
-  img,
-  img4,
-  img,
-  img4,
-  img2,
-  img1,
+
+import img1 from "../assets/CoreTeam/Abhishek Kumar.jpg";
+import img2 from "../assets/CoreTeam/Aditya Sonkar1.jpg";
+import img3 from "../assets/CoreTeam/Anmol Rana.jpg";
+import img4 from "../assets/CoreTeam/Avinash Ranjan.jpg";
+import img5 from "../assets/CoreTeam/Bhukya Nithin Kumar.jpg";
+import img6 from "../assets/CoreTeam/Divyanshu Kumar Singh.jpg";
+import img7 from "../assets/CoreTeam/Harshit Raj.jpg";
+import img8 from "../assets/CoreTeam/Narne Srinadh.jpg";
+import img9 from "../assets/CoreTeam/Nishant Kumar Tiwari.jpg";
+import img10 from "../assets/CoreTeam/Priya Sharma.jpg";
+import img11 from "../assets/CoreTeam/Rituraj Prasad.png";
+import img12 from "../assets/CoreTeam/Sunny Kumar.jpg";
+import img13 from "../assets/CoreTeam/Upkar Kumar Mahto.png";
+import img14 from "../assets/CoreTeam/IMG20240214205221.jpg";
+
+const teamMembers = [
+  { img: img1, name: "Abhishek Kumar" },
+  { img: img2, name: "Aditya Sonkar" },
+  { img: img3, name: "Anmol Rana" },
+  { img: img4, name: "Avinash Ranjan" },
+  { img: img5, name: "Bhukya Nithin Kumar" },
+  { img: img6, name: "Divyanshu Kumar Singh" },
+  { img: img7, name: "Harshit Raj" },
+  { img: img8, name: "Narne Srinadh" },
+  { img: img9, name: "Nishant Kumar Tiwari" },
+  { img: img10, name: "Priya Sharma" },
+  { img: img11, name: "Rituraj Prasad" },
+  { img: img12, name: "Sunny Kumar" },
+  { img: img13, name: "Upkar Kumar Mahto" },
+  { img: img14, name: "IMG20240214205221" }
 ];
+
+
+
 function OurTeam() {
   useEffect(() => {
     const container = document.querySelector(".container");
@@ -79,8 +92,11 @@ function OurTeam() {
           <SportsHeader heading={"Team"} />
         </div>
         <div className=" flex flex-wrap gap-x-5 justify-evenly gap-y-20 py-10 gallary container mx-auto">
-          {images.map((ele) => (
-            <Photos key={Math.random()} img={ele} />
+        {teamMembers.map((member, index) => (
+            <div key={index} className="box">
+              <Photos img={member.img} />
+              <p className="text-center mt-2 text-orange-800 text-xl font-semibold">{member.name}</p>
+            </div>
           ))}
         </div>
 
