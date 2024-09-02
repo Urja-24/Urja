@@ -11,6 +11,7 @@ import CustomMatches from './Components/CustomMatches.jsx'
 import OurTeam from './Components/OurTeam.jsx'
 import Register from './Components/Register.jsx'
 import Players from './Components/Players.jsx'
+import MultiPurposeGallary from './Components/MultiPurposeGallary.jsx'
 const router = createBrowserRouter([{
   path: '/',
   element: <App />,
@@ -25,7 +26,7 @@ const router = createBrowserRouter([{
     },
     {
       path:"/gallery",
-      element:<Gallery/>
+      element:<MultiPurposeGallary/>
     },
     {
       path:"/our-team",

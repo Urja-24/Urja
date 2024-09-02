@@ -3,11 +3,25 @@ import { Photos } from './Photos'
 import '../CSS/Gallary.css'
 import { LinkedList } from '../utils/DragDrop';
 import SportsHeader from './AnimatedHeading';
-const img = "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=2560&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D";
-const img1 = 'https://i.pinimg.com/564x/4b/77/12/4b771221629ca9d264393973faa29ff4.jpg'
-const img2 = 'https://i.pinimg.com/564x/f4/01/33/f40133e28a8928d38ca5768596daad25.jpg'
-const img4 = 'https://i.pinimg.com/564x/cc/15/23/cc152387fe66349b720991ae97592cea.jpg'
-const images = [img1, img, img1, img, img2, img, img, img4, img, img4, img2, img1]
+import img3 from "../assets/GalaryPic/image3.jpg"
+import img1 from "../assets/GalaryPic/image1.jpg"
+import img2 from "../assets/GalaryPic/image2.jpg"
+import img4 from "../assets/GalaryPic/image4.jpg"
+import img5 from "../assets/GalaryPic/image5.jpg"
+import img7 from "../assets/GalaryPic/image7.jpg"
+import img8 from "../assets/GalaryPic/image8.jpg"
+import img9 from "../assets/GalaryPic/image10.jpg"
+import img10 from "../assets/GalaryPic/image11.jpg"
+import img11 from "../assets/GalaryPic/image13.jpg"
+import img12 from "../assets/GalaryPic/image14.jpg"
+import img13 from "../assets/GalaryPic/image16.jpg"
+import img14 from "../assets/GalaryPic/image18.jpg"
+import img16 from "../assets/GalaryPic/image20.jpg"
+import img17 from "../assets/GalaryPic/image21.jpg"
+import img18 from "../assets/GalaryPic/image22.jpg"
+import img20 from "../assets/GalaryPic/image24.jpg"
+import img21 from "../assets/GalaryPic/image25.jpg"
+const images = [img3,img1,img2,img4,img5,img7,img8,img9,img10,img11,img12,img13,img14,img16,img17,img18,img20,img21]
 
 function Gallery() {
   useEffect(() => {
