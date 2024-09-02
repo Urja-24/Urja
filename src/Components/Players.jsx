@@ -8,9 +8,23 @@ import "jspdf-autotable";
 
 function Players() {
   const { id } = useParams();
-  const backendUrl = 'https://urjabackend.onrender.com';
+  const backendUrl = "https://urjabackend.onrender.com";
+  //const backendUrl = "http://localhost:3080";
+
   const [players, setPlayers] = useState([]);
-  const sports = ["Cricket", "Football", "Hockey"];
+  const sports = [
+    "Basketball",
+    "Football",
+    "Cricket",
+    "Tennis",
+    "Yoga",
+    "Chess",
+    "Athletics",
+    "Hockey",
+    "Badminton",
+    "Volleyball",
+    "Table Tennis",
+  ];
   const branches = ["CE", "CSE", "MME", "ECE", "ME", "PIE+ECM", "PG", "EE"];
   const [formData, setFormData] = useState({
     branch: "CSE",
@@ -23,7 +37,7 @@ function Players() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-   
+
     console.log(`${backendUrl}/api/player/getPlayers`);
     try {
       const response = await fetch(`${backendUrl}/api/player/getPlayers`, {
@@ -136,7 +150,9 @@ function Players() {
             <thead>
               <tr className="bg-gray-700">
                 <th className="p-2 border border-gray-500">Player Name</th>
-                <th className="p-2 border border-gray-500">Registration Number</th>
+                <th className="p-2 border border-gray-500">
+                  Registration Number
+                </th>
                 <th className="p-2 border border-gray-500">Branch</th>
                 <th className="p-2 border border-gray-500">Sport</th>
               </tr>
@@ -144,9 +160,15 @@ function Players() {
             <tbody>
               {players.map((player, index) => (
                 <tr key={index} className="bg-gray-800">
-                  <td className="p-2 border border-gray-500">{player.playerName}</td>
-                  <td className="p-2 border border-gray-500">{player.registrationNumber}</td>
-                  <td className="p-2 border border-gray-500">{player.branch}</td>
+                  <td className="p-2 border border-gray-500">
+                    {player.playerName}
+                  </td>
+                  <td className="p-2 border border-gray-500">
+                    {player.registrationNumber}
+                  </td>
+                  <td className="p-2 border border-gray-500">
+                    {player.branch}
+                  </td>
                   <td className="p-2 border border-gray-500">{player.sport}</td>
                 </tr>
               ))}
