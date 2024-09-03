@@ -81,6 +81,18 @@ const Navbar = () => {
               Detailed Points Table
             </NavLink>
           </li>
+          <li>
+            <NavLink
+              to="/points-table"
+              className={({ isActive }) =>
+                isActive
+                  ? 'border-b-2 pb-2 border-white'
+                  : 'hover:text-white transition duration-300 ease-in-out'
+              }
+            >
+              Points Table
+            </NavLink>
+          </li>
         </ul>
       </div>
 
@@ -158,6 +170,19 @@ const Navbar = () => {
                 onClick={toggleMenu}
               >
                 Detailed Points Table
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                to="/points-table"
+                className={({ isActive }) =>
+                  isActive
+                    ? 'border-b-2 pb-2 border-white'
+                    : 'hover:text-white transition duration-300 ease-in-out'
+                }
+                onClick={toggleMenu}
+              >
+                 Points Table
               </NavLink>
             </li>
           </ul>

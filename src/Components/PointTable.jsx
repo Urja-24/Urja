@@ -1,8 +1,9 @@
-import { motion } from "framer-motion";
-import React from "react";
+import React, { useState } from "react";
 import SportsHeader from "./AnimatedHeading";
 
 const PointTable = () => {
+  const [selectedTeam, setSelectedTeam] = useState("CSE"); // default team selection
+
   const tableData = [
     {
       sport: "100M (BOYS)",
@@ -50,23 +51,34 @@ const PointTable = () => {
     },
   ];
 
+  const teams = ["CSE", "ECE", "EE", "ME", "CE", "MME", "PIE+ECM", "PG"];
+
   return (
-    <div className="mt-36 mb-4 container mx-auto px-4 ">
-      <motion.h1
-        className="text-center text-6xl font-extrabold text-white my-4 flex justify-center gap-x-8"
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 2, ease: "easeInOut" }}
-      >
-        <SportsHeader heading={"POINTS"} />
+    <div className="mt-40 mb-4 container mx-auto px-4">
+      <h1 className="flex gap-x-6 justify-center">
+        <SportsHeader heading={"POINT"} />
         <SportsHeader heading={"TABLE"} />
-      </motion.h1>
-      <motion.div
-        className="overflow-x-auto"
-        initial={{ x: "-100vw", opacity: 0 }}
-        animate={{ x: 0, opacity: 1 }}
-        transition={{ duration: 1.5, ease: "easeOut" }}
-      >
+      </h1>
+      <div className="flex flex-col gap-y-2 mb-4">
+  <label
+    className="text-lg font-bold text-[#F5DEB3] mb-1"
+    htmlFor="team"
+  >
+    Select Team
+  </label>
+  <select
+    name="team"
+    id="team"
+    value={selectedTeam}
+    onChange={(e) => setSelectedTeam(e.target.value)}
+    className="py-2 px-4 border border-gray-300 rounded-md text-lg bg-gray-200"
+  >
+    {teams.map((team) => (
+      <option value={team}>{team}</option>
+    ))}
+  </select>
+</div>
+      <div className="overflow-x-auto">
         <table className="min-w-full table-auto border-collapse border border-gray-500">
           <thead
             style={{
@@ -77,51 +89,25 @@ const PointTable = () => {
           >
             <tr className="text-white">
               <th className="border border-gray-200 px-4 py-2">Sports</th>
-              <th className="border border-gray-200 px-4 py-2">CSE</th>
-              <th className="border border-gray-200 px-4 py-2">ECE</th>
-              <th className="border border-gray-200 px-4 py-2">EE</th>
-              <th className="border border-gray-200 px-4 py-2">ME</th>
-              <th className="border border-gray-200 px-4 py-2">CE</th>
-              <th className="border border-gray-200 px-4 py-2">MME</th>
-              <th className="border border-gray-200 px-4 py-2">ECM+PIE</th>
-              <th className="border border-gray-200 px-4 py-2">PG</th>
+              <th className="border border-gray-200 px-4 py-2">Score</th>
             </tr>
           </thead>
           <tbody className="text-white">
             {tableData.map((row, index) => (
-              <tr className={`${index % 2 === 0 ? "bg-[#444]" : "bg-[#555]"}`}>
+              <tr
+                className={`${index % 2 === 0 ? "bg-[#444]" : "bg-[#555]"}`}
+              >
                 <td className="border border-gray-200 px-4 py-2 text-center">
                   {row.sport}
                 </td>
                 <td className="border border-gray-200 px-4 py-2 text-center">
-                  {row.CSE}
-                </td>
-                <td className="border border-gray-200 px-4 py-2 text-center">
-                  {row.ECE}
-                </td>
-                <td className="border border-gray-200 px-4 py-2 text-center">
-                  {row.EE}
-                </td>
-                <td className="border border-gray-200 px-4 py-2 text-center">
-                  {row.ME}
-                </td>
-                <td className="border border-gray-200 px-4 py-2 text-center">
-                  {row.CE}
-                </td>
-                <td className="border border-gray-200 px-4 py-2 text-center">
-                  {row.MME}
-                </td>
-                <td className="border border-gray-200 px-4 py-2 text-center">
-                  {row["PIE+ECM"]}
-                </td>
-                <td className="border border-gray-200 px-4 py-2 text-center">
-                  {row.PG}
+                  {row[selectedTeam]} {/* display score for selected team */}
                 </td>
               </tr>
             ))}
           </tbody>
         </table>
-      </motion.div>
+      </div>
     </div>
   );
 };
