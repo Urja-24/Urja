@@ -6,24 +6,24 @@
     "description": "Basketball is an exciting team sport where two teams of five players each try to score by throwing a ball through the opposing team's hoop. The game is played on a rectangular court with a hoop at each end. It requires speed, strategy, and teamwork, and it's a game full of fast-paced action and skill.",
     "coordinator": [
       {
-        "name": "Amol",
+        "name": "Anubhav",
         "position": "Captain",
-        "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=2560&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
       },
       {
-        "name": "Amol",
+        "name": "Rahul Kumar",
+        "position": "Vice Captain",
+        "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+      },
+      {
+        "name": "Umang Bhageria",
         "position": "Captain",
-        "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=2560&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
       },
       {
-        "name": "Amol",
+        "name": "Ritu Kumari",
         "position": "Vice Captain",
-        "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=2560&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-      },
-      {
-        "name": "Amol",
-        "position": "Vice Captain",
-        "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=2560&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
       }
     ],
     "rules": {
@@ -61,24 +61,24 @@
     "description": "Football, also known as soccer in some countries, is the world's most popular sport. It is played between two teams of 11 players with a spherical ball. The aim is to score by getting the ball into the opposing goal. Football is played on a rectangular field with a goal at each end. It is a game that requires skill, strategy, and teamwork.",
     "coordinator": [
       {
-        "name": "Amol",
+        "name": " Rohit Sharma",
         "position": "Captain",
-        "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=2560&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
       },
       {
-        "name": "Amol",
+        "name": "Amit Kisku",
+        "position": "Vice Captain",
+        "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+      },
+      {
+        "name": "A Srichandana",
         "position": "Captain",
-        "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=2560&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
       },
       {
-        "name": "Amol",
+        "name": "Urmila Hembrom",
         "position": "Vice Captain",
-        "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=2560&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-      },
-      {
-        "name": "Amol",
-        "position": "Vice Captain",
-        "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=2560&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
       }
     ],
     "rules": {
@@ -116,24 +116,24 @@
     "description": "Cricket is a super popular sport played with a bat and ball. This game is played by two teams of 11 players each. It's all about scoring runs and getting the other team out. It is played on a pitch in a well-maintained field. There are different formats like Test matches and One Day Internationals. It's a game full of excitement, strategy, and amazing moments.",
     "coordinator": [
       {
-        "name": "Amol",
+        "name": "Ujjwal Kumar",
         "position": "Captain",
-        "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=2560&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
       },
       {
-        "name": "Amol",
+        "name": "Gaurav Kumar",
+        "position": "Vice Captain",
+        "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+      },
+      {
+        "name": "Surbhi Pandey",
         "position": "Captain",
-        "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=2560&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
       },
       {
-        "name": "Amol",
+        "name": " Priya Sharma",
         "position": "Vice Captain",
-        "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=2560&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-      },
-      {
-        "name": "Amol",
-        "position": "Vice Captain",
-        "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=2560&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
       }
     ],
     "rules": {
@@ -175,29 +175,29 @@
   },
   {
     "id": "3",
-    "title": "Tennis",
+    "title": "Lawn Tennis",
     "quote": "The mark of great sportsmen is not how good they are at their best, but how good they are at their worst. – Martina Navratilova",
     "description": "Tennis is a popular racket sport that can be played individually against a single opponent or between two teams of two players each. The game is played on a rectangular court with a net in the middle. Players use a stringed racket to strike a ball over the net into the opponent's court. It’s a game that requires agility, speed, and strategy.",
     "coordinator": [
       {
-        "name": "Amol",
+        "name": "Narne Srinadh",
         "position": "Captain",
-        "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=2560&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
       },
       {
-        "name": "Amol",
+        "name": "Sumit Gupta",
+        "position": "Vice Captain",
+        "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+      },
+      {
+        "name": "Surbhi Anand",
         "position": "Captain",
-        "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=2560&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
       },
       {
-        "name": "Amol",
+        "name": "Vinita Kumari",
         "position": "Vice Captain",
-        "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=2560&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-      },
-      {
-        "name": "Amol",
-        "position": "Vice Captain",
-        "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=2560&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
       }
     ],
     "rules": {
@@ -235,24 +235,24 @@
     "description": "Yoga is a practice that combines physical postures, breathing exercises, and meditation. It promotes physical flexibility, strength, and mental calmness. Yoga sessions involve a series of poses performed in a sequence, and it can be practiced individually or in groups. It’s an excellent way to improve overall well-being.",
     "coordinator": [
       {
-        "name": "Amol",
+        "name": "Hemendra Mehra",
         "position": "Captain",
-        "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=2560&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
       },
       {
-        "name": "Amol",
+        "name": "Sohan Kumar Pandit",
+        "position": "Vice Captain",
+        "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+      },
+      {
+        "name": "Priyanshi",
         "position": "Captain",
-        "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=2560&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
       },
       {
-        "name": "Amol",
+        "name": "Karishma Kumari",
         "position": "Vice Captain",
-        "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=2560&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-      },
-      {
-        "name": "Amol",
-        "position": "Vice Captain",
-        "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=2560&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
       }
     ],
     "rules": {
@@ -289,24 +289,24 @@
     "description": "Chess is a two-player strategy board game played on an 8x8 grid. Each player starts with 16 pieces including a king, queen, rooks, knights, bishops, and pawns. The objective is to checkmate the opponent's king. It requires deep strategic thinking and planning.",
     "coordinator": [
       {
-        "name": "Amol",
+        "name": "Samyak Anand",
         "position": "Captain",
-        "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=2560&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
       },
       {
-        "name": "Amol",
+        "name": "Ayush Mishra",
+        "position": "Vice Captain",
+        "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+      },
+      {
+        "name": "Prachi Priya",
         "position": "Captain",
-        "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=2560&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
       },
       {
-        "name": "Amol",
+        "name": "Khushboo Kumari",
         "position": "Vice Captain",
-        "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=2560&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-      },
-      {
-        "name": "Amol",
-        "position": "Vice Captain",
-        "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=2560&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
       }
     ],
     "rules": {
@@ -343,24 +343,24 @@
     "description": "Athletics encompasses various track and field events such as running, jumping, and throwing. It is a test of physical strength, endurance, and speed. The events include sprints, middle-distance, long-distance, relays, and field events like javelin and long jump.",
     "coordinator": [
       {
-        "name": "Amol",
+        "name": "Aditya Sonkar",
         "position": "Captain",
-        "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=2560&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
       },
       {
-        "name": "Amol",
+        "name": "Nischay Kumar",
+        "position": "Vice Captain",
+        "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+      },
+      {
+        "name": "Sunny Kumar",
+        "position": "Vice Captain",
+        "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+      },
+      {
+        "name": "Swati Kumari",
         "position": "Captain",
-        "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=2560&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-      },
-      {
-        "name": "Amol",
-        "position": "Vice Captain",
-        "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=2560&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-      },
-      {
-        "name": "Amol",
-        "position": "Vice Captain",
-        "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=2560&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
       }
     ],
     "rules": {
@@ -397,24 +397,14 @@
     "description": "Hockey is a team sport played on ice or a field, where two teams of six (ice) or eleven (field) players compete to score goals by hitting a puck or ball into the opposing team's goal. The game requires skill, agility, and teamwork, and it's known for its fast pace and physicality.",
     "coordinator": [
       {
-        "name": "Amol",
+        "name": " ",
         "position": "Captain",
-        "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=2560&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
       },
       {
-        "name": "Amol",
-        "position": "Captain",
-        "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=2560&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-      },
-      {
-        "name": "Amol",
+        "name": "Amarjeet Kumar",
         "position": "Vice Captain",
-        "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=2560&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-      },
-      {
-        "name": "Amol",
-        "position": "Vice Captain",
-        "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=2560&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
       }
     ],
     "rules": {
@@ -451,24 +441,24 @@
     "description": "Badminton is a racquet sport played with a shuttlecock that is hit back and forth over a net. It can be played in singles or doubles format. The objective is to score points by landing the shuttlecock in the opponent's court. The game is known for its fast pace and requires agility, quick reflexes, and precise shot-making.",
     "coordinator": [
       {
-        "name": "Amol",
+        "name": " Abhishek Kumar",
         "position": "Captain",
-        "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=2560&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
       },
       {
-        "name": "Amol",
+        "name": "Sushwanth",
+        "position": "Vice Captain",
+        "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+      },
+      {
+        "name": " Priya Sharma",
         "position": "Captain",
-        "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=2560&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
       },
       {
-        "name": "Amol",
+        "name": " Prasanna Mavuri",
         "position": "Vice Captain",
-        "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=2560&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-      },
-      {
-        "name": "Amol",
-        "position": "Vice Captain",
-        "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=2560&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
       }
     ],
     "rules": {
@@ -505,24 +495,24 @@
     "description": "Volleyball is a team sport played with a ball that is hit over a net between two teams of six players each. The objective is to score points by grounding the ball on the opponent's side of the court. The game requires teamwork, quick reflexes, and strategic play. Matches are typically played in a best-of-five sets format.",
     "coordinator": [
       {
-        "name": "Amol",
+        "name": "Vivek Mahato",
         "position": "Captain",
-        "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=2560&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
       },
       {
-        "name": "Amol",
+        "name": "Sayantan Bairagi",
+        "position": "Vice Captain",
+        "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+      },
+      {
+        "name": "Dani Sumpi",
         "position": "Captain",
-        "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=2560&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
       },
       {
-        "name": "Amol",
+        "name": "Sejal Kumari",
         "position": "Vice Captain",
-        "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=2560&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-      },
-      {
-        "name": "Amol",
-        "position": "Vice Captain",
-        "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=2560&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
       }
     ],
     "rules": {
@@ -559,24 +549,24 @@
     "description": "Table tennis, also known as ping-pong, is a fast-paced game played on a table with a small ball and paddles. Players compete to score points by hitting the ball over the net and into the opponent's side of the table. The game requires quick reflexes, precision, and strategy.",
     "coordinator": [
       {
-        "name": "Amol",
+        "name": "Durgesh prakash",
         "position": "Captain",
-        "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=2560&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
       },
       {
-        "name": "Amol",
+        "name": "Karan Raj",
+        "position": "Vice Captain",
+        "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+      },
+      {
+        "name": "Ishika Sarkar",
         "position": "Captain",
-        "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=2560&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
       },
       {
-        "name": "Amol",
+        "name": "Kriti Pandey",
         "position": "Vice Captain",
-        "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=2560&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-      },
-      {
-        "name": "Amol",
-        "position": "Vice Captain",
-        "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=2560&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
       }
     ],
     "rules": {

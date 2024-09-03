@@ -40,9 +40,9 @@ const Sports = () => {
             <SportsHeader heading="Sports" />
           </h2>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mx-auto">
+        <div className="container grid grid-cols-1 md:grid-cols-3 gap-10 mx-auto">
           {sportsData.map((sport, index) => (
-            <div key={index} className="flex items-center justify-center ">
+            <div key={index} className="flex items-center justify-center">
               <Link to={`sports/${index}`}>
                 <GlareCard className="flex flex-col items-end justify-end py-8 px-6">
                   <div>

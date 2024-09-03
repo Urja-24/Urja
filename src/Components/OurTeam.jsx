@@ -1,36 +1,33 @@
 import React from "react";
 import { Photos } from "./Photos";
-import TeamMember from './TeamMember'
-import '../CSS/Team.css'
-import member from '../JSON/member.json'
-import AnimatedHeading from './AnimatedHeading'
+import "../CSS/Gallary.css";
+import members from "../assets/member.json";
+import SportsHeader from "./AnimatedHeading";
+import { LinkedList } from "../utils/DragDrop";
 
-console.log(typeof member["members"])
 function OurTeam() {
 
   return (
-    <section className="team-section mt-12 mb-5">
-      <div className='p-10'>
-        <div className="container mx-auto text-center">
-          <div className="mt-20 flex gap-6 justify-center">
-            <AnimatedHeading heading="Our" />
-            <AnimatedHeading heading="Team" />
-          </div>
-          <div className=' flex flex-wrap justify-around mt-14 gap-y-14'>
-            {member.secretary.map((member, index) => (
-              <div key={index} className="team-card shadow-lg rounded-lg">
-                <TeamMember{...member} />
+    <section className="container mx-auto mt-40">
+      <div>
+        <div className="flex justify-center gap-x-4">
+          <SportsHeader heading={"Our"} />
 
+          <SportsHeader heading={"Team"} />
+        </div>
+
+        <div className="flex flex-wrap justify-center gap-x-5 gap-y-20 py-10 gallery container mx-auto">
+          {members.map((member) => (
+            <div key={member.id} className="team-member">
+              <Photos img={member.imgSrc} />
+
+              <div className="text-center mt-4">
+                <h5 className="text-lg text-white font-bold">{member.name}</h5>
+
+                <p className="text-sm text-gray-200">{member.title}</p>
               </div>
-            ))}
-          </div>
-          <div className="team-grid mt-10 gap-x-44 gap-y-24">
-            {member.members.map((member, index) => (
-              <div key={index} className="team-card shadow-lg rounded-lg">
-                <TeamMember {...member} />
-              </div>
-            ))}
-          </div>
+            </div>
+          ))}
         </div>
       </div>
     </section>
@@ -38,4 +35,3 @@ function OurTeam() {
 }
 
 export default OurTeam;
-
