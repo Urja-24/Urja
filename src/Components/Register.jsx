@@ -6,8 +6,21 @@ import "react-toastify/dist/ReactToastify.css";
 
 function Register() {
   const { id } = useParams();
-  const backendUrl = 'https://urjabackend.onrender.com';
-  const sports = ["Cricket", "Football", "Hockey"];
+   const backendUrl = "https://urjabackend.onrender.com";
+  //const backendUrl = "http://localhost:3080";
+  const sports = [
+    "Basketball",
+    "Football",
+    "Cricket",
+    "Tennis",
+    "Yoga",
+    "Chess",
+    "Athletics",
+    "Hockey",
+    "Badminton",
+    "Volleyball",
+    "Table Tennis",
+  ];
   const branches = ["CE", "CSE", "MME", "ECE", "ME", "PIE+ECM", "PG", "EE"];
   const [formData, setFormData] = useState({
     playerName: "",
@@ -38,11 +51,11 @@ function Register() {
         toast.success("Form submitted successfully!");
         console.log("Form submitted successfully:", result);
       } else {
-        toast.error("Failed to submit form!");
+        toast.error("Cannot register twice ");
         console.error("Failed to submit form:", response.statusText);
       }
     } catch (error) {
-      toast.error("Error submitting form!");
+      toast.error("Failed to submit form!");
       console.error("Error submitting form:", error);
     } finally {
       setFormData({
