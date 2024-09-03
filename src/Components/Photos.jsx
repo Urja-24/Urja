@@ -4,7 +4,7 @@ import React from "react";
 import { CardBody, CardContainer, CardItem } from "./Ui-3d-card";
 
 
-export function Photos({ img , index }) {
+export function Photos({ img, index }) {
     return (
         <div draggable="true" className="box bg-[#F5DEB3] rounded-xl">
             <CardContainer className="inter-var">
@@ -21,5 +21,6 @@ export function Photos({ img , index }) {
                 </CardBody>
             </CardContainer>
         </div>
+
     );
 }

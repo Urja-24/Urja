@@ -1,79 +1,145 @@
 [
   {
-    "name": "Ravindra Raj",
+    "name": "Rohit Sharma",
     "title": "Sports Secretary",
-    "imgSrc": "https://urja-2023.netlify.app/static/media/ravindraRajImg.b1579a0b4171c12408cb.jpeg",
+    "imgSrc": "./CoreTeam/Abhishek Kumar.jpg",
     "phone": 1234567890
   },
   {
-    "name": "Anubhav",
+    "name": "Jyoti Kumari",
     "title": "Joint Sports Secretary",
     "imgSrc": "https://urja-2023.netlify.app/static/media/anubhavImg.b0f872b310dadbbe0a26.jpg",
     "phone": 123
   },
   {
-    "name": "Kuldeep Kumar",
+    "name": "Harshit Raj",
+    "title": "Joint Sports Secretary",
+    "imgSrc": "https://urja-2023.netlify.app/static/media/anubhavImg.b0f872b310dadbbe0a26.jpg",
+    "phone": 123
+  },
+  {
+    "name": "Avinash Ranjan",
     "title": "General Secretary",
     "imgSrc": "https://urja-2023.netlify.app/static/media/kuldeep.f6a0389920c01fee99de.jpeg",
     "phone": 123
   },
   {
-    "name": "Nitin Kumar",
+    "name": "Shubham Kumar Choudhary",
+    "title": "General Secretary",
+    "imgSrc": "https://urja-2023.netlify.app/static/media/kuldeep.f6a0389920c01fee99de.jpeg",
+    "phone": 123
+  },
+  {
+    "name": "Aditya Sonkar",
     "title": "Joint Secretary",
     "imgSrc": "https://urja-2023.netlify.app/static/media/nitin.8bde50598ffd0d248453.jpg",
     "phone": 123
   },
   {
-    "name": "Sudhanshu Bharti",
-    "title": "Executive Head",
-    "imgSrc": "https://urja-2023.netlify.app/static/media/sudhanshu.bc6107f072e8b5267aa9.jpg",
+    "name": "Nishant Kumar Tiwary",
+    "title": "Joint Secretary",
+    "imgSrc": "https://urja-2023.netlify.app/static/media/nitin.8bde50598ffd0d248453.jpg",
     "phone": 123
   },
   {
-    "name": "Navya Shankar",
-    "title": "Executive Head",
-    "imgSrc": "https://urja-2023.netlify.app/static/media/navya.0a522dc06280e730daac.jpeg",
-    "phone": 123
-  },
-  {
-    "name": "Prashant Raj",
+    "name": "Krishna Kumar Gupta",
     "title": "Event Head",
     "imgSrc": "https://urja-2023.netlify.app/static/media/prashant.4fb68eb017ace87c4922.jpg",
     "phone": 123
   },
   {
-    "name": "Shravya",
+    "name": "Priya Sharma",
     "title": "Event Head",
     "imgSrc": "https://urja-2023.netlify.app/static/media/shravya.a155d877bc7b83486bc1.jpeg",
     "phone": 123
   },
   {
-    "name": "Satish",
-    "title": "Logistic Head",
+    "name": "Vinay Bihari",
+    "title": "Executive Head",
+    "imgSrc": "https://urja-2023.netlify.app/static/media/navya.0a522dc06280e730daac.jpeg",
+    "phone": 123
+  },
+  {
+    "name": "Anmol Rana",
+    "title": "Executive Head",
+    "imgSrc": "https://urja-2023.netlify.app/static/media/navya.0a522dc06280e730daac.jpeg",
+    "phone": 123
+  },
+  {
+    "name": "Abhishek Kumar",
+    "title": "Creative Head",
+    "imgSrc": "https://urja-2023.netlify.app/static/media/navya.0a522dc06280e730daac.jpeg",
+    "phone": 123
+  },
+  {
+    "name": "Rituraj Prasad",
+    "title": "Creative Head",
+    "imgSrc": "https://urja-2023.netlify.app/static/media/navya.0a522dc06280e730daac.jpeg",
+    "phone": 123
+  },
+  {
+    "name": "Bhukya Nithin Kumar",
+    "title": "Planning and Management Head",
+    "imgSrc": "https://urja-2023.netlify.app/static/media/navya.0a522dc06280e730daac.jpeg",
+    "phone": 123
+  },
+  {
+    "name": "Md. Mehtab Hussain",
+    "title": "Planning and Management Head",
+    "imgSrc": "https://urja-2023.netlify.app/static/media/navya.0a522dc06280e730daac.jpeg",
+    "phone": 123
+  },
+  {
+    "name": "Amit Patel",
+    "title": "Logistics Head",
     "imgSrc": "https://urja-2023.netlify.app/static/media/satish.535b22f6d1b677365c00.jpeg",
     "phone": 123
   },
   {
-    "name": "Nikita Sundi",
-    "title": "Logistic Head",
+    "name": "Sunny Kumar",
+    "title": "Logistics Head",
     "imgSrc": "https://urja-2023.netlify.app/static/media/nikita.90906f889f71ecc0c289.jpeg",
     "phone": 123
   },
   {
-    "name": "Biswajit Murmu",
+    "name": "Upkar Kumar Mahto",
+    "title": "Web and App Head",
+    "imgSrc": "https://urja-2023.netlify.app/static/media/navya.0a522dc06280e730daac.jpeg",
+    "phone": 123
+  },
+  {
+    "name": "Shubham Kumar Singh",
+    "title": "Web and App Head",
+    "imgSrc": "https://urja-2023.netlify.app/static/media/navya.0a522dc06280e730daac.jpeg",
+    "phone": 123
+  },
+  {
+    "name": "Divyansh Kumar Singh",
+    "title": "Public Relation Head",
+    "imgSrc": "https://urja-2023.netlify.app/static/media/navya.0a522dc06280e730daac.jpeg",
+    "phone": 123
+  },
+  {
+    "name": "Pratham Kumar",
+    "title": "Public Relation Head",
+    "imgSrc": "https://urja-2023.netlify.app/static/media/navya.0a522dc06280e730daac.jpeg",
+    "phone": 123
+  },
+  {
+    "name": "Durgesh Prakash",
     "title": "Medical Head",
     "imgSrc": "https://urja-2023.netlify.app/static/media/biswajit.54df083a0460bb70ec0d.jpeg",
     "phone": 123
   },
   {
-    "name": "Kumar Abhinav",
+    "name": "Narne Srinadh",
     "title": "Medical Head",
     "imgSrc": "https://urja-2023.netlify.app/static/media/abhinav.d006bebeff0967d57ffb.jpeg",
     "phone": 123
   },
   {
-    "name": "Amol Sourav",
-    "title": "Medical Head",
+    "name": "Tarun Anand",
+    "title": "Corporate Head",
     "imgSrc": "https://urja-2023.netlify.app/static/media/Amol_sourav.464fb248a378d6772ecc.jpeg",
     "phone": 123
   }
