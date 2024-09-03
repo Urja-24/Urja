@@ -186,6 +186,30 @@ const Navbar = () => {
                 Detailed Points Table
               </NavLink>
             </li>
+            <li>
+            <NavLink
+              to="/points-table"
+              className={({ isActive }) =>
+                isActive
+                  ? 'border-b-2 pb-2 border-white'
+                  : 'hover:text-white transition duration-300 ease-in-out'
+              }
+            >
+             Points Table
+            </NavLink>
+          </li>
+            <li>
+            <NavLink
+              to="/Players"
+              className={({ isActive }) =>
+                isActive
+                  ? 'border-b-2 pb-2 border-white'
+                  : 'hover:text-white transition duration-300 ease-in-out'
+              }
+            >
+              All Players 
+            </NavLink>
+          </li>
           </ul>
         </motion.div>
       )}
