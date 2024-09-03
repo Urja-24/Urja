@@ -12,6 +12,7 @@ import OurTeam from './Components/OurTeam.jsx'
 import Register from './Components/Register.jsx'
 import Players from './Components/Players.jsx'
 import MultiPurposeGallary from './Components/MultiPurposeGallary.jsx'
+import PointsTableComplete from './Components/PointsTableComplete.jsx'
 const router = createBrowserRouter([{
   path: '/',
   element: <App />,
@@ -47,6 +48,10 @@ const router = createBrowserRouter([{
     {
       path: "/Players", 
       element : <Players/>
+    },
+    {
+      path:"/points-table" , 
+      element: <PointsTableComplete/> 
     }
   ]
 }])
