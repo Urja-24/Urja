@@ -1,16 +1,6 @@
 import React from "react";
-import { Link } from "react-router-dom";
-const Leaderboard = () => {
-  const leaderboardData = [
-    { id: 1, branch: "CE", points: 106.5 },
-    { id: 2, branch: "CSE", points: 103 },
-    { id: 3, branch: "MME", points: 93 },
-    { id: 4, branch: "ECE", points: 85.5 },
-    { id: 5, branch: "ME", points: 84 },
-    { id: 6, branch: "ECM+PIE", points: 71 },
-    { id: 7, branch: "PG", points: 66 },
-    { id: 8, branch: "EE", points: 52 },
-  ];
+
+const Leaderboard = ({leaderboardData}) => {
 
   return (
     <>
@@ -26,7 +16,7 @@ const Leaderboard = () => {
             >
               <tr className="text-white">
                 <th className="border border-gray-200 px-4 py-2">Sr. No.</th>
-                <th className="border border-gray-200 px-4 py-2">Branch</th>
+                <th className="border border-gray-200 px-4 py-2">Team</th>
                 <th className="border border-gray-200 px-4 py-2">Points</th>
               </tr>
             </thead>
@@ -57,7 +47,6 @@ const Leaderboard = () => {
           </table>
         </div>
       </div>
-     
     </>
   );
 };
