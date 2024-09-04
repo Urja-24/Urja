@@ -17,6 +17,12 @@ import SunnyKumar from '../assets/CoreTeam/SunnyKumar.webp'
 import UpkarKumarMahato from '../assets/CoreTeam/UpkarKumarMahto.webp'
 import AvinashRanjan from '../assets/CoreTeam/AvinashRanjan.webp'
 import BhukyaNitinKumar from '../assets/CoreTeam/BhukyaNithinKumar.webp'
+import DurgeshPrakash from '../assets/CoreTeam/DurgeshPrakash.webp'
+import Subhamkumarchaudhary from '../assets/CoreTeam/Subhamkumarchaudhary.webp'
+import subhakumarSingh from '../assets/CoreTeam/SubhamKumarsingh.webp'
+import VinayBihari from '../assets/CoreTeam/VinayBihari.webp'
+import TarunAanand from '../assets/CoreTeam/TarunAnand.webp'
+import MdMehtab from '../assets/CoreTeam/MdMehtab.webp'
 function OurTeam() {
  const userImage='https://media.istockphoto.com/id/1337144146/vector/default-avatar-profile-icon-vector.jpg?s=612x612&w=0&k=20&c=BIbFwuv7FxTWvh5S3vB6bkT0Qv8Vn8N5Ffseq84ClGI='
   const members = [
@@ -47,7 +53,7 @@ function OurTeam() {
     {
       "name": "Shubham Kumar Choudhary",
       "title": "General Secretary",
-      "imgSrc": "" || userImage,
+      "imgSrc": Subhamkumarchaudhary || userImage,
       "phone": 123
     },
     {
@@ -77,7 +83,7 @@ function OurTeam() {
     {
       "name": "Vinay Bihari",
       "title": "Executive Head",
-      "imgSrc": "" || userImage,
+      "imgSrc": VinayBihari || userImage,
       "phone": 123
     },
     {
@@ -107,7 +113,7 @@ function OurTeam() {
     {
       "name": "Md. Mehtab Hussain",
       "title": "Planning and Management Head",
-      "imgSrc": "" || userImage,
+      "imgSrc": MdMehtab || userImage,
       "phone": 123
     },
     {
@@ -131,7 +137,7 @@ function OurTeam() {
     {
       "name": "Shubham Kumar Singh",
       "title": "Web and App Head",
-      "imgSrc": "" || userImage,
+      "imgSrc": subhakumarSingh || userImage,
       "phone": 123
     },
     {
@@ -149,7 +155,7 @@ function OurTeam() {
     {
       "name": "Durgesh Prakash",
       "title": "Medical Head",
-      "imgSrc": "" || userImage,
+      "imgSrc": DurgeshPrakash || userImage,
       "phone": 123
     },
     {
@@ -161,7 +167,7 @@ function OurTeam() {
     {
       "name": "Tarun Anand",
       "title": "Corporate Head",
-      "imgSrc": "" || userImage,
+      "imgSrc": TarunAanand || userImage,
       "phone": 123
     }
   ];
