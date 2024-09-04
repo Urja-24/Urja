@@ -41,7 +41,7 @@ function FrontDisplay() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, ease: "easeOut", delay: 0.5 }}
         >
-          DATE: To Be Announced
+          DATE: 6th Sept - 27th Oct
         </motion.p>
       </div>
     </div>
