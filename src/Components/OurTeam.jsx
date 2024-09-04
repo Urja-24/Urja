@@ -18,150 +18,150 @@ import UpkarKumarMahato from '../assets/CoreTeam/UpkarKumarMahto.webp'
 import AvinashRanjan from '../assets/CoreTeam/AvinashRanjan.webp'
 import BhukyaNitinKumar from '../assets/CoreTeam/BhukyaNithinKumar.webp'
 function OurTeam() {
-
+ const userImage='https://media.istockphoto.com/id/1337144146/vector/default-avatar-profile-icon-vector.jpg?s=612x612&w=0&k=20&c=BIbFwuv7FxTWvh5S3vB6bkT0Qv8Vn8N5Ffseq84ClGI='
   const members = [
     {
       "name": "Rohit Sharma",
       "title": "Sports Secretary",
-      "imgSrc": '',
+      "imgSrc": ''|| userImage,
       "phone": 1234567890
     },
     {
       "name": "Jyoti Kumari",
       "title": "Joint Sports Secretary",
-      "imgSrc": "",
+      "imgSrc": "" || userImage,
       "phone": 123
     },
     {
       "name": "Harshit Raj",
       "title": "Joint Sports Secretary",
-      "imgSrc": HarshitRaj,
+      "imgSrc": HarshitRaj || userImage,
       "phone": 123
     },
     {
       "name": "Avinash Ranjan",
       "title": "General Secretary",
-      "imgSrc": AvinashRanjan,
+      "imgSrc": AvinashRanjan || userImage,
       "phone": 123
     },
     {
       "name": "Shubham Kumar Choudhary",
       "title": "General Secretary",
-      "imgSrc": "",
+      "imgSrc": "" || userImage,
       "phone": 123
     },
     {
       "name": "Aditya Sonkar",
       "title": "Joint Secretary",
-      "imgSrc": AdityaSonkar,
+      "imgSrc": AdityaSonkar || userImage,
       "phone": 123
     },
     {
       "name": "Nishant Kumar Tiwary",
       "title": "Joint Secretary",
-      "imgSrc": NishantKumarTiwary,
+      "imgSrc": NishantKumarTiwary || userImage,
       "phone": 123
     },
     {
       "name": "Krishna Kumar Gupta",
       "title": "Event Head",
-      "imgSrc": "",
+      "imgSrc": "" || userImage,
       "phone": 123
     },
     {
       "name": "Priya Sharma",
       "title": "Event Head",
-      "imgSrc": PriyaSharma,
+      "imgSrc": PriyaSharma || userImage,
       "phone": 123
     },
     {
       "name": "Vinay Bihari",
       "title": "Executive Head",
-      "imgSrc": "",
+      "imgSrc": "" || userImage,
       "phone": 123
     },
     {
       "name": "Anmol Rana",
       "title": "Executive Head",
-      "imgSrc": AnmolRana,
+      "imgSrc": AnmolRana || userImage,
       "phone": 123
     },
     {
       "name": "Abhishek Kumar",
       "title": "Creative Head",
-      "imgSrc": AbhishekKumar,
+      "imgSrc": AbhishekKumar|| userImage,
       "phone": 123
     },
     {
       "name": "Rituraj Prasad",
       "title": "Creative Head",
-      "imgSrc": RiturajPrasad,
+      "imgSrc": RiturajPrasad || userImage,
       "phone": 123
     },
     {
       "name": "Bhukya Nithin Kumar",
       "title": "Planning and Management Head",
-      "imgSrc": BhukyaNitinKumar,
+      "imgSrc": BhukyaNitinKumar || userImage,
       "phone": 123
     },
     {
       "name": "Md. Mehtab Hussain",
       "title": "Planning and Management Head",
-      "imgSrc": "",
+      "imgSrc": "" || userImage,
       "phone": 123
     },
     {
       "name": "Amit Patel",
       "title": "Logistics Head",
-      "imgSrc": "",
+      "imgSrc": ""|| userImage,
       "phone": 123
     },
     {
       "name": "Sunny Kumar",
       "title": "Logistics Head",
-      "imgSrc": SunnyKumar,
+      "imgSrc": SunnyKumar || userImage,
       "phone": 123
     },
     {
       "name": "Upkar Kumar Mahto",
       "title": "Web and App Head",
-      "imgSrc": UpkarKumarMahato,
+      "imgSrc": UpkarKumarMahato || userImage,
       "phone": 123
     },
     {
       "name": "Shubham Kumar Singh",
       "title": "Web and App Head",
-      "imgSrc": "",
+      "imgSrc": "" || userImage,
       "phone": 123
     },
     {
       "name": "Divyansh Kumar Singh",
       "title": "Public Relation Head",
-      "imgSrc": DivyanshuKumarSing,
+      "imgSrc": DivyanshuKumarSing || userImage,
       "phone": 123
     },
     {
       "name": "Pratham Kumar",
       "title": "Public Relation Head",
-      "imgSrc": "",
+      "imgSrc": "" || userImage,
       "phone": 123
     },
     {
       "name": "Durgesh Prakash",
       "title": "Medical Head",
-      "imgSrc": "",
+      "imgSrc": "" || userImage,
       "phone": 123
     },
     {
       "name": "Narne Srinadh",
       "title": "Medical Head",
-      "imgSrc": Srinadh,
+      "imgSrc": Srinadh || userImage,
       "phone": 123
     },
     {
       "name": "Tarun Anand",
       "title": "Corporate Head",
-      "imgSrc": "",
+      "imgSrc": "" || userImage,
       "phone": 123
     }
   ];
