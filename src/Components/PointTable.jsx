@@ -1,57 +1,28 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import SportsHeader from "./AnimatedHeading";
 
 const PointTable = () => {
-  const [selectedTeam, setSelectedTeam] = useState("CSE"); // default team selection
+  const [selectedTeam, setSelectedTeam] = useState("CSE");
+  const [tableData, setTableData] = useState([]);
 
-  const tableData = [
-    {
-      sport: "100M (BOYS)",
-      CSE: "",
-      ECE: "",
-      EE: "",
-      ME: "1",
-      CE: "",
-      MME: "3",
-      "PIE+ECM": "",
-      PG: "5",
-    },
-    {
-      sport: "100M (GIRLS)",
-      CSE: "3",
-      ECE: "",
-      EE: "",
-      ME: "1",
-      CE: "5",
-      MME: "",
-      "PIE+ECM": "",
-      PG: "",
-    },
-    {
-      sport: "200M (BOYS)",
-      CSE: "",
-      ECE: "4",
-      EE: "",
-      ME: "",
-      CE: "",
-      MME: "5",
-      "PIE+ECM": "",
-      PG: "",
-    },
-    {
-      sport: "200M (GIRLS)",
-      CSE: "1",
-      ECE: "",
-      EE: "",
-      ME: "3",
-      CE: "5",
-      MME: "",
-      "PIE+ECM": "",
-      PG: "",
-    },
-  ];
+  const fetchCSVData = async () => {
+    const csvUrl = "https://sheetdb.io/api/v1/ko441b71v1704";
+    try {
+      const response = await fetch(csvUrl, {
+        method: "GET",
+      });
+      const data = await response.json();
+      setTableData(data);
+    } catch (error) {
+      console.error(error);
+    }
+  };
 
-  const teams = ["CSE", "ECE", "EE", "ME", "CE", "MME", "PIE+ECM", "PG"];
+  useEffect(() => {
+    fetchCSVData();
+  }, []);
+
+  const teams = ["CSE", "ECE", "EE", "ME", "CE", "MME", "ECM+PIE", "PG"];
 
   return (
     <div className="mt-40 mb-4 container mx-auto px-4">
@@ -60,24 +31,21 @@ const PointTable = () => {
         <SportsHeader heading={"TABLE"} />
       </h1>
       <div className="flex flex-col gap-y-2 mb-4">
-  <label
-    className="text-lg font-bold text-[#F5DEB3] mb-1"
-    htmlFor="team"
-  >
-    Select Team
-  </label>
-  <select
-    name="team"
-    id="team"
-    value={selectedTeam}
-    onChange={(e) => setSelectedTeam(e.target.value)}
-    className="py-2 px-4 border border-gray-300 rounded-md text-lg bg-gray-200"
-  >
-    {teams.map((team) => (
-      <option value={team}>{team}</option>
-    ))}
-  </select>
-</div>
+        <label className="text-lg font-bold text-[#F5DEB3] mb-1" htmlFor="team">
+          Select Team
+        </label>
+        <select
+          name="team"
+          id="team"
+          value={selectedTeam}
+          onChange={(e) => setSelectedTeam(e.target.value)}
+          className="py-2 px-4 border border-gray-300 rounded-md text-lg bg-gray-200"
+        >
+          {teams.map((team) => (
+            <option value={team == "ECM+PIE" ? "ECMPIE" : team}>{team}</option>
+          ))}
+        </select>
+      </div>
       <div className="overflow-x-auto">
         <table className="min-w-full table-auto border-collapse border border-gray-500">
           <thead
@@ -94,14 +62,12 @@ const PointTable = () => {
           </thead>
           <tbody className="text-white">
             {tableData.map((row, index) => (
-              <tr
-                className={`${index % 2 === 0 ? "bg-[#444]" : "bg-[#555]"}`}
-              >
+              <tr className={`${index % 2 === 0 ? "bg-[#444]" : "bg-[#555]"}`}>
                 <td className="border border-gray-200 px-4 py-2 text-center">
                   {row.sport}
                 </td>
                 <td className="border border-gray-200 px-4 py-2 text-center">
-                  {row[selectedTeam]} {/* display score for selected team */}
+                  {row[selectedTeam]}
                 </td>
               </tr>
             ))}

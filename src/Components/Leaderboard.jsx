@@ -1,16 +1,6 @@
 import React from "react";
-import { Link } from "react-router-dom";
-const Leaderboard = () => {
-  const leaderboardData = [
-    { id: 1, branch: "CE", points: 106.5 },
-    { id: 2, branch: "CSE", points: 103 },
-    { id: 3, branch: "MME", points: 93 },
-    { id: 4, branch: "ECE", points: 85.5 },
-    { id: 5, branch: "ME", points: 84 },
-    { id: 6, branch: "ECM+PIE", points: 71 },
-    { id: 7, branch: "PG", points: 66 },
-    { id: 8, branch: "EE", points: 52 },
-  ];
+
+const Leaderboard = ({leaderboardData}) => {
 
   return (
     <>
