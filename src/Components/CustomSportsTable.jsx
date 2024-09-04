@@ -72,7 +72,7 @@ const tableData = [
 ];
 
   return (
-    <div className="mt-36 mb-4 container mx-auto px-4 ">
+    <div className="mt-8 mb-4 container mx-auto px-4 ">
       <motion.h1
         className="text-center text-6xl font-extrabold text-white my-4 flex justify-center gap-x-8"
         initial={{ opacity: 0 }}
