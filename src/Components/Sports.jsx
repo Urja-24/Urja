@@ -39,18 +39,18 @@ const Sports = () => {
             <SportsHeader heading="Sports" />
           </h2>
         </div>
-        <div className="container grid grid-cols-1 md:grid-cols-3 gap-10 mx-auto">
+        <div className="container grid grid-cols-1 md:grid-cols-5 gap-5 mx-auto">
           {sportsData.map((sport, index) => (
             <div key={index} className="flex items-center justify-center">
               <Link to={`sports/${index}`}>
                 <GlareCard className="flex flex-col items-end justify-end py-8 px-6">
                   <div>
                     <img
-                      className=" inset-0 object-cover pt-5 "
+                      className="inset-0 object-cover pt-5"
                       src={sport.imgSrc}
                       alt={sport.name}
                     />
-                    <div className="font-bold text-center  text-4xl text-neutral-200 mt-4 bg-transparent">
+                    <div className="font-bold text-center text-4xl text-neutral-200 mt-4 bg-transparent">
                       {sport.name}
                     </div>
                   </div>
