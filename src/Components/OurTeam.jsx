@@ -23,19 +23,24 @@ import subhakumarSingh from '../assets/CoreTeam/SubhamKumarsingh.webp'
 import VinayBihari from '../assets/CoreTeam/VinayBihari.webp'
 import TarunAanand from '../assets/CoreTeam/TarunAnand.webp'
 import MdMehtab from '../assets/CoreTeam/MdMehtab.webp'
+import JyotiKumari from '../assets/CoreTeam/JyotiKumari.webp'
+import PrathamKumar from '../assets/CoreTeam/PrathamKumar.webp'
+import Rohit from '../assets/CoreTeam/Rohit.webp'
+import Krishna from '../assets/CoreTeam/Krishna.webp'
+import Amit from '../assets/CoreTeam/Amit.webp'
 function OurTeam() {
  const userImage='https://media.istockphoto.com/id/1337144146/vector/default-avatar-profile-icon-vector.jpg?s=612x612&w=0&k=20&c=BIbFwuv7FxTWvh5S3vB6bkT0Qv8Vn8N5Ffseq84ClGI='
   const members = [
     {
       "name": "Rohit Sharma",
       "title": "Sports Secretary",
-      "imgSrc": ''|| userImage,
+      "imgSrc": Rohit || userImage,
       "phone": 1234567890
     },
     {
       "name": "Jyoti Kumari",
       "title": "Joint Sports Secretary",
-      "imgSrc": "" || userImage,
+      "imgSrc": JyotiKumari || userImage,
       "phone": 123
     },
     {
@@ -71,7 +76,7 @@ function OurTeam() {
     {
       "name": "Krishna Kumar Gupta",
       "title": "Event Head",
-      "imgSrc": "" || userImage,
+      "imgSrc": Krishna || userImage,
       "phone": 123
     },
     {
@@ -119,7 +124,7 @@ function OurTeam() {
     {
       "name": "Amit Patel",
       "title": "Logistics Head",
-      "imgSrc": ""|| userImage,
+      "imgSrc": Amit || userImage,
       "phone": 123
     },
     {
@@ -149,7 +154,7 @@ function OurTeam() {
     {
       "name": "Pratham Kumar",
       "title": "Public Relation Head",
-      "imgSrc": "" || userImage,
+      "imgSrc": PrathamKumar || userImage,
       "phone": 123
     },
     {
