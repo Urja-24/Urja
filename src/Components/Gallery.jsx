@@ -23,8 +23,13 @@ import img20 from "../assets/GalaryPic/image24.jpg"
 import img21 from "../assets/GalaryPic/image25.jpg"
 import img22 from "../assets/GalaryPic/image26.jpeg"
 import img23 from "../assets/GalaryPic/image_0045.JPG"
+import img24 from "../assets/GalaryPic/image_0155.JPG"
+import img25 from "../assets/GalaryPic/image_0259.JPG"
+import img26 from "../assets/GalaryPic/image_0295.JPG"
+import img27 from "../assets/GalaryPic/image_0343.JPG"
 
-const images = [img3,img1,img2,img4,img5,img7,img8,img9,img10,img11,img12,img13,img14,img16,img17,img18,img20,img21,img22,img23]
+
+const images = [img3,img1,img2,img4,img5,img7,img8,img9,img10,img11,img12,img13,img14,img16,img17,img18,img20,img21,img22,img23,img24,img25,img26,img27]
 
 function Gallery() {
   useEffect(() => {
