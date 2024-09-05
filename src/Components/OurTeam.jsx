@@ -45,15 +45,15 @@ function OurTeam() {
       "phone": 123
     },
     {
-      "name": "Avinash Ranjan",
-      "title": "General Secretary",
-      "imgSrc": AvinashRanjan || userImage,
-      "phone": 123
-    },
-    {
       "name": "Shubham Kumar Choudhary",
       "title": "General Secretary",
       "imgSrc": Subhamkumarchaudhary || userImage,
+      "phone": 123
+    },
+    {
+      "name": "Avinash Ranjan",
+      "title": "General Secretary",
+      "imgSrc": AvinashRanjan || userImage,
       "phone": 123
     },
     {
@@ -78,6 +78,18 @@ function OurTeam() {
       "name": "Priya Sharma",
       "title": "Event Head",
       "imgSrc": PriyaSharma || userImage,
+      "phone": 123
+    },
+    {
+      "name": "Upkar Kumar Mahto",
+      "title": "Web and App Head",
+      "imgSrc": UpkarKumarMahato || userImage,
+      "phone": 123
+    },
+    {
+      "name": "Shubham Kumar Singh",
+      "title": "Web and App Head",
+      "imgSrc": subhakumarSingh || userImage,
       "phone": 123
     },
     {
@@ -126,18 +138,6 @@ function OurTeam() {
       "name": "Sunny Kumar",
       "title": "Logistics Head",
       "imgSrc": SunnyKumar || userImage,
-      "phone": 123
-    },
-    {
-      "name": "Upkar Kumar Mahto",
-      "title": "Web and App Head",
-      "imgSrc": UpkarKumarMahato || userImage,
-      "phone": 123
-    },
-    {
-      "name": "Shubham Kumar Singh",
-      "title": "Web and App Head",
-      "imgSrc": subhakumarSingh || userImage,
       "phone": 123
     },
     {
