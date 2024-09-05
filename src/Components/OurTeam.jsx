@@ -18,8 +18,8 @@ import UpkarKumarMahato from '../assets/CoreTeam/UpkarKumarMahto.webp'
 import AvinashRanjan from '../assets/CoreTeam/AvinashRanjan.webp'
 import BhukyaNitinKumar from '../assets/CoreTeam/BhukyaNithinKumar.webp'
 import DurgeshPrakash from '../assets/CoreTeam/DurgeshPrakash.webp'
-import Subhamkumarchaudhary from '../assets/CoreTeam/Subhamkumarchaudhary.webp'
-import subhakumarSingh from '../assets/CoreTeam/SubhamKumarsingh.webp'
+import Subhamkumarchaudhary from '../assets/CoreTeam/SubhamKumarchaudhary.webp'
+import SubhakumarSingh from '../assets/CoreTeam/SubhamKumarSingh.webp'
 import VinayBihari from '../assets/CoreTeam/VinayBihari.webp'
 import TarunAanand from '../assets/CoreTeam/TarunAnand.webp'
 import MdMehtab from '../assets/CoreTeam/MdMehtab.webp'
@@ -50,15 +50,15 @@ function OurTeam() {
       "phone": 123
     },
     {
-      "name": "Avinash Ranjan",
-      "title": "General Secretary",
-      "imgSrc": AvinashRanjan || userImage,
-      "phone": 123
-    },
-    {
       "name": "Shubham Kumar Choudhary",
       "title": "General Secretary",
       "imgSrc": Subhamkumarchaudhary || userImage,
+      "phone": 123
+    },
+    {
+      "name": "Avinash Ranjan",
+      "title": "General Secretary",
+      "imgSrc": AvinashRanjan || userImage,
       "phone": 123
     },
     {
@@ -83,6 +83,18 @@ function OurTeam() {
       "name": "Priya Sharma",
       "title": "Event Head",
       "imgSrc": PriyaSharma || userImage,
+      "phone": 123
+    },
+    {
+      "name": "Upkar Kumar Mahto",
+      "title": "Web and App Head",
+      "imgSrc": UpkarKumarMahato || userImage,
+      "phone": 123
+    },
+    {
+      "name": "Shubham Kumar Singh",
+      "title": "Web and App Head",
+      "imgSrc": SubhakumarSingh || userImage,
       "phone": 123
     },
     {
@@ -131,18 +143,6 @@ function OurTeam() {
       "name": "Sunny Kumar",
       "title": "Logistics Head",
       "imgSrc": SunnyKumar || userImage,
-      "phone": 123
-    },
-    {
-      "name": "Upkar Kumar Mahto",
-      "title": "Web and App Head",
-      "imgSrc": UpkarKumarMahato || userImage,
-      "phone": 123
-    },
-    {
-      "name": "Shubham Kumar Singh",
-      "title": "Web and App Head",
-      "imgSrc": subhakumarSingh || userImage,
       "phone": 123
     },
     {

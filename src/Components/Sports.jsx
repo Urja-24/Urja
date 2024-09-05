@@ -12,7 +12,7 @@ import yogaImg from "../assets/images/Yoga.png";
 import chessImg from "../assets/images/chess.png";
 import athleticsImg from "../assets/images/running.png";
 import hockeyImg from "../assets/images/hockey.png";
-import badImg from "../assets/images/bad.png"; 
+import badImg from "../assets/images/bad.png";
 import volleyImg from "../assets/images/volley.png";
 import ttImg from "../assets/images/tt1.png";
 
@@ -29,7 +29,6 @@ const sportsData = [
   { name: "Volleyball", imgSrc: volleyImg },
   { name: "Table Tennis", imgSrc: ttImg },
 ];
-
 
 const Sports = () => {
   return (
