@@ -26,7 +26,7 @@ const PointTable = () => {
 
   return (
     <div className="mt-40 mb-4 container mx-auto px-4">
-      <h1 className="flex gap-x-6 justify-center">
+      <h1 className="flex gap-x-6 justify-center ">
         <SportsHeader heading={"POINT"} />
         <SportsHeader heading={"TABLE"} />
       </h1>

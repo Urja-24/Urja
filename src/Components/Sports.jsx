@@ -17,17 +17,17 @@ import volleyImg from "../assets/images/volley.png";
 import ttImg from "../assets/images/tt1.png";
 
 const sportsData = [
-  { name: "Basketball", imgSrc: baskImg },
-  { name: "Football", imgSrc: footImg },
-  { name: "Cricket", imgSrc: cricImg },
-  { name: "Tennis", imgSrc: tennisImg },
-  { name: "Yoga", imgSrc: yogaImg },
-  { name: "Chess", imgSrc: chessImg },
-  { name: "Athletics", imgSrc: athleticsImg },
-  { name: "Hockey", imgSrc: hockeyImg },
-  { name: "Badminton", imgSrc: badImg },
   { name: "Volleyball", imgSrc: volleyImg },
   { name: "Table Tennis", imgSrc: ttImg },
+  { name: "Hockey", imgSrc: hockeyImg },
+  { name: "Badminton", imgSrc: badImg },
+  { name: "Cricket", imgSrc: cricImg },
+  { name: "Lawn Tennis", imgSrc: tennisImg },
+  { name: "Basketball", imgSrc: baskImg },
+  { name: "Chess", imgSrc: chessImg },
+  { name: "Football", imgSrc: footImg },
+  { name: "Yoga", imgSrc: yogaImg },
+  { name: "Athletics", imgSrc: athleticsImg },
 ];
 
 const Sports = () => {
