@@ -3,9 +3,9 @@ import React from "react";
 const Leaderboard = ({ leaderboardData }) => {
   return (
     <>
-      <div className="mt-8 mb-4 text-align: center">
-        <div className="overflow-x-auto">
-          <table className="min-w-[75%] table-auto border-collapse border border-gray-200">
+      <div className="mb-4">
+        <div className="overflow-x-auto px-6 md:px-32">
+          <table className="w-full table-auto border-collapse border border-gray-200">
             <thead
               style={{
                 backgroundImage:
