@@ -92,9 +92,8 @@ function CustomSport() {
                     {results.winners.map((row, index) => (
                       <tr
                         key={index}
-                        className={`${
-                          index % 2 === 0 ? "bg-[#444]" : "bg-[#555]"
-                        }`}
+                        className={`${index % 2 === 0 ? "bg-[#444]" : "bg-[#555]"
+                          }`}
                       >
                         <td className="border border-gray-200 px-4 py-2 text-center">
                           {row.position}
@@ -121,13 +120,39 @@ function CustomSport() {
           <SportsPointTable Title="Point Table" />
         </div>
 
-        <div className="flex justify-center">
+        <div className="flex justify-center gap-5">
           <div className="bg-[#F5DEB3] rounded shadow-md py-3 px-12 text-black hover:scale-110 transition-transform ease-linear duration-300">
             <button
               className="flex gap-x-2 underline underline-offset-4"
-              onClick={() => {}}
+              onClick={() => {
+                window.open(data[key].pdfurl, '_blank');
+              }}
             >
               <h3 className="text-lg text-center font-bold">Rulebook</h3>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3"
+                />
+              </svg>
+            </button>
+          </div>
+          <div className="bg-[#F5DEB3] rounded shadow-md py-3 px-12 text-black hover:scale-110 transition-transform ease-linear duration-300">
+            <button
+              className="flex gap-x-2 underline underline-offset-4"
+              onClick={() => {
+                window.open(data[key].fixture, '_blank');
+              }}
+            >
+              <h3 className="text-lg text-center font-bold">Fixture</h3>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"

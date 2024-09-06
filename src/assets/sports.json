@@ -68,7 +68,8 @@
     "matchSchedule": {
       "boys": "efg.jpg",
       "girls": "efg.jpg"
-    }
+    },
+     "pdfurl" : "https:drive.google.com/file/d/1atp0IG112TlmIllMR_X_GFCmzir0Ywfg/view?usp=drive_link"
   },
   {
     "id": "10",
@@ -138,7 +139,9 @@
     "matchSchedule": {
       "boys": "hij.jpg",
       "girls": "hij.jpg"
-    }
+    },
+    "pdfurl":"",
+    "fixture":"https://drive.google.com/file/d/1DRmQyou1RPBQTML8HECB5ReoznEAq1eb/view?usp=drive_link"
   },
   {
     "id": "7",
