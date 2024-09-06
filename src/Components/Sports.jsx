@@ -17,17 +17,17 @@ import volleyImg from "../assets/images/volley.png";
 import ttImg from "../assets/images/tt1.png";
 
 const sportsData = [
-  { name: "Volleyball", imgSrc: volleyImg },
-  { name: "Table Tennis", imgSrc: ttImg },
-  { name: "Hockey", imgSrc: hockeyImg },
-  { name: "Badminton", imgSrc: badImg },
-  { name: "Cricket", imgSrc: cricImg },
-  { name: "Lawn Tennis", imgSrc: tennisImg },
-  { name: "Basketball", imgSrc: baskImg },
-  { name: "Chess", imgSrc: chessImg },
-  { name: "Football", imgSrc: footImg },
-  { name: "Yoga", imgSrc: yogaImg },
-  { name: "Athletics", imgSrc: athleticsImg },
+  { name: "Volleyball", imgSrc: volleyImg, id: 0 },
+  { name: "Table Tennis", imgSrc: ttImg, id: 1 },
+  { name: "Hockey", imgSrc: hockeyImg, id: 2 },
+  { name: "Badminton", imgSrc: badImg, id: 3 },
+  { name: "Cricket", imgSrc: cricImg, id: 4 },
+  { name: "Lawn Tennis", imgSrc: tennisImg, id: 5 },
+  { name: "Basketball", imgSrc: baskImg, id: 6 },
+  { name: "Chess", imgSrc: chessImg, id: 7 },
+  { name: "Football", imgSrc: footImg, id: 8 },
+  { name: "Yoga", imgSrc: yogaImg, id: 9 },
+  { name: "Athletics", imgSrc: athleticsImg, id: 10 },
 ];
 
 const Sports = () => {
@@ -42,7 +42,7 @@ const Sports = () => {
         <div className="mx-14 grid grid-cols-1 md:grid-cols-4 gap-5 md:mx-32">
           {sportsData.map((sport, index) => (
             <div key={index} className="flex items-center justify-center">
-              <Link to={`sports/${index}`}>
+              <Link to={`sports/${sport.id}`}>
                 <GlareCard className="flex flex-col items-end justify-end py-8 px-6">
                   <div>
                     <img

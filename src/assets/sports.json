@@ -1,27 +1,27 @@
 [
   {
-    "id": "0",
-    "title": "Basketball",
-    "quote": "Talent wins games, but teamwork and intelligence win championships. – Michael Jordan",
-    "description": "Basketball is an exciting team sport where two teams of five players each try to score by throwing a ball through the opposing team's hoop. The game is played on a rectangular court with a hoop at each end. It requires speed, strategy, and teamwork, and it's a game full of fast-paced action and skill.",
+    "id": "9",
+    "title": "Volleyball",
+    "quote": "The only way to prove that you’re a good sport is to lose. – Ernie Banks",
+    "description": "Volleyball is a team sport played with a ball that is hit over a net between two teams of six players each. The objective is to score points by grounding the ball on the opponent's side of the court. The game requires teamwork, quick reflexes, and strategic play. Matches are typically played in a best-of-five sets format.",
     "coordinator": [
       {
-        "name": "Anubhav",
+        "name": "Vivek Mahato",
         "position": "Captain",
         "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
       },
       {
-        "name": "Rahul Kumar",
+        "name": "Sayantan Bairagi",
         "position": "Vice Captain",
         "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
       },
       {
-        "name": "Umang Bhageria",
+        "name": "Dani Sumpi",
         "position": "Captain",
         "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
       },
       {
-        "name": "Ritu Kumari",
+        "name": "Sejal Kumari",
         "position": "Vice Captain",
         "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
       }
@@ -30,70 +30,69 @@
       {
         "title": "Boys",
         "winners": [
-          { "position": "🥇", "team": "EE", "score": 10 },
-          { "position": "🥈", "team": "PIE+ECM", "score": 7 },
-          { "position": "🥉", "team": "CSE", "score": 5 }
+          { "position": "🥇", "team": "MME" },
+          { "position": "🥈", "team": "CE" },
+          { "position": "🥉", "team": "PG" }
         ]
       },
       {
         "title": "Girls",
         "winners": [
-          { "position": "🥇", "team": "ME+PIE+ECM", "score": 5 },
-          { "position": "🥈", "team": "MME+ECE", "score": 3.5 }
+          { "position": "🥇", "team": "PIE+ECM+ME" },
+          { "position": "🥈", "team": "EE+CSE" }
         ]
       }
     ],
     "rules": {
       "League Format": [
-        "1. Urja '24 basketball tournament will follow a knockout format.",
-        "2. The tournament will consist of quarterfinals, semifinals, and a final.",
-        "3. Each match will be played between two teams, with the winner advancing to the next round."
+        "1. Urja '24 volleyball will be played in a round-robin format.",
+        "2. Teams will play against each other once in the preliminary rounds.",
+        "3. The top teams will advance to the knockout stage."
       ],
       "Point System": [
-        "1. 2 Points will be awarded to the winning team.",
-        "2. 0 Points will be awarded to the losing team.",
-        "3. In case of a tie in points after the group stage, the team with the highest point differential will advance."
+        "1. 3 Points for a win.",
+        "2. 1 Point for a loss.",
+        "3. Matches are best of 5 sets."
       ],
       "Match Format": [
-        "1. Each match will consist of 4 quarters of 10 minutes each.",
-        "2. In case of a tie at the end of regulation time, an additional 5-minute overtime period will be played.",
-        "3. The game will be played according to standard basketball rules, including fouls, free throws, and 3-point shots.",
-        "4. Substitutions can be made at any stoppage of play."
+        "1. Each match consists of 5 sets.",
+        "2. The first team to reach 25 points wins a set, with a 2-point advantage required.",
+        "3. If the match reaches a 2-2 tie, the final set will be played to 15 points."
       ],
-      "discipline & Regulations": [
-        "1. Players must respect the referees and accept their decisions without protest.",
-        "2. Unsportsmanlike conduct, such as arguing with referees or opponents, will result in a technical foul.",
-        "3. Teams must be present on the court at least 10 minutes before the scheduled start time."
+      "Discipline And Regulations": [
+        "1. Teams must adhere to the dress code and wear appropriate volleyball attire.",
+        "2. Any form of misconduct or unsportsmanlike behavior will result in penalties or disqualification.",
+        "3. Teams must be ready to play at the scheduled times and follow the official's decisions."
       ]
     },
     "matchSchedule": {
-      "boys": "def.jpg",
-      "girls": "def.jpg"
+      "boys": "efg.jpg",
+      "girls": "efg.jpg"
     }
   },
   {
-    "id": "1",
-    "title": "Football",
-    "quote": "Some people think football is a matter of life and death. I assure you, it's much more serious than that. – Bill Shankly",
-    "description": "Football, also known as soccer in some countries, is the world's most popular sport. It is played between two teams of 11 players with a spherical ball. The aim is to score by getting the ball into the opposing goal. Football is played on a rectangular field with a goal at each end. It is a game that requires skill, strategy, and teamwork.",
+    "id": "10",
+    "title": "Table Tennis",
+    "quote": "Table tennis is a game of reflexes, anticipation, and skill. – Unknown",
+    "description": "Table tennis, also known as ping-pong, is a fast-paced game played on a table with a small ball and paddles. Players compete to score points by hitting the ball over the net and into the opponent's side of the table. The game requires quick reflexes, precision, and strategy.",
     "coordinator": [
       {
-        "name": " Rohit Sharma",
+        "name": "Durgesh prakash",
         "position": "Captain",
         "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
       },
       {
-        "name": "Amit Kisku",
+        "name": "Karan Raj",
         "position": "Vice Captain",
         "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
       },
       {
-        "name": "A Srichandana",
+        "name": "Ishika Sarkar",
         "position": "Captain",
         "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
       },
       {
-        "name": "Urmila Hembrom",
+        "name": "Kriti Pandey",
         "position": "Vice Captain",
         "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
       }
@@ -102,17 +101,76 @@
       {
         "title": "Boys",
         "winners": [
-          { "position": "🥇", "team": "MME", "score": 10 },
-          { "position": "🥈", "team": "ECE", "score": 7 },
-          { "position": "🥉", "team": "PIE+ECM", "score": 5 }
+          { "position": "🥇", "team": "PIE+ECM" },
+          { "position": "🥈", "team": "PG" }
+        ]
+      },
+      {
+        "title": "Girls",
+        "winners": [
+          { "position": "🥇", "team": "PIE+ECM+ME" },
+          { "position": "🥈", "team": "MME+ECE" }
         ]
       }
     ],
     "rules": {
       "League Format": [
-        "1. Urja '24 football will follow a league format with teams divided into groups.",
-        "2. The top teams from each group will advance to the knockout stage.",
-        "3. Matches will be played in two halves of 30 minutes each."
+        "1. Urja '24 table tennis will be played in a round-robin format.",
+        "2. Each player will compete against every other player once.",
+        "3. The top players based on the number of wins will advance to the knockout stage."
+      ],
+      "Point System": [
+        "1. 1 Point for each match won.",
+        "2. Matches are played best of 5 sets.",
+        "3. Each set is played to 11 points, with a 2-point lead required to win."
+      ],
+      "Match Format": [
+        "1. Each match is played as the best of 5 sets.",
+        "2. The first player to reach 11 points wins a set.",
+        "3. In the event of a 10-10 tie, play continues until one player achieves a 2-point lead."
+      ],
+      "Discipline And Regulations": [
+        "1. Players must adhere to the dress code specified by the tournament organizers.",
+        "2. Disrespect towards opponents or officials will result in penalties or disqualification.",
+        "3. Players should be punctual and ready to play at their scheduled times."
+      ]
+    },
+    "matchSchedule": {
+      "boys": "hij.jpg",
+      "girls": "hij.jpg"
+    }
+  },
+  {
+    "id": "7",
+    "title": "Hockey",
+    "quote": "The greatest hockey player ever is the one who plays for the team. – Wayne Gretzky",
+    "description": "Hockey is a team sport played on ice or a field, where two teams of six (ice) or eleven (field) players compete to score goals by hitting a puck or ball into the opposing team's goal. The game requires skill, agility, and teamwork, and it's known for its fast pace and physicality.",
+    "coordinator": [
+      {
+        "name": "Mohit Lal Kapardar",
+        "position": "Captain",
+        "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+      },
+      {
+        "name": "Amarjeet Kumar",
+        "position": "Vice Captain",
+        "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+      }
+    ],
+    "PreviousYearResults": [
+      {
+        "title": "Boys",
+        "winners": [
+          { "position": "🥇", "team": "ME+PIE+ECM" },
+          { "position": "🥈", "team": "MME+ECE" }
+        ]
+      }
+    ],
+    "rules": {
+      "League Format": [
+        "1. Urja '24 hockey tournament will follow a round-robin format.",
+        "2. Teams will play against each other once, with the top teams advancing to the knockout stage.",
+        "3. Matches will consist of two halves of 35 minutes each."
       ],
       "Point System": [
         "1. 3 Points for a win.",
@@ -120,20 +178,89 @@
         "3. 0 Points for a loss."
       ],
       "Match Format": [
-        "1. Each match will consist of two 30-minute halves with a 10-minute halftime break.",
-        "2. In the event of a tie during knockout rounds, the match will be decided by a penalty shootout.",
-        "3. Standard football rules will apply, including offsides, fouls, and yellow/red cards.",
-        "4. Substitutions: Each team can make up to 3 substitutions during the match."
+        "1. Each match will have two halves of 35 minutes.",
+        "2. In case of a tie, the match will be decided by a penalty shootout.",
+        "3. The game will be played according to standard hockey rules, including fouls and penalties."
       ],
       "Discipline And Regulations": [
-        "1. All players must respect the referee's decisions and conduct themselves with sportsmanship.",
-        "2. Violent conduct or abusive language will result in a red card and immediate ejection from the match.",
-        "3. Teams must be ready to start the match at the scheduled time."
+        "1. Players must respect the referees and adhere to the rules of the game.",
+        "2. Unsportsmanlike behavior or violent conduct will result in penalties or ejection from the game.",
+        "3. Teams must be present and ready to start the match at the scheduled time."
       ]
     },
     "matchSchedule": {
-      "boys": "ghi.jpg",
-      "girls": "ghi.jpg"
+      "boys": "yza.jpg",
+      "girls": "yza.jpg"
+    }
+  },
+  {
+    "id": "8",
+    "title": "Badminton",
+    "quote": "The more I practice, the luckier I get. – Gary Player",
+    "description": "Badminton is a racquet sport played with a shuttlecock that is hit back and forth over a net. It can be played in singles or doubles format. The objective is to score points by landing the shuttlecock in the opponent's court. The game is known for its fast pace and requires agility, quick reflexes, and precise shot-making.",
+    "coordinator": [
+      {
+        "name": " Abhishek Kumar",
+        "position": "Captain",
+        "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+      },
+      {
+        "name": "Sushwanth",
+        "position": "Vice Captain",
+        "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+      },
+      {
+        "name": " Priya Sharma",
+        "position": "Captain",
+        "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+      },
+      {
+        "name": " Prasanna Mavuri",
+        "position": "Vice Captain",
+        "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+      }
+    ],
+    "PreviousYearResults": [
+      {
+        "title": "Boys",
+        "winners": [
+          { "position": "🥇", "team": "CE" },
+          { "position": "🥈", "team": "ECE" }
+        ]
+      },
+      {
+        "title": "Girls",
+        "winners": [
+          { "position": "🥇", "team": "CE+PG" },
+          { "position": "🥈", "team": "PIE+ECM+ME" }
+        ]
+      }
+    ],
+    "rules": {
+      "League Format": [
+        "1. Urja '24 badminton will be held in a round-robin format.",
+        "2. Each player or team will compete against every other participant or team once.",
+        "3. The top players or teams based on wins will advance to the knockout stage."
+      ],
+      "Point System": [
+        "1. 1 Point for each set won.",
+        "2. Matches are best of 3 sets.",
+        "3. The player or team that wins 2 sets first wins the match."
+      ],
+      "Match Format": [
+        "1. Each match consists of 3 sets.",
+        "2. Each set is played to 21 points, with a 2-point advantage required to win.",
+        "3. In the event of a 20-20 tie, play continues until one player or team has a 2-point lead."
+      ],
+      "Discipline And Regulations": [
+        "1. Players must follow the dress code specified by the tournament organizers.",
+        "2. Unsportsmanlike conduct or verbal abuse will result in penalties or disqualification.",
+        "3. Players must be punctual and ready for their matches at the scheduled times."
+      ]
+    },
+    "matchSchedule": {
+      "boys": "bcd.jpg",
+      "girls": "bcd.jpg"
     }
   },
   {
@@ -286,67 +413,75 @@
     }
   },
   {
-    "id": "4",
-    "title": "Yoga",
-    "quote": "Yoga is not about touching your toes. It is what you learn on the way down. – Jigar Gor",
-    "description": "Yoga is a practice that combines physical postures, breathing exercises, and meditation. It promotes physical flexibility, strength, and mental calmness. Yoga sessions involve a series of poses performed in a sequence, and it can be practiced individually or in groups. It’s an excellent way to improve overall well-being.",
+    "id": "0",
+    "title": "Basketball",
+    "quote": "Talent wins games, but teamwork and intelligence win championships. – Michael Jordan",
+    "description": "Basketball is an exciting team sport where two teams of five players each try to score by throwing a ball through the opposing team's hoop. The game is played on a rectangular court with a hoop at each end. It requires speed, strategy, and teamwork, and it's a game full of fast-paced action and skill.",
     "coordinator": [
       {
-        "name": "Hemendra Mehra",
+        "name": "Anubhav",
         "position": "Captain",
         "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
       },
       {
-        "name": "Sohan Kumar Pandit",
+        "name": "Rahul Kumar",
         "position": "Vice Captain",
         "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
       },
       {
-        "name": "Priyanshi",
+        "name": "Umang Bhageria",
         "position": "Captain",
         "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
       },
       {
-        "name": "Karishma Kumari",
+        "name": "Ritu Kumari",
         "position": "Vice Captain",
         "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
       }
     ],
     "PreviousYearResults": [
       {
-        "title": "All",
+        "title": "Boys",
         "winners": [
-          { "position": "🥇", "team": "PG" },
-          { "position": "🥈", "team": "ME" },
-          { "position": "🥉", "team": "CE" }
+          { "position": "🥇", "team": "EE", "score": 10 },
+          { "position": "🥈", "team": "PIE+ECM", "score": 7 },
+          { "position": "🥉", "team": "CSE", "score": 5 }
+        ]
+      },
+      {
+        "title": "Girls",
+        "winners": [
+          { "position": "🥇", "team": "ME+PIE+ECM", "score": 5 },
+          { "position": "🥈", "team": "MME+ECE", "score": 3.5 }
         ]
       }
     ],
     "rules": {
       "League Format": [
-        "1. Urja '24 yoga will be a demonstration-based event.",
-        "2. Participants will be judged on their performance and technique.",
-        "3. Each participant will have 5 minutes to perform a sequence of poses."
+        "1. Urja '24 basketball tournament will follow a knockout format.",
+        "2. The tournament will consist of quarterfinals, semifinals, and a final.",
+        "3. Each match will be played between two teams, with the winner advancing to the next round."
       ],
       "Point System": [
-        "1. Points will be awarded based on the clarity and execution of poses.",
-        "2. A panel of judges will score each performance out of 10.",
-        "3. The participant with the highest total score will be declared the winner."
+        "1. 2 Points will be awarded to the winning team.",
+        "2. 0 Points will be awarded to the losing team.",
+        "3. In case of a tie in points after the group stage, the team with the highest point differential will advance."
       ],
       "Match Format": [
-        "1. Each participant will perform a sequence of poses in a pre-defined order.",
-        "2. The performance will be evaluated based on grace, alignment, and adherence to the poses.",
-        "3. Participants are expected to demonstrate smooth transitions between poses."
+        "1. Each match will consist of 4 quarters of 10 minutes each.",
+        "2. In case of a tie at the end of regulation time, an additional 5-minute overtime period will be played.",
+        "3. The game will be played according to standard basketball rules, including fouls, free throws, and 3-point shots.",
+        "4. Substitutions can be made at any stoppage of play."
       ],
-      "Discipline And Regulations": [
-        "1. Participants must arrive on time and be dressed in appropriate yoga attire.",
-        "2. Use of props is allowed but must be declared beforehand.",
-        "3. Disrespectful behavior towards others or the judges will result in disqualification."
+      "discipline & Regulations": [
+        "1. Players must respect the referees and accept their decisions without protest.",
+        "2. Unsportsmanlike conduct, such as arguing with referees or opponents, will result in a technical foul.",
+        "3. Teams must be present on the court at least 10 minutes before the scheduled start time."
       ]
     },
     "matchSchedule": {
-      "boys": "pqr.jpg",
-      "girls": "pqr.jpg"
+      "boys": "def.jpg",
+      "girls": "def.jpg"
     }
   },
   {
@@ -420,6 +555,136 @@
       "girls": "stu.jpg"
     }
   },
+  {
+    "id": "1",
+    "title": "Football",
+    "quote": "Some people think football is a matter of life and death. I assure you, it's much more serious than that. – Bill Shankly",
+    "description": "Football, also known as soccer in some countries, is the world's most popular sport. It is played between two teams of 11 players with a spherical ball. The aim is to score by getting the ball into the opposing goal. Football is played on a rectangular field with a goal at each end. It is a game that requires skill, strategy, and teamwork.",
+    "coordinator": [
+      {
+        "name": " Rohit Sharma",
+        "position": "Captain",
+        "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+      },
+      {
+        "name": "Amit Kisku",
+        "position": "Vice Captain",
+        "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+      },
+      {
+        "name": "A Srichandana",
+        "position": "Captain",
+        "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+      },
+      {
+        "name": "Urmila Hembrom",
+        "position": "Vice Captain",
+        "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+      }
+    ],
+    "PreviousYearResults": [
+      {
+        "title": "Boys",
+        "winners": [
+          { "position": "🥇", "team": "MME", "score": 10 },
+          { "position": "🥈", "team": "ECE", "score": 7 },
+          { "position": "🥉", "team": "PIE+ECM", "score": 5 }
+        ]
+      }
+    ],
+    "rules": {
+      "League Format": [
+        "1. Urja '24 football will follow a league format with teams divided into groups.",
+        "2. The top teams from each group will advance to the knockout stage.",
+        "3. Matches will be played in two halves of 30 minutes each."
+      ],
+      "Point System": [
+        "1. 3 Points for a win.",
+        "2. 1 Point for a draw.",
+        "3. 0 Points for a loss."
+      ],
+      "Match Format": [
+        "1. Each match will consist of two 30-minute halves with a 10-minute halftime break.",
+        "2. In the event of a tie during knockout rounds, the match will be decided by a penalty shootout.",
+        "3. Standard football rules will apply, including offsides, fouls, and yellow/red cards.",
+        "4. Substitutions: Each team can make up to 3 substitutions during the match."
+      ],
+      "Discipline And Regulations": [
+        "1. All players must respect the referee's decisions and conduct themselves with sportsmanship.",
+        "2. Violent conduct or abusive language will result in a red card and immediate ejection from the match.",
+        "3. Teams must be ready to start the match at the scheduled time."
+      ]
+    },
+    "matchSchedule": {
+      "boys": "ghi.jpg",
+      "girls": "ghi.jpg"
+    }
+  },
+  {
+    "id": "4",
+    "title": "Yoga",
+    "quote": "Yoga is not about touching your toes. It is what you learn on the way down. – Jigar Gor",
+    "description": "Yoga is a practice that combines physical postures, breathing exercises, and meditation. It promotes physical flexibility, strength, and mental calmness. Yoga sessions involve a series of poses performed in a sequence, and it can be practiced individually or in groups. It’s an excellent way to improve overall well-being.",
+    "coordinator": [
+      {
+        "name": "Hemendra Mehra",
+        "position": "Captain",
+        "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+      },
+      {
+        "name": "Sohan Kumar Pandit",
+        "position": "Vice Captain",
+        "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+      },
+      {
+        "name": "Priyanshi",
+        "position": "Captain",
+        "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+      },
+      {
+        "name": "Karishma Kumari",
+        "position": "Vice Captain",
+        "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+      }
+    ],
+    "PreviousYearResults": [
+      {
+        "title": "All",
+        "winners": [
+          { "position": "🥇", "team": "PG" },
+          { "position": "🥈", "team": "ME" },
+          { "position": "🥉", "team": "CE" }
+        ]
+      }
+    ],
+    "rules": {
+      "League Format": [
+        "1. Urja '24 yoga will be a demonstration-based event.",
+        "2. Participants will be judged on their performance and technique.",
+        "3. Each participant will have 5 minutes to perform a sequence of poses."
+      ],
+      "Point System": [
+        "1. Points will be awarded based on the clarity and execution of poses.",
+        "2. A panel of judges will score each performance out of 10.",
+        "3. The participant with the highest total score will be declared the winner."
+      ],
+      "Match Format": [
+        "1. Each participant will perform a sequence of poses in a pre-defined order.",
+        "2. The performance will be evaluated based on grace, alignment, and adherence to the poses.",
+        "3. Participants are expected to demonstrate smooth transitions between poses."
+      ],
+      "Discipline And Regulations": [
+        "1. Participants must arrive on time and be dressed in appropriate yoga attire.",
+        "2. Use of props is allowed but must be declared beforehand.",
+        "3. Disrespectful behavior towards others or the judges will result in disqualification."
+      ]
+    },
+    "matchSchedule": {
+      "boys": "pqr.jpg",
+      "girls": "pqr.jpg"
+    }
+  },
+  
   {
     "id": "6",
     "title": "Athletics",
@@ -626,269 +891,9 @@
       "boys": "vwx.jpg",
       "girls": "vwx.jpg"
     }
-  },
-  {
-    "id": "7",
-    "title": "Hockey",
-    "quote": "The greatest hockey player ever is the one who plays for the team. – Wayne Gretzky",
-    "description": "Hockey is a team sport played on ice or a field, where two teams of six (ice) or eleven (field) players compete to score goals by hitting a puck or ball into the opposing team's goal. The game requires skill, agility, and teamwork, and it's known for its fast pace and physicality.",
-    "coordinator": [
-      {
-        "name": "Mohit Lal Kapardar",
-        "position": "Captain",
-        "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
-      },
-      {
-        "name": "Amarjeet Kumar",
-        "position": "Vice Captain",
-        "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
-      }
-    ],
-    "PreviousYearResults": [
-      {
-        "title": "Boys",
-        "winners": [
-          { "position": "🥇", "team": "ME+PIE+ECM" },
-          { "position": "🥈", "team": "MME+ECE" }
-        ]
-      }
-    ],
-    "rules": {
-      "League Format": [
-        "1. Urja '24 hockey tournament will follow a round-robin format.",
-        "2. Teams will play against each other once, with the top teams advancing to the knockout stage.",
-        "3. Matches will consist of two halves of 35 minutes each."
-      ],
-      "Point System": [
-        "1. 3 Points for a win.",
-        "2. 1 Point for a draw.",
-        "3. 0 Points for a loss."
-      ],
-      "Match Format": [
-        "1. Each match will have two halves of 35 minutes.",
-        "2. In case of a tie, the match will be decided by a penalty shootout.",
-        "3. The game will be played according to standard hockey rules, including fouls and penalties."
-      ],
-      "Discipline And Regulations": [
-        "1. Players must respect the referees and adhere to the rules of the game.",
-        "2. Unsportsmanlike behavior or violent conduct will result in penalties or ejection from the game.",
-        "3. Teams must be present and ready to start the match at the scheduled time."
-      ]
-    },
-    "matchSchedule": {
-      "boys": "yza.jpg",
-      "girls": "yza.jpg"
-    }
-  },
-  {
-    "id": "8",
-    "title": "Badminton",
-    "quote": "The more I practice, the luckier I get. – Gary Player",
-    "description": "Badminton is a racquet sport played with a shuttlecock that is hit back and forth over a net. It can be played in singles or doubles format. The objective is to score points by landing the shuttlecock in the opponent's court. The game is known for its fast pace and requires agility, quick reflexes, and precise shot-making.",
-    "coordinator": [
-      {
-        "name": " Abhishek Kumar",
-        "position": "Captain",
-        "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
-      },
-      {
-        "name": "Sushwanth",
-        "position": "Vice Captain",
-        "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
-      },
-      {
-        "name": " Priya Sharma",
-        "position": "Captain",
-        "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
-      },
-      {
-        "name": " Prasanna Mavuri",
-        "position": "Vice Captain",
-        "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
-      }
-    ],
-    "PreviousYearResults": [
-      {
-        "title": "Boys",
-        "winners": [
-          { "position": "🥇", "team": "CE" },
-          { "position": "🥈", "team": "ECE" }
-        ]
-      },
-      {
-        "title": "Girls",
-        "winners": [
-          { "position": "🥇", "team": "CE+PG" },
-          { "position": "🥈", "team": "PIE+ECM+ME" }
-        ]
-      }
-    ],
-    "rules": {
-      "League Format": [
-        "1. Urja '24 badminton will be held in a round-robin format.",
-        "2. Each player or team will compete against every other participant or team once.",
-        "3. The top players or teams based on wins will advance to the knockout stage."
-      ],
-      "Point System": [
-        "1. 1 Point for each set won.",
-        "2. Matches are best of 3 sets.",
-        "3. The player or team that wins 2 sets first wins the match."
-      ],
-      "Match Format": [
-        "1. Each match consists of 3 sets.",
-        "2. Each set is played to 21 points, with a 2-point advantage required to win.",
-        "3. In the event of a 20-20 tie, play continues until one player or team has a 2-point lead."
-      ],
-      "Discipline And Regulations": [
-        "1. Players must follow the dress code specified by the tournament organizers.",
-        "2. Unsportsmanlike conduct or verbal abuse will result in penalties or disqualification.",
-        "3. Players must be punctual and ready for their matches at the scheduled times."
-      ]
-    },
-    "matchSchedule": {
-      "boys": "bcd.jpg",
-      "girls": "bcd.jpg"
-    }
-  },
-  {
-    "id": "9",
-    "title": "Volleyball",
-    "quote": "The only way to prove that you’re a good sport is to lose. – Ernie Banks",
-    "description": "Volleyball is a team sport played with a ball that is hit over a net between two teams of six players each. The objective is to score points by grounding the ball on the opponent's side of the court. The game requires teamwork, quick reflexes, and strategic play. Matches are typically played in a best-of-five sets format.",
-    "coordinator": [
-      {
-        "name": "Vivek Mahato",
-        "position": "Captain",
-        "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
-      },
-      {
-        "name": "Sayantan Bairagi",
-        "position": "Vice Captain",
-        "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
-      },
-      {
-        "name": "Dani Sumpi",
-        "position": "Captain",
-        "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
-      },
-      {
-        "name": "Sejal Kumari",
-        "position": "Vice Captain",
-        "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
-      }
-    ],
-    "PreviousYearResults": [
-      {
-        "title": "Boys",
-        "winners": [
-          { "position": "🥇", "team": "MME" },
-          { "position": "🥈", "team": "CE" },
-          { "position": "🥉", "team": "PG" }
-        ]
-      },
-      {
-        "title": "Girls",
-        "winners": [
-          { "position": "🥇", "team": "PIE+ECM+ME" },
-          { "position": "🥈", "team": "EE+CSE" }
-        ]
-      }
-    ],
-    "rules": {
-      "League Format": [
-        "1. Urja '24 volleyball will be played in a round-robin format.",
-        "2. Teams will play against each other once in the preliminary rounds.",
-        "3. The top teams will advance to the knockout stage."
-      ],
-      "Point System": [
-        "1. 3 Points for a win.",
-        "2. 1 Point for a loss.",
-        "3. Matches are best of 5 sets."
-      ],
-      "Match Format": [
-        "1. Each match consists of 5 sets.",
-        "2. The first team to reach 25 points wins a set, with a 2-point advantage required.",
-        "3. If the match reaches a 2-2 tie, the final set will be played to 15 points."
-      ],
-      "Discipline And Regulations": [
-        "1. Teams must adhere to the dress code and wear appropriate volleyball attire.",
-        "2. Any form of misconduct or unsportsmanlike behavior will result in penalties or disqualification.",
-        "3. Teams must be ready to play at the scheduled times and follow the official's decisions."
-      ]
-    },
-    "matchSchedule": {
-      "boys": "efg.jpg",
-      "girls": "efg.jpg"
-    }
-  },
-  {
-    "id": "10",
-    "title": "Table Tennis",
-    "quote": "Table tennis is a game of reflexes, anticipation, and skill. – Unknown",
-    "description": "Table tennis, also known as ping-pong, is a fast-paced game played on a table with a small ball and paddles. Players compete to score points by hitting the ball over the net and into the opponent's side of the table. The game requires quick reflexes, precision, and strategy.",
-    "coordinator": [
-      {
-        "name": "Durgesh prakash",
-        "position": "Captain",
-        "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
-      },
-      {
-        "name": "Karan Raj",
-        "position": "Vice Captain",
-        "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
-      },
-      {
-        "name": "Ishika Sarkar",
-        "position": "Captain",
-        "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
-      },
-      {
-        "name": "Kriti Pandey",
-        "position": "Vice Captain",
-        "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
-      }
-    ],
-    "PreviousYearResults": [
-      {
-        "title": "Boys",
-        "winners": [
-          { "position": "🥇", "team": "PIE+ECM" },
-          { "position": "🥈", "team": "PG" }
-        ]
-      },
-      {
-        "title": "Girls",
-        "winners": [
-          { "position": "🥇", "team": "PIE+ECM+ME" },
-          { "position": "🥈", "team": "MME+ECE" }
-        ]
-      }
-    ],
-    "rules": {
-      "League Format": [
-        "1. Urja '24 table tennis will be played in a round-robin format.",
-        "2. Each player will compete against every other player once.",
-        "3. The top players based on the number of wins will advance to the knockout stage."
-      ],
-      "Point System": [
-        "1. 1 Point for each match won.",
-        "2. Matches are played best of 5 sets.",
-        "3. Each set is played to 11 points, with a 2-point lead required to win."
-      ],
-      "Match Format": [
-        "1. Each match is played as the best of 5 sets.",
-        "2. The first player to reach 11 points wins a set.",
-        "3. In the event of a 10-10 tie, play continues until one player achieves a 2-point lead."
-      ],
-      "Discipline And Regulations": [
-        "1. Players must adhere to the dress code specified by the tournament organizers.",
-        "2. Disrespect towards opponents or officials will result in penalties or disqualification.",
-        "3. Players should be punctual and ready to play at their scheduled times."
-      ]
-    },
-    "matchSchedule": {
-      "boys": "hij.jpg",
-      "girls": "hij.jpg"
-    }
   }
+  
+  
+  
+  
 ]

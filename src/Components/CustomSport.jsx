@@ -25,6 +25,7 @@ const tableData = [
 
 function CustomSport() {
   const { key } = useParams();
+  // console.log(key);
 
   return (
     <div className="mt-40">
