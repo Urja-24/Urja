@@ -17,17 +17,17 @@ import volleyImg from "../assets/images/volley.png";
 import ttImg from "../assets/images/tt1.png";
 
 const sportsData = [
-  { name: "Basketball", imgSrc: baskImg },
-  { name: "Football", imgSrc: footImg },
-  { name: "Cricket", imgSrc: cricImg },
-  { name: "Tennis", imgSrc: tennisImg },
-  { name: "Yoga", imgSrc: yogaImg },
-  { name: "Chess", imgSrc: chessImg },
-  { name: "Athletics", imgSrc: athleticsImg },
-  { name: "Hockey", imgSrc: hockeyImg },
-  { name: "Badminton", imgSrc: badImg },
   { name: "Volleyball", imgSrc: volleyImg },
   { name: "Table Tennis", imgSrc: ttImg },
+  { name: "Hockey", imgSrc: hockeyImg },
+  { name: "Badminton", imgSrc: badImg },
+  { name: "Cricket", imgSrc: cricImg },
+  { name: "Lawn Tennis", imgSrc: tennisImg },
+  { name: "Basketball", imgSrc: baskImg },
+  { name: "Chess", imgSrc: chessImg },
+  { name: "Football", imgSrc: footImg },
+  { name: "Yoga", imgSrc: yogaImg },
+  { name: "Athletics", imgSrc: athleticsImg },
 ];
 
 const Sports = () => {
@@ -39,18 +39,18 @@ const Sports = () => {
             <SportsHeader heading="Sports" />
           </h2>
         </div>
-        <div className="container grid grid-cols-1 md:grid-cols-3 gap-10 mx-auto">
+        <div className="container grid grid-cols-1 md:grid-cols-5 gap-5 mx-auto">
           {sportsData.map((sport, index) => (
             <div key={index} className="flex items-center justify-center">
               <Link to={`sports/${index}`}>
                 <GlareCard className="flex flex-col items-end justify-end py-8 px-6">
                   <div>
                     <img
-                      className=" inset-0 object-cover pt-5 "
+                      className="inset-0 object-cover pt-5"
                       src={sport.imgSrc}
                       alt={sport.name}
                     />
-                    <div className="font-bold text-center  text-4xl text-neutral-200 mt-4 bg-transparent">
+                    <div className="font-bold text-center text-4xl text-neutral-200 mt-4 bg-transparent">
                       {sport.name}
                     </div>
                   </div>

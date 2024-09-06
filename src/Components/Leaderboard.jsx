@@ -15,7 +15,7 @@ const Leaderboard = ({ leaderboardData }) => {
             >
               <tr className="text-white">
                 <th className="border border-gray-200 px-4 py-2">Sr. No.</th>
-                <th className="border border-gray-200 px-4 py-2">Team</th>
+                <th className="border border-gray-200 px-4 py-2">Branch</th>
                 <th className="border border-gray-200 px-4 py-2">Points</th>
               </tr>
             </thead>
