@@ -25,7 +25,7 @@ function Home() {
             {/* All Players */}
           {/* </button> */}
         </Link>
-        <div className="flex gap-5 w-full items-center justify-center my-5">
+        <div className="flex gap-x-5 w-full items-center justify-center">
           <SportsHeader heading={"2k24 "} />
           <SportsHeader heading={"Points "} />
           <SportsHeader heading={"Table "} />

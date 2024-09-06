@@ -67,49 +67,56 @@ function CustomSport() {
             <h2 className="text-[#F5DEB3] mb-4 underline underline-offset-4 text-xl">
               Previous Year's Results
             </h2>
-            <table className="min-w-full table-auto border-collapse border border-gray-500">
-              <thead
-                style={{
-                  backgroundImage:
-                    "url('https://i.postimg.cc/Vk7WZy9J/wooden-bg.jpg')",
-                  backgroundColor: "#333",
-                }}
-              >
-                <tr className="text-white">
-                  <th className="border border-gray-200 px-4 py-2">Position</th>
-                  <th className="border border-gray-200 px-4 py-2">Team</th>
-                  <th className="border border-gray-200 px-4 py-2">Score</th>
-                </tr>
-              </thead>
-              <tbody className="text-white">
-                {tableData.map((row, index) => (
-                  <tr
-                    key={index}
-                    className={`${index % 2 === 0 ? "bg-[#444]" : "bg-[#555]"}`}
+            {data[key].PreviousYearResults.map((results) => (
+              <>
+                <h2 className="text-[#F5DEB3] ml-4 my-2">
+                  {data[key].title} ({results.title})
+                </h2>
+                <table className="min-w-full table-auto border-collapse border border-gray-500">
+                  <thead
+                    style={{
+                      backgroundImage:
+                        "url('https://i.postimg.cc/Vk7WZy9J/wooden-bg.jpg')",
+                      backgroundColor: "#333",
+                    }}
                   >
-                    <td className="border border-gray-200 px-4 py-2 text-center">
-                      {row.Position}
-                    </td>
-                    <td className="border border-gray-200 px-4 py-2 text-center">
-                      {row.Branch}
-                    </td>
-                    <td className="border border-gray-200 px-4 py-2 text-center">
-                      {row.Score}
-                    </td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
+                    <tr className="text-white">
+                      <th className="border border-gray-200 px-4 py-2">
+                        Position
+                      </th>
+                      <th className="border border-gray-200 px-4 py-2">Team</th>
+                    </tr>
+                  </thead>
+                  <tbody className="text-white">
+                    {results.winners.map((row, index) => (
+                      <tr
+                        key={index}
+                        className={`${
+                          index % 2 === 0 ? "bg-[#444]" : "bg-[#555]"
+                        }`}
+                      >
+                        <td className="border border-gray-200 px-4 py-2 text-center">
+                          {row.position}
+                        </td>
+                        <td className="border border-gray-200 px-4 py-2 text-center">
+                          {row.team}
+                        </td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </>
+            ))}
           </div>
           <div className="max-w-[75vw] flex justify-center mt-4">
-          <Link className="mx-4" to={`/register/${key}`}>
-            {/* Added a leading slash to ensure it navigates from the base URL */}
-            <button className="bg-yellow-600 flex-1 flex justify-center items-center gap-2 text-white font-semibold py-3 px-12 rounded hover:bg-yellow-500">
-              Register
-              <AiOutlineLogin />
-            </button>
-          </Link>
-        </div>
+            <Link className="mx-4" to={`/register/${key}`}>
+              {/* Added a leading slash to ensure it navigates from the base URL */}
+              <button className="bg-yellow-600 flex-1 flex justify-center items-center gap-2 text-white font-semibold py-3 px-12 rounded hover:bg-yellow-500">
+                Register
+                <AiOutlineLogin />
+              </button>
+            </Link>
+          </div>
           <SportsPointTable Title="Point Table" />
         </div>
 

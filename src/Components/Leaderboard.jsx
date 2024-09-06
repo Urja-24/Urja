@@ -1,13 +1,12 @@
 import React from "react";
 
-const Leaderboard = ({leaderboardData}) => {
-
+const Leaderboard = ({ leaderboardData }) => {
   return (
     <>
-      <div className="mt-8 mb-4 container mx-auto px-4">
+      <div className="mt-8 mb-4 text-align: center">
         <div className="overflow-x-auto">
-          <table className="min-w-full table-auto border-collapse border border-gray-200">
-          <thead
+          <table className="min-w-[75%] table-auto border-collapse border border-gray-200">
+            <thead
               style={{
                 backgroundImage:
                   "url('https://i.postimg.cc/Vk7WZy9J/wooden-bg.jpg')",
