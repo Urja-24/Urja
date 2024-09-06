@@ -2,9 +2,8 @@ import React, { useState } from "react";
 import SportsHeader from "./AnimatedHeading";
 import { useParams } from "react-router-dom";
 import { toast, ToastContainer } from "react-toastify";
-import { jsPDF } from "jspdf";
+import * as XLSX from "xlsx";
 import "react-toastify/dist/ReactToastify.css";
-import "jspdf-autotable";
 
 function Players() {
   const { id } = useParams();
@@ -63,6 +62,25 @@ function Players() {
         sport: "",
       });
     }
+  };
+
+  const downloadExcel = () => {
+    // Creating worksheet from players data
+    const worksheet = XLSX.utils.json_to_sheet(
+      players.map((player) => ({
+        "Player Name": player.playerName,
+        "Registration Number": player.registrationNumber,
+        Branch: player.branch,
+        Sport: player.sport,
+      }))
+    );
+
+    // Creating a new workbook and adding the worksheet to it
+    const workbook = XLSX.utils.book_new();
+    XLSX.utils.book_append_sheet(workbook, worksheet, "Players List");
+
+    // Exporting the workbook to an Excel file
+    XLSX.writeFile(workbook, "players_list.xlsx");
   };
 
   const downloadPDF = () => {
@@ -133,6 +151,15 @@ function Players() {
         >
           Get Players
         </button>
+        {players.length > 0 && (
+          <button
+            onClick={downloadExcel}
+            type="button"
+            className="bg-green-500 text-white py-2 px-4 rounded hover:bg-green-600 ml-4"
+          >
+            Download Excel
+          </button>
+        )}
         {players.length > 0 && (
           <button
             onClick={downloadPDF}
