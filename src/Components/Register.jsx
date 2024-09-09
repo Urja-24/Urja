@@ -2,31 +2,32 @@ import React, { useState } from "react";
 import SportsHeader from "./AnimatedHeading";
 import { useParams } from "react-router-dom";
 import { toast, ToastContainer } from "react-toastify";
+import data from "../assets/sports.json";
 import "react-toastify/dist/ReactToastify.css";
 
 function Register() {
   const { id } = useParams();
    const backendUrl = "https://urjabackend.onrender.com";
   //const backendUrl = "http://localhost:3080";
-  const sports = [
-    "Basketball",
-    "Football",
-    "Cricket",
-    "Tennis",
-    "Yoga",
-    "Chess",
-    "Athletics",
-    "Hockey",
-    "Badminton",
-    "Volleyball",
-    "Table Tennis",
-  ];
+  // const sports = [
+  //   "Basketball",
+  //   "Football",
+  //   "Cricket",
+  //   "Tennis",
+  //   "Yoga",
+  //   "Chess",
+  //   "Athletics",
+  //   "Hockey",
+  //   "Badminton",
+  //   "Volleyball",
+  //   "Table Tennis",
+  // ];
   const branches = ["CE", "CSE", "MME", "ECE", "ME", "PIE+ECM", "PG", "EE"];
   const [formData, setFormData] = useState({
     playerName: "",
     registrationNumber: "",
     branch: "CSE",
-    sport: sports[id],
+    sport: data[id].title,
     sportId: id,
   });
 
@@ -62,7 +63,7 @@ function Register() {
         playerName: "",
         registrationNumber: "",
         branch: "CSE",
-        sport: sports[id],
+        sport: data[id].title,
         sportId: id,
       });
     }
@@ -78,7 +79,7 @@ function Register() {
         <span className="font-semibold text-yellow-400 mr-4">
           Register for:{" "}
         </span>
-        {sports[id]}
+        {data[id].title}
       </div>
       <form onSubmit={handleSubmit} className="space-y-4">
         <div>
