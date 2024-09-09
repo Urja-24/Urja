@@ -35,7 +35,7 @@ const PointTableComplete = () => {
       tableData.forEach((sport) => {
         Object.keys(sport).forEach((key) => {
           if (key !== "sport" && sport[key] !== "") {
-            teamScores[key] = (teamScores[key] || 0) + parseInt(sport[key]);
+            teamScores[key] = 0;
           }
         });
       });
