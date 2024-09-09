@@ -7,7 +7,11 @@ function App() {
   return (
     <>
     <Top/>
+    <section className='min-h-[100vh]'>
+    
     <Outlet/>
+
+    </section>
      <Footer/>
     </>
   )
