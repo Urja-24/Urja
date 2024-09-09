@@ -8,7 +8,7 @@
       {
         "name": "Vivek Mahato",
         "position": "Captain",
-        "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+        "image": "/src/assets/Captain/Vievek.webp"
       },
       {
         "name": "Sayantan Bairagi",
@@ -18,12 +18,12 @@
       {
         "name": "Dani Sumpi",
         "position": "Captain",
-        "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+        "image": "/src/assets/Captain/webp09-09-2024 at 15.59.58.webp"
       },
       {
         "name": "Sejal Kumari",
         "position": "Vice Captain",
-        "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+        "image": "/src/assets/Captain/Sejal.webp"
       }
     ],
     "PreviousYearResults": [
@@ -208,22 +208,22 @@
       {
         "name": " Abhishek Kumar",
         "position": "Captain",
-        "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+        "image": "/src/assets/Captain/abhi.webp"
       },
       {
         "name": "Sushwanth",
         "position": "Vice Captain",
-        "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+        "image": "/src/assets/Captain/suswant.webp"
       },
       {
         "name": " Priya Sharma",
         "position": "Captain",
-        "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+        "image": "/src/assets/Captain/priya.webp"
       },
       {
         "name": " Prasanna Mavuri",
         "position": "Vice Captain",
-        "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+        "image": "/src/assets/Captain/prassana.webp"
       }
     ],
     "PreviousYearResults": [
@@ -356,22 +356,22 @@
       {
         "name": "Narne Srinadh",
         "position": "Captain",
-        "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+        "image": "/src/assets/Captain/narne.webp"
       },
       {
         "name": "Sumit Gupta",
         "position": "Vice Captain",
-        "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+        "image": "/src/assets/Captain/sumit.webp"
       },
       {
         "name": "Surbhi Anand",
         "position": "Captain",
-        "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+        "image": "/src/assets/Captain/surbhi.webp"
       },
       {
         "name": "Vinita Kumari",
         "position": "Vice Captain",
-        "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+        "image": "/src/assets/Captain/vineta.webp"
       }
     ],
     "PreviousYearResults": [
@@ -570,12 +570,12 @@
       {
         "name": " Rohit Sharma",
         "position": "Captain",
-        "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+        "image": "/src/assets/Captain/rohit.webp"
       },
       {
         "name": "Amit Kisku",
         "position": "Vice Captain",
-        "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+        "image":"/src/assets/Captain/amit.webp"
       },
       {
         "name": "A Srichandana",
@@ -700,17 +700,17 @@
       {
         "name": "Aditya Sonkar",
         "position": "Captain",
-        "image": "/src/assets/Captain/AdityaSonkar.jpg"
+        "image": "/src/assets/Captain/webp09-09-2024 at 15.59.25.webp"
       },
       {
         "name": "Nischay Kumar",
         "position": "Vice Captain",
-        "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+        "image": "/src/assets/Captain/Nischay.webp"
       },
       {
         "name": "Sunny Kumar",
         "position": "Vice Captain",
-        "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+        "image": "/src/assets/Captain/Sunny.webp"
       },
       {
         "name": "Swati Kumari",
