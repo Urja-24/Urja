@@ -111,10 +111,10 @@ function CustomSport() {
           <div className="max-w-[75vw] flex justify-center mt-4">
             <Link className="mx-4" to={`/register/${key}`}>
               {/* Added a leading slash to ensure it navigates from the base URL */}
-              <button className="bg-yellow-600 flex-1 flex justify-center items-center gap-2 text-white font-semibold py-3 px-12 rounded hover:bg-yellow-500">
+              {/* <button className="bg-yellow-600 flex-1 flex justify-center items-center gap-2 text-white font-semibold py-3 px-12 rounded hover:bg-yellow-500">
                 Register
                 <AiOutlineLogin />
-              </button>
+              </button> */}
             </Link>
           </div>
           <SportsPointTable Title="Point Table" />

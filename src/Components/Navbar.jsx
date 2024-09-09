@@ -93,7 +93,7 @@ const Navbar = () => {
               Detailed Points Table
             </NavLink>
           </li>
-          <li>
+          {/* <li>
             <NavLink
               to="/Players"
               className={({ isActive }) =>
@@ -104,7 +104,7 @@ const Navbar = () => {
             >
               All Players 
             </NavLink>
-          </li>
+          </li> */}
 
       
         </ul>
