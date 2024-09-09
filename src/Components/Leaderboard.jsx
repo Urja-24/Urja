@@ -22,7 +22,7 @@ const Leaderboard = ({ leaderboardData }) => {
             <tbody className="text-white">
               {leaderboardData.map((item, index) => (
                 <tr
-                  key={item.id}
+                  key={index}
                   className={`${index % 2 === 0 ? "bg-[#444]" : "bg-[#555]"}`}
                 >
                   <td className="border border-gray-200 px-4 py-2 text-center">

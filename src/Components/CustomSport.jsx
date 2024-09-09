@@ -5,24 +5,6 @@ import data from "../assets/sports.json";
 import SportsPointTable from "./CustomSportsTable";
 import { AiOutlineLogin } from "react-icons/ai";
 
-const tableData = [
-  {
-    Branch: "CSE",
-    Position: "🥇",
-    Score: 100,
-  },
-  {
-    Branch: "ECM+PIE",
-    Position: "🥈",
-    Score: 96,
-  },
-  {
-    Branch: "EE",
-    Position: "🥉",
-    Score: 87,
-  },
-];
-
 function CustomSport() {
   const { key } = useParams();
   // console.log(key);
