@@ -8,7 +8,7 @@
       {
         "name": "Vivek Mahato",
         "position": "Captain",
-        "image": "/src/assets/Captain/Vievek.webp"
+        "image": "../assets/Captain/Vievek.webp"
       },
       {
         "name": "Sayantan Bairagi",
