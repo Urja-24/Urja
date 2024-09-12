@@ -24,7 +24,7 @@ function Home() {
       <Sports />
         <div className="mt-4 pt-3 border-t border-gray-700 flex justify-center gap-x-4">
           <SportsHeader heading={"2k24 "} />
-          <SportsHeader heading={"Branchwise"} />
+          <SportsHeader heading={"OVERALL"} />
           <SportsHeader heading={"Points"} />
         </div>
         <Leaderboard leaderboardData={leaderboardData} />
