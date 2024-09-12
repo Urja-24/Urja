@@ -115,12 +115,12 @@ function OurTeam() {
       "imgSrc": AbhishekKumar|| userImage,
       "phone": 123
     },
-    {
-      "name": "Rituraj Prasad",
-      "title": "Creative Head",
-      "imgSrc": RiturajPrasad || userImage,
-      "phone": 123
-    },
+    // {
+    //   "name": "Rituraj Prasad",
+    //   "title": "Creative Head",
+    //   "imgSrc": RiturajPrasad || userImage,
+    //   "phone": 123
+    // },
     {
       "name": "Bhukya Nithin Kumar",
       "title": "Planning and Management Head",
