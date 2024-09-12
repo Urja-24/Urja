@@ -4,6 +4,8 @@ import Leaderboard from "./Leaderboard";
 import Sports from "./Sports";
 import { Link } from "react-router-dom";
 import SportsHeader from "./AnimatedHeading";
+import PointTableComplete from "./PointsTableComplete";
+
 function Home() {
   const leaderboardData = [
     { id: 1, branch: "CE", points: 106.5 },
@@ -18,11 +20,12 @@ function Home() {
   return (
     <div>
       <FrontDisplay />
+      <PointTableComplete/>
       <Sports />
         <div className="mt-4 pt-3 border-t border-gray-700 flex justify-center gap-x-4">
           <SportsHeader heading={"2k24 "} />
-          <SportsHeader heading={"Points "} />
-          <SportsHeader heading={"Table "} />
+          <SportsHeader heading={"Branchwise"} />
+          <SportsHeader heading={"Points"} />
         </div>
         <Leaderboard leaderboardData={leaderboardData} />
     </div>

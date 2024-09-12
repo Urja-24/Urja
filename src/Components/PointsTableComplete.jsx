@@ -62,8 +62,8 @@ const PointTableComplete = () => {
         animate={{ opacity: 1 }}
         transition={{ duration: 2, ease: "easeInOut" }}
       >
+        <SportsHeader heading={"BRANCHWISE"} />
         <SportsHeader heading={"POINTS"} />
-        <SportsHeader heading={"TABLE"} />
       </motion.h1>
       <motion.div
         className="overflow-x-auto"

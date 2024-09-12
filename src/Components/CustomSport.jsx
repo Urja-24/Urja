@@ -4,9 +4,38 @@ import { Link, useParams } from "react-router-dom";
 import data from "../assets/sports.json";
 import SportsPointTable from "./CustomSportsTable";
 import { AiOutlineLogin } from "react-icons/ai";
+import { useEffect, useState } from "react";
+
+const ApiList={
+  "volleyball":"https://script.googleusercontent.com/macros/echo?user_content_key=vIAiATw8GjcJSALmpqN-yWSuIX--WuTAupr8D7SE-f0npLThzPaM4gWFXQogb0swZB8WWZJ-4BgiQ0RGpO03aQ-hALEVmwNam5_BxDlH2jW0nuo2oDemN9CCS2h10ox_1xSncGQajx_ryfhECjZEnJHC33yy2FUFcP3kHutbiQzhdhdPyJcdHD3mlSVyz_ST7WLVeCu_URlXuisu3ihdVXQ6DAP8Hr160TYjUQaQxkymWMA7biWHhw&lib=MdJQnRVJfXiFCgHZeCgtESghcStD5cJSF"
+}
 
 function CustomSport() {
-  const { key } = useParams();
+const { key } = useParams();
+
+const sportName=data[key].title;
+const [boysScore,setBoyScore]=useState([]);
+const [girlsScore,setGirlScore]=useState([]);
+
+useEffect(() => {
+  const fetchScore = async () => {
+    const csvUrl = ApiList[sportName];
+    try {
+      const response = await fetch(csvUrl, {
+        method: "GET",
+      });
+      const data = await response.json();
+      const fetchedData = await data;
+      console.log(fetchedData);
+      setBoyScore(fetchedData.boys);
+      setGirlScore(fetchedData.girls);
+
+    } catch (error) {
+      console.error(error);
+    }
+  }
+  fetchScore();
+}, []);
   // console.log(key);
 
   return (
@@ -23,30 +52,10 @@ function CustomSport() {
           </p>
         </div>
 
-        <div className="container mx-auto p-4">
-          <h2 className="text-[#F5DEB3] mb-4 underline underline-offset-4 text-xl">
-            Sports Coordinator
-          </h2>
+        <SportsPointTable Title="Boys Point table" sportName={data[key].title} tableData={boysScore}/>
+        <SportsPointTable Title="Girls Point table" sportName={data[key].title} tableData={girlsScore}/>
 
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
-            {data[key].coordinator.map((ele, index) => (
-              <div key={index} className="avatar">
-                <img
-                  src={ele.image}
-                  alt={`Sports Coordinator ${index + 1}`}
-                  loading="lazy"
-                  className="h-32 w-32 md:h-40 md:w-40 object-cover mx-auto rounded-full"
-                />
-
-                <div className="text-center mt-2">
-                  <h3 className="text-lg font-bold">{ele.name}</h3>
-
-                  <p className="text-sm">{ele.position}</p>
-                </div>
-              </div>
-            ))}
-          </div>
-          <div className="flex flex-col mt-8">
+        <div className="flex flex-col mt-8">
             <h2 className="text-[#F5DEB3] mb-4 underline underline-offset-4 text-xl">
               Previous Year's Results
             </h2>
@@ -90,6 +99,32 @@ function CustomSport() {
               </>
             ))}
           </div>
+          
+        {/* sports coordinator section starts*/}
+        <div className="container mx-auto p-4">
+          <h2 className="text-[#F5DEB3] mb-4 underline underline-offset-4 text-xl">
+            Sports Coordinator
+          </h2>
+
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
+            {data[key].coordinator.map((ele, index) => (
+              <div key={index} className="avatar">
+                <img
+                  src={ele.image}
+                  alt={`Sports Coordinator ${index + 1}`}
+                  loading="lazy"
+                  className="h-32 w-32 md:h-40 md:w-40 object-cover mx-auto rounded-full"
+                />
+
+                <div className="text-center mt-2">
+                  <h3 className="text-lg font-bold">{ele.name}</h3>
+
+                  <p className="text-sm">{ele.position}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+
           <div className="max-w-[75vw] flex justify-center mt-4">
             <Link className="mx-4" to={`/register/${key}`}>
               {/* Added a leading slash to ensure it navigates from the base URL */}
@@ -99,8 +134,9 @@ function CustomSport() {
               </button> */}
             </Link>
           </div>
-          <SportsPointTable Title="Point Table" />
+          
         </div>
+
 
         <div className="flex justify-center gap-5">
           <div className="bg-[#F5DEB3] rounded shadow-md py-3 px-12 text-black hover:scale-110 transition-transform ease-linear duration-300">
