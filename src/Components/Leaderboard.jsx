@@ -1,6 +1,7 @@
 import React from "react";
 
 const Leaderboard = ({ leaderboardData }) => {
+  
   return (
     <>
       <div className="mb-4">
