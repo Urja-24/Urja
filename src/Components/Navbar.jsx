@@ -42,21 +42,19 @@ const Navbar = () => {
               Home
             </NavLink>
           </li>
-         
           <li>
             <NavLink
-              to="/gallery"
+              to="/points-table"
               className={({ isActive }) =>
                 isActive
                   ? 'border-b-2 pb-2 border-white'
                   : 'hover:text-white transition duration-300 ease-in-out'
               }
-
-
             >
-              Gallery
+             Detailed Points Table
             </NavLink>
           </li>
+          
           <li>
             <NavLink
               to="/our-team"
@@ -71,16 +69,20 @@ const Navbar = () => {
           </li>
           <li>
             <NavLink
-              to="/points-table"
+              to="/gallery"
               className={({ isActive }) =>
                 isActive
                   ? 'border-b-2 pb-2 border-white'
                   : 'hover:text-white transition duration-300 ease-in-out'
               }
+
+
             >
-             Points Table
+              Gallery
             </NavLink>
           </li>
+          
+         
           <li>
             <NavLink
               to="/detailed-points-table"
@@ -90,7 +92,7 @@ const Navbar = () => {
                   : 'hover:text-white transition duration-300 ease-in-out'
               }
             >
-              Detailed Points Table
+              sportwise winners
             </NavLink>
           </li>
           {/* <li>
