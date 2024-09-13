@@ -79,14 +79,13 @@ const PointTableComplete = () => {
             </div>
           ) : (
             <>
-              <div className="flex justify-between mb-4">
+              <div className="flex flex-wrap justify-between gap-y-4 md:gap-x-4 mb-4">
                 <select
                   value={selectedSport}
                   onChange={(e) => setSelectedSport(e.target.value)}
-                  className="bg-white border border-gray-200 rounded py-2 px-4"
+                  className="bg-white border border-gray-200 rounded py-2 px-4 w-full md:w-1/3"
                 >
                   <option value="">Select Sport</option>
-
                   {Array.from(new Set(tableData.map((item) => item.Sport))).map(
                     (sport) => (
                       <option key={sport} value={sport}>
@@ -99,10 +98,9 @@ const PointTableComplete = () => {
                 <select
                   value={selectedBranch}
                   onChange={(e) => setSelectedBranch(e.target.value)}
-                  className="bg-white border border-gray-200 rounded py-2 px-4"
+                  className="bg-white border border-gray-200 rounded py-2 px-4 w-full md:w-1/3"
                 >
                   <option value="">Select Branch</option>
-
                   {Array.from(
                     new Set(
                       tableData[0] &&

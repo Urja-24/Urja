@@ -4,8 +4,6 @@ import '../CSS/sports.css';
 const SportsHeader = ({ heading,fontSize}) => {
   const letters = heading.split('');
   return (
-  
-    console.log(fontSize),
     <>
 
       <div className="mb-5">
