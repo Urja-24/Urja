@@ -34,7 +34,7 @@ const SportsPointTable = ({Title,sportName,tableData}) => {
           >
             <tr className="text-white">
               <th className="border border-gray-200 px-4 py-2">Teams</th>
-              <th className="border border-gray-200 px-4 py-2">Matchs</th>
+              <th className="border border-gray-200 px-4 py-2">Matches</th>
               <th className="border border-gray-200 px-4 py-2">Won</th>
               <th className="border border-gray-200 px-4 py-2">Lose</th>
               <th className="border border-gray-200 px-4 py-2">Draw</th>
