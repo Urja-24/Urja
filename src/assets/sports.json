@@ -1,14 +1,14 @@
 [
   {
     "id": "0",
-    "title": "volleyball",
+    "title": "Volleyball",
     "quote": "The only way to prove that you’re a good sport is to lose. – Ernie Banks",
     "description": "Volleyball is a team sport played with a ball that is hit over a net between two teams of six players each. The objective is to score points by grounding the ball on the opponent's side of the court. The game requires teamwork, quick reflexes, and strategic play. Matches are typically played in a best-of-five sets format.",
     "coordinator": [
       {
         "name": "Vivek Mahato",
         "position": "Captain",
-        "image": "/src/assets/Captain/Vievek.webp"
+        "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
       },
       {
         "name": "Sayantan Bairagi",
@@ -18,28 +18,28 @@
       {
         "name": "Dani Sumpi",
         "position": "Captain",
-        "image": "/src/assets/Captain/webp09-09-2024 at 15.59.58.webp"
+        "image":"https://i.ibb.co/FqvPFQZ/Volleyball-C-Dani-Sumpi.webp"
       },
       {
         "name": "Sejal Kumari",
         "position": "Vice Captain",
-        "image": "/src/assets/Captain/Sejal.webp"
+        "image": "https://i.ibb.co/R0fFBsw/Volleyball-VC-Sejal-Kumari.webp"
       }
     ],
     "PreviousYearResults": [
       {
         "title": "Boys",
         "winners": [
-          { "position": "🥇", "team": "MME" },
-          { "position": "🥈", "team": "CE" },
-          { "position": "🥉", "team": "PG" }
+          { "position": "🥇", "team": "EE", "score": 10 },
+          { "position": "🥈", "team": "PIE+ECM", "score": 7 },
+          { "position": "🥉", "team": "CSE", "score": 5 }
         ]
       },
       {
         "title": "Girls",
         "winners": [
-          { "position": "🥇", "team": "PIE+ECM+ME" },
-          { "position": "🥈", "team": "EE+CSE" }
+          { "position": "🥇", "team": "ME+PIE+ECM", "score": 5 },
+          { "position": "🥈", "team": "MME+ECE", "score": 3.5 }
         ]
       }
     ],
@@ -81,22 +81,22 @@
       {
         "name": "Durgesh prakash",
         "position": "Captain",
-        "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+        "image": "https://i.ibb.co/HzBfRvv/Table-Tennis-C-Durgesh-Prakash.webp"
       },
       {
         "name": "Karan Raj",
         "position": "Vice Captain",
-        "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+        "image": "https://i.ibb.co/QDrnwQF/Table-Tennis-VC-Karan-Raj.webp"
       },
       {
         "name": "Ishika Sarkar",
         "position": "Captain",
-        "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+        "image":"https://i.ibb.co/ww2zH12/Table-Tennis-C-Ishika-Sarkar-1.jpg"
       },
       {
         "name": "Kriti Pandey",
         "position": "Vice Captain",
-        "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+        "image": "https://i.ibb.co/dBfMCHr/Table-Tennis-VC-Kriti-Pandey-1.jpg"
       }
     ],
     "PreviousYearResults": [
@@ -141,7 +141,6 @@
       "boys": "hij.jpg",
       "girls": "hij.jpg"
     },
-    "pdfurl":"",
     "fixture":"https://drive.google.com/file/d/1DRmQyou1RPBQTML8HECB5ReoznEAq1eb/view?usp=drive_link",
     "pdfurl" :"https://drive.google.com/file/d/1vBDGog0DOKkra6qLCgjwP9bnQKxNBvvo/view?usp=drive_link"
 
@@ -161,15 +160,6 @@
         "name": "Amarjeet Kumar",
         "position": "Vice Captain",
         "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
-      }
-    ],
-    "PreviousYearResults": [
-      {
-        "title": "Boys",
-        "winners": [
-          { "position": "🥇", "team": "ME+PIE+ECM" },
-          { "position": "🥈", "team": "MME+ECE" }
-        ]
       }
     ],
     "rules": {
@@ -197,7 +187,9 @@
     "matchSchedule": {
       "boys": "yza.jpg",
       "girls": "yza.jpg"
-    }
+    },
+    "pdfurl" : "https:drive.google.com/file/d/1atp0IG112TlmIllMR_X_GFCmzir0Ywfg/view?usp=drive_link",
+   "fixture":"https://drive.google.com/file/d/17Iib3HmUtalKeW8AVr-ifIfmOW9Z_LFo/view?usp=drive_link"
   },
   {
     "id": "3",
@@ -208,22 +200,22 @@
       {
         "name": " Abhishek Kumar",
         "position": "Captain",
-        "image": "/src/assets/Captain/abhi.webp"
+        "image": "https://i.ibb.co/1dGpXqW/Badminton-C-Abhishek-Kumar.webp"
       },
       {
         "name": "Sushwanth",
         "position": "Vice Captain",
-        "image": "/src/assets/Captain/suswant.webp"
+        "image": "https://i.ibb.co/LnW6c8j/Badminton-VC-Sushwanth.webp"
       },
       {
         "name": " Priya Sharma",
         "position": "Captain",
-        "image": "/src/assets/Captain/priya.webp"
+        "image":"https://i.ibb.co/cL2CCb4/Badminton-C-Priya-Sharma.webp"
       },
       {
         "name": " Prasanna Mavuri",
         "position": "Vice Captain",
-        "image": "/src/assets/Captain/prassana.webp"
+        "image": "https://i.ibb.co/wWYd4cL/Badminton-VC-Prasanna-Mavuri.webp"
       }
     ],
     "PreviousYearResults": [
@@ -267,7 +259,8 @@
     "matchSchedule": {
       "boys": "bcd.jpg",
       "girls": "bcd.jpg"
-    }
+    },
+    "pdfurl":"https://drive.google.com/file/d/1VJyI98I3BZ25mvD2611u6STO69-4zOC1/view?usp=drive_link"
   },
   {
     "id": "4",
@@ -278,17 +271,17 @@
       {
         "name": "Ujjwal Kumar",
         "position": "Captain",
-        "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+        "image": "https://i.ibb.co/GFWjQd9/Cricket-C-Ujjwal-Kumar.webp"
       },
       {
         "name": "Gaurav Kumar",
         "position": "Vice Captain",
-        "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+        "image": "https://i.ibb.co/x2yZsqY/Cricket-VC-Gaurav-Kumar.webp"
       },
       {
         "name": "Surbhi Pandey",
         "position": "Captain",
-        "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+        "image": "https://i.ibb.co/LYfM824/Cricket-C-Surbhi-Pandey.webp"
       },
       {
         "name": " Priya Sharma",
@@ -345,7 +338,8 @@
     "matchSchedule": {
       "boys": "abc.jpg",
       "girls": "abc.jpg"
-    }
+    },
+    "pdfurl":"https://drive.google.com/file/d/1MLJrDSAk-jh1IcbpadzsVhxzjtva9UxY/view?usp=drive_link"
   },
   {
     "id": "5",
@@ -356,22 +350,22 @@
       {
         "name": "Narne Srinadh",
         "position": "Captain",
-        "image": "/src/assets/Captain/narne.webp"
+        "image": "https://i.ibb.co/5TZd9VV/Lawn-Tennis-C-Narne-Srinadh.webp"
       },
       {
         "name": "Sumit Gupta",
         "position": "Vice Captain",
-        "image": "/src/assets/Captain/sumit.webp"
+        "image": "https://i.ibb.co/syRjhxR/Lawn-Tennis-VC-Sumit-Gupta.webp"
       },
       {
         "name": "Surbhi Anand",
         "position": "Captain",
-        "image": "/src/assets/Captain/surbhi.webp"
+        "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
       },
       {
         "name": "Vinita Kumari",
         "position": "Vice Captain",
-        "image": "/src/assets/Captain/vineta.webp"
+        "image": "https://i.ibb.co/nRdtwDt/Lawn-Tennis-VC-Vinita-Kumari.webp"
       }
     ],
     "PreviousYearResults": [
@@ -416,7 +410,8 @@
     "matchSchedule": {
       "boys": "mno.jpg",
       "girls": "mno.jpg"
-    }
+    },
+    "pdfurl":"https://docs.google.com/document/d/1DHvmR3JiMwZMfmBLFbMMb13GcruJNIeE/edit?usp=drive_link&ouid=118430711861442098656&rtpof=true&sd=true"
   },
   {
     "id": "6",
@@ -443,23 +438,6 @@
         "name": "Ritu Kumari",
         "position": "Vice Captain",
         "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
-      }
-    ],
-    "PreviousYearResults": [
-      {
-        "title": "Boys",
-        "winners": [
-          { "position": "🥇", "team": "EE", "score": 10 },
-          { "position": "🥈", "team": "PIE+ECM", "score": 7 },
-          { "position": "🥉", "team": "CSE", "score": 5 }
-        ]
-      },
-      {
-        "title": "Girls",
-        "winners": [
-          { "position": "🥇", "team": "ME+PIE+ECM", "score": 5 },
-          { "position": "🥈", "team": "MME+ECE", "score": 3.5 }
-        ]
       }
     ],
     "rules": {
@@ -499,7 +477,7 @@
       {
         "name": "Samyak Anand",
         "position": "Captain",
-        "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+        "image":"https://i.ibb.co/ZmTCH8h/Chess-C-Samyak-Anand.jpg"
       },
       {
         "name": "Ayush Mishra",
@@ -509,7 +487,7 @@
       {
         "name": "Prachi Priya",
         "position": "Captain",
-        "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+        "image": "https://i.ibb.co/TqzZdf2/Chess-C-Prachi-Priya.jpg"
       },
       {
         "name": "Khushboo Kumari",
@@ -570,12 +548,12 @@
       {
         "name": " Rohit Sharma",
         "position": "Captain",
-        "image": "/src/assets/Captain/rohit.webp"
+        "image": "https://i.ibb.co/hsBxxzR/Football-C-Rohit-sharma.webp"
       },
       {
         "name": "Amit Kisku",
         "position": "Vice Captain",
-        "image":"/src/assets/Captain/amit.webp"
+        "image": "https://i.ibb.co/nkwg4tq/Football-VC-Amit-Kisku.webp"
       },
       {
         "name": "A Srichandana",
@@ -700,22 +678,22 @@
       {
         "name": "Aditya Sonkar",
         "position": "Captain",
-        "image": "/src/assets/Captain/webp09-09-2024 at 15.59.25.webp"
+        "image": "https://i.ibb.co/FJ4Cyr5/Aditya-Sonkar.jpg"
       },
       {
         "name": "Nischay Kumar",
         "position": "Vice Captain",
-        "image": "/src/assets/Captain/Nischay.webp"
+        "image": "https://i.ibb.co/vmwjGjx/Nischay.jpg"
       },
       {
         "name": "Sunny Kumar",
         "position": "Vice Captain",
-        "image": "/src/assets/Captain/Sunny.webp"
+        "image": "https://i.ibb.co/0Cv4Scc/Sunny.jpg"
       },
       {
         "name": "Swati Kumari",
         "position": "Captain",
-        "image": "/src/assets/Captain/swathi.jpg"
+        "image": "https://i.ibb.co/KNW5Yx4/Swathi.jpg"
       }
     ],
     "PreviousYearResults": [
@@ -897,9 +875,212 @@
       "boys": "vwx.jpg",
       "girls": "vwx.jpg"
     }
+  },
+  {
+    "id": "11",
+    "title": "Hockey",
+    "quote": "The greatest hockey player ever is the one who plays for the team. – Wayne Gretzky",
+    "description": "Hockey is a team sport played on ice or a field, where two teams of six (ice) or eleven (field) players compete to score goals by hitting a puck or ball into the opposing team's goal. The game requires skill, agility, and teamwork, and it's known for its fast pace and physicality.",
+    "coordinator": [
+      {
+        "name": "Mohit Lal Kapardar",
+        "position": "Captain",
+        "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+      },
+      {
+        "name": "Amarjeet Kumar",
+        "position": "Vice Captain",
+        "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+      }
+    ],
+    "rules": {
+      "League Format": [
+        "1. Urja '24 hockey tournament will follow a round-robin format.",
+        "2. Teams will play against each other once, with the top teams advancing to the knockout stage.",
+        "3. Matches will consist of two halves of 35 minutes each."
+      ],
+      "Point System": [
+        "1. 3 Points for a win.",
+        "2. 1 Point for a draw.",
+        "3. 0 Points for a loss."
+      ],
+      "Match Format": [
+        "1. Each match will have two halves of 35 minutes.",
+        "2. In case of a tie, the match will be decided by a penalty shootout.",
+        "3. The game will be played according to standard hockey rules, including fouls and penalties."
+      ],
+      "Discipline And Regulations": [
+        "1. Players must respect the referees and adhere to the rules of the game.",
+        "2. Unsportsmanlike behavior or violent conduct will result in penalties or ejection from the game.",
+        "3. Teams must be present and ready to start the match at the scheduled time."
+      ]
+    },
+    "matchSchedule": {
+      "boys": "yza.jpg",
+      "girls": "yza.jpg"
+    }
+  },
+  {
+    "id": "12",
+    "title": "Badminton",
+    "quote": "The more I practice, the luckier I get. – Gary Player",
+    "description": "Badminton is a racquet sport played with a shuttlecock that is hit back and forth over a net. It can be played in singles or doubles format. The objective is to score points by landing the shuttlecock in the opponent's court. The game is known for its fast pace and requires agility, quick reflexes, and precise shot-making.",
+    "coordinator": [
+      {
+        "name": " Abhishek Kumar",
+        "position": "Captain",
+        "image":"https://i.ibb.co/KNW5Yx4/Swathi.jpg"
+      },
+      {
+        "name": "Sushwanth",
+        "position": "Vice Captain",
+        "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+      },
+      {
+        "name": " Priya Sharma",
+        "position": "Captain",
+        "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+      },
+      {
+        "name": " Prasanna Mavuri",
+        "position": "Vice Captain",
+        "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+      }
+    ],
+    "rules": {
+      "League Format": [
+        "1. Urja '24 badminton will be held in a round-robin format.",
+        "2. Each player or team will compete against every other participant or team once.",
+        "3. The top players or teams based on wins will advance to the knockout stage."
+      ],
+      "Point System": [
+        "1. 1 Point for each set won.",
+        "2. Matches are best of 3 sets.",
+        "3. The player or team that wins 2 sets first wins the match."
+      ],
+      "Match Format": [
+        "1. Each match consists of 3 sets.",
+        "2. Each set is played to 21 points, with a 2-point advantage required to win.",
+        "3. In the event of a 20-20 tie, play continues until one player or team has a 2-point lead."
+      ],
+      "Discipline And Regulations": [
+        "1. Players must follow the dress code specified by the tournament organizers.",
+        "2. Unsportsmanlike conduct or verbal abuse will result in penalties or disqualification.",
+        "3. Players must be punctual and ready for their matches at the scheduled times."
+      ]
+    },
+    "matchSchedule": {
+      "boys": "bcd.jpg",
+      "girls": "bcd.jpg"
+    }
+  },
+  {
+    "id": "13",
+    "title": "Volleyball",
+    "quote": "The only way to prove that you’re a good sport is to lose. – Ernie Banks",
+    "description": "Volleyball is a team sport played with a ball that is hit over a net between two teams of six players each. The objective is to score points by grounding the ball on the opponent's side of the court. The game requires teamwork, quick reflexes, and strategic play. Matches are typically played in a best-of-five sets format.",
+    "coordinator": [
+      {
+        "name": "Vivek Mahato",
+        "position": "Captain",
+        "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+      },
+      {
+        "name": "Sayantan Bairagi",
+        "position": "Vice Captain",
+        "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+      },
+      {
+        "name": "Dani Sumpi",
+        "position": "Captain",
+        "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+      },
+      {
+        "name": "Sejal Kumari",
+        "position": "Vice Captain",
+        "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+      }
+    ],
+    "rules": {
+      "League Format": [
+        "1. Urja '24 volleyball will be played in a round-robin format.",
+        "2. Teams will play against each other once in the preliminary rounds.",
+        "3. The top teams will advance to the knockout stage."
+      ],
+      "Point System": [
+        "1. 3 Points for a win.",
+        "2. 1 Point for a loss.",
+        "3. Matches are best of 5 sets."
+      ],
+      "Match Format": [
+        "1. Each match consists of 5 sets.",
+        "2. The first team to reach 25 points wins a set, with a 2-point advantage required.",
+        "3. If the match reaches a 2-2 tie, the final set will be played to 15 points."
+      ],
+      "Discipline And Regulations": [
+        "1. Teams must adhere to the dress code and wear appropriate volleyball attire.",
+        "2. Any form of misconduct or unsportsmanlike behavior will result in penalties or disqualification.",
+        "3. Teams must be ready to play at the scheduled times and follow the official's decisions."
+      ]
+    },
+    "matchSchedule": {
+      "boys": "efg.jpg",
+      "girls": "efg.jpg"
+    }
+  },
+  {
+    "id": "14",
+    "title": "Table Tennis",
+    "quote": "Table tennis is a game of reflexes, anticipation, and skill. – Unknown",
+    "description": "Table tennis, also known as ping-pong, is a fast-paced game played on a table with a small ball and paddles. Players compete to score points by hitting the ball over the net and into the opponent's side of the table. The game requires quick reflexes, precision, and strategy.",
+    "coordinator": [
+      {
+        "name": "Durgesh prakash",
+        "position": "Captain",
+        "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+      },
+      {
+        "name": "Karan Raj",
+        "position": "Vice Captain",
+        "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+      },
+      {
+        "name": "Ishika Sarkar",
+        "position": "Captain",
+        "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+      },
+      {
+        "name": "Kriti Pandey",
+        "position": "Vice Captain",
+        "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+      }
+    ],
+    "rules": {
+      "League Format": [
+        "1. Urja '24 table tennis will be played in a round-robin format.",
+        "2. Each player will compete against every other player once.",
+        "3. The top players based on the number of wins will advance to the knockout stage."
+      ],
+      "Point System": [
+        "1. 1 Point for each match won.",
+        "2. Matches are played best of 5 sets.",
+        "3. Each set is played to 11 points, with a 2-point lead required to win."
+      ],
+      "Match Format": [
+        "1. Each match is played as the best of 5 sets.",
+        "2. The first player to reach 11 points wins a set.",
+        "3. In the event of a 10-10 tie, play continues until one player achieves a 2-point lead."
+      ],
+      "Discipline And Regulations": [
+        "1. Players must adhere to the dress code specified by the tournament organizers.",
+        "2. Disrespect towards opponents or officials will result in penalties or disqualification.",
+        "3. Players should be punctual and ready to play at their scheduled times."
+      ]
+    },
+    "matchSchedule": {
+      "boys": "hij.jpg",
+      "girls": "hij.jpg"
+    }
   }
-  
-  
-  
-  
 ]
+
