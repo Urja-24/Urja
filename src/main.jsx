@@ -4,7 +4,6 @@ import App from './App.jsx'
 import './index.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Home from './Components/Home.jsx'
-import Gallery from './Components/Gallery.jsx'
 import PointTable from './Components/PointTable.jsx'
 import CustomSport from './Components/CustomSport.jsx'
 import CustomMatches from './Components/CustomMatches.jsx'
@@ -12,8 +11,8 @@ import OurTeam from './Components/OurTeam.jsx'
 import Register from './Components/Register.jsx'
 import Players from './Components/Players.jsx'
 import MultiPurposeGallary from './Components/MultiPurposeGallary.jsx'
-import PointsTableComplete from './Components/PointsTableComplete.jsx'
 import DetailedPointTable from './Components/DetailedPointTable.jsx'
+
 const router = createBrowserRouter([{
   path: '/',
   element: <App />,
