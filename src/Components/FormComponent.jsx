@@ -11,20 +11,47 @@ const FormComponent = () => {
         setFormData({ ...formData, [e.target.id]: e.target.value });
     };
 
+    // const handleSubmit = async (e) => {
+    //     e.preventDefault();
+    //     if (!formData.name || formData.category === '0' || !formData.regNo) {
+    //         alert("All fields are required");
+    //         return;
+    //     }
+    //     try {
+    //         const response = await fetch('https://script.google.com/macros/s/AKfycbwS99RGRfq5p8SAYoiiGLVJN2sgjQrmoK2bgF-K3hTOOMD-8ePHD33YH1BJzmfl90zH/exec', {
+    //             method: 'POST',
+    //             headers: {
+    //                 'Content-Type': 'application/json'
+    //             },
+    //             body: JSON.stringify(formData)
+    //         });
+
+    //         if (response.ok) {
+    //             alert(formData.name + " has been successfully registered for " + formData.category);
+    //             // Optionally, reset the form after successful submission
+    //             setFormData({ name: "", regNo: "", category: 0 });
+    //         } else {
+    //             alert("Failed to submit the form.");
+    //         }
+    //     } catch (error) {
+    //         console.error("Error:", error);
+    //         alert("An error occurred.");
+    //     }
+    // };
     const handleSubmit = async (e) => {
         e.preventDefault();
-        if (!formData.name || formData.category === '0' || !formData.regNo) {
+        if (!formData.name || formData.category == '0' || !formData.regNo) {
             alert("All fields are required");
             return;
         }
-
         try {
-            alert(formData.name + " successfully registered for " + formData.category)
+            alert(`${formData.name} successfully registered for ${formData.category}`);
         } catch (error) {
             console.error("Error:", error);
             alert("An error occurred.");
         }
     };
+
 
 
     const events = [
