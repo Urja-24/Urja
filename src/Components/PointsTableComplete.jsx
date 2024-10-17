@@ -64,7 +64,7 @@ const PointTableComplete = () => {
           <button
             className="flex gap-x-2 underline underline-offset-4 bg-[#F5DEB3] rounded shadow-md py-3 px-12 text-black hover:scale-110 transition-transform ease-linear duration-300 justify-center items-center"
           >
-            <h3 className="text-lg text-center font-bold text-wrap">Register for athletics(only captain)</h3>
+            <h3 className="text-lg text-center font-bold text-wrap">Register for athletics</h3>
             <FontAwesomeIcon icon={faIdCard} className="text-3xl" />
           </button>
           {/* </div> */}
@@ -85,7 +85,7 @@ const PointTableComplete = () => {
             <div role="status">
               <svg
                 aria-hidden="true"
-                class="inline w-8 h-8 text-gray-200 animate-spin dark:text-gray-600 fill-yellow-400"
+                className="inline w-8 h-8 text-gray-200 animate-spin dark:text-gray-600 fill-yellow-400"
                 viewBox="0 0 100 101"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"

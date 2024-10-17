@@ -11,20 +11,58 @@ const FormComponent = () => {
         setFormData({ ...formData, [e.target.id]: e.target.value });
     };
 
-    const handleSubmit = (e) => {
+    // const handleSubmit = async (e) => {
+    //     e.preventDefault();
+    //     if (!formData.name || formData.category === '0' || !formData.regNo) {
+    //         alert("All fields are required");
+    //         return;
+    //     }
+    //     try {
+    //         const response = await fetch('https://script.google.com/macros/s/AKfycbwS99RGRfq5p8SAYoiiGLVJN2sgjQrmoK2bgF-K3hTOOMD-8ePHD33YH1BJzmfl90zH/exec', {
+    //             method: 'POST',
+    //             headers: {
+    //                 'Content-Type': 'application/json'
+    //             },
+    //             body: JSON.stringify(formData)
+    //         });
+
+    //         if (response.ok) {
+    //             alert(formData.name + " has been successfully registered for " + formData.category);
+    //             // Optionally, reset the form after successful submission
+    //             setFormData({ name: "", regNo: "", category: 0 });
+    //         } else {
+    //             alert("Failed to submit the form.");
+    //         }
+    //     } catch (error) {
+    //         console.error("Error:", error);
+    //         alert("An error occurred.");
+    //     }
+    // };
+    const handleSubmit = async (e) => {
         e.preventDefault();
-        if (!formData.name || formData.category === '0' || !formData.regNo) {
-            alert("All fields are required")
+        if (!formData.name || formData.category == '0' || !formData.regNo) {
+            alert("All fields are required");
             return;
         }
         try {
-
-            console.log(formData);  // Use this to see the current form data in the console
-            alert(formData.name + " has been successfully registered for " + formData.category)
+            alert(`${formData.name} successfully registered for ${formData.category}`);
         } catch (error) {
-
+            console.error("Error:", error);
+            alert("An error occurred.");
         }
     };
+
+
+
+    const events = [
+        "100m (G)", "200m (B)", "200m (G)", "400m (B)", "400m (G)", "800m (B)", "800m (G)",
+        "1500m (B)", "1500m (G)", "3000m (B)", "Cross country",
+        "Discus (B)", "Discus (G)", "Javelin (B)", "Javelin (G)",
+        "Shotput (B)", "Shotput (G)", "Long jump (B)", "Long jump (G)",
+        "High jump (B)", "High jump (G)", "Triple jump (B)", "Triple jump (G)",
+        "Hammer throw", "Tug of War",
+        "4*100m (B)", "4*100m (G)", "4*400m (B)", "4*100m Mix", "Medley"
+    ];
 
     return (
         <div className="flex items-center justify-center min-h-screen">
@@ -76,8 +114,7 @@ const FormComponent = () => {
                     >
                         <option value="0" className='text-black'>Select a category</option>
                         {/* You can add more options here */}
-                        <option value="100M" className='text-black'>100M</option>
-                        <option value="400M" className='text-black'>400M</option>
+                        {events.map(event => <option value={event} key={event} className='text-black'>{event}</option>)}
                     </select>
                 </div>
 
