@@ -9,7 +9,7 @@ const SportsHeader = ({ heading,fontSize}) => {
       <div className="mb-5">
         <div className="flex justify-center">
 
-          <div className="waviy" style={{ fontSize: fontSize?fontSize:"50px"}}>
+          <div className="waviy">
             {letters.map((letter, index) => (
               <span key={index} style={{ '--i': index + 1 , color :"white"}}>
                 {letter}
