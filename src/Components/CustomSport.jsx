@@ -238,7 +238,7 @@ function CustomSport() {
         </div>
 
 
-        <div className="flex justify-center gap-5">
+        <div className="flex flex-col md:flex-row justify-center gap-5">
           <div className="bg-[#F5DEB3] rounded shadow-md py-3 px-12 text-black hover:scale-110 transition-transform ease-linear duration-300">
             <button
               className="flex gap-x-2 underline underline-offset-4"
