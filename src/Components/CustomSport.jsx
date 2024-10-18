@@ -4,13 +4,15 @@ import { Link, useParams } from "react-router-dom";
 import data from "../assets/sports.json";
 import SportsPointTable from "./CustomSportsTable";
 import { useEffect, useState } from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faIdCard } from '@fortawesome/free-solid-svg-icons';
 
 const ApiList = {
   "volleyball": "https://script.googleusercontent.com/a/macros/nitjsr.ac.in/echo?user_content_key=dRAZJX3qdJGzYUjjs9ZBpnXUotmD-GjyBU9aumz7fx0KLD-h1Nijpl6Ry9C5QaaxcNcVuNhU9V-a_X0Wxpt_eEK_rnqLB8ryOJmA1Yb3SEsKFZqtv3DaNYcMrmhZHmUMi80zadyHLKBwKtDEchUn_-0muFwt44re68n4RAo2RJzs1vvt_4PVlrJdTbF9wO4gfZJ9mUMqXioUKrpACTTwNh6C6Lejr4px3jaPP_BybbBHKfZUXqweJVQyWpTNBZLhkIFDRcSkKJXc_ScPTHfLrg&lib=MbFnQ52PhHg_rVPRUndImKFkwFfR2TN0r",
   "Lawn Tennis": "https://script.googleusercontent.com/a/macros/nitjsr.ac.in/echo?user_content_key=2Rz9CJ151PzjlQh9-lMg6frr7jrUN4DKyn63sIGothyiM_JHudYIIkfwgLG1Ve1Ukd5GvZTcLLRM7VwPFIZERqtkQ5s-zGxEm5_BxDlH2jW0nuo2oDemN9CCS2h10ox_nRPgeZU6HP99KLH5Z5lGhy_8qITVF7fXelfDA88TH5oi1dLN9rAXXXq0S42syHb8B_2SsXnq_p34ZVTkVT_-oSvQv5rp55dbf486KZUKC5Lu_b5V46PdHDqw714ZYx9j9JuxpXwh2Hg&lib=MbFnQ52PhHg_rVPRUndImKFkwFfR2TN0r",
-  "Badminton":"https://script.googleusercontent.com/a/macros/nitjsr.ac.in/echo?user_content_key=tOgDRwaKjaDFHeBcait240ib9dZTP9gi25Ti13ysCjb8_JYfI8y7dR4702TCqlDLhscD0-5COOshy0rdDxXJB7HdL6bIc7alOJmA1Yb3SEsKFZqtv3DaNYcMrmhZHmUMi80zadyHLKBwKtDEchUn_-0muFwt44re68n4RAo2RJyTSeugzzsCjE-xTAgllbG6lwfwAtvE-9iqvMid3PzKr2FCq7QWWzzDl45nriNOsUfRhZiVxicjyYyHbd5a4SLSIFPMX8zPW6Dc_ScPTHfLrg&lib=MbFnQ52PhHg_rVPRUndImKFkwFfR2TN0r",
-  "Basketball":"https://script.googleusercontent.com/a/macros/nitjsr.ac.in/echo?user_content_key=uU1jaV2glwKUl-3tanCW7FplG7URVE2Q4wnmi5J6j3PfZVLLFZ-D4bhdGDhV5HunIfziFXe70zkoD6Qe9lfndmdpxwMoZrNBOJmA1Yb3SEsKFZqtv3DaNYcMrmhZHmUMi80zadyHLKBwKtDEchUn_-0muFwt44re68n4RAo2RJzDb4613587aSfjZMtDZLcELC_f_Yo4jTtRIg6bzrScYOAYuANm7rVs6487QVfYyKTTIueiOA-TopjUGB_TA6hGbh4lxC8Ek_fc_ScPTHfLrg&lib=MbFnQ52PhHg_rVPRUndImKFkwFfR2TN0r",
-  "Hockey":"https://script.googleusercontent.com/a/macros/nitjsr.ac.in/echo?user_content_key=XGiw0IcNE_VF_Hl0X7pYCJwwX4vVhEz0ddtStfxnznfKteuGTq4kdQNBBWbBj6uuaITXC6YfRozXOdhhBvC0WCrN0vrRePfpOJmA1Yb3SEsKFZqtv3DaNYcMrmhZHmUMi80zadyHLKBwKtDEchUn_-0muFwt44re68n4RAo2RJyLvEN0BXm5YsBppdXptXgRaCRpf9a7sQRTUbPKdVr1w-cQENkmkITDR9b9pe_OAJyBFz-uzMJNqjcJLUa-NCzKMn3zd4kdsXTc_ScPTHfLrg&lib=MbFnQ52PhHg_rVPRUndImKFkwFfR2TN0r"
+  "Badminton": "https://script.googleusercontent.com/a/macros/nitjsr.ac.in/echo?user_content_key=tOgDRwaKjaDFHeBcait240ib9dZTP9gi25Ti13ysCjb8_JYfI8y7dR4702TCqlDLhscD0-5COOshy0rdDxXJB7HdL6bIc7alOJmA1Yb3SEsKFZqtv3DaNYcMrmhZHmUMi80zadyHLKBwKtDEchUn_-0muFwt44re68n4RAo2RJyTSeugzzsCjE-xTAgllbG6lwfwAtvE-9iqvMid3PzKr2FCq7QWWzzDl45nriNOsUfRhZiVxicjyYyHbd5a4SLSIFPMX8zPW6Dc_ScPTHfLrg&lib=MbFnQ52PhHg_rVPRUndImKFkwFfR2TN0r",
+  "Basketball": "https://script.googleusercontent.com/a/macros/nitjsr.ac.in/echo?user_content_key=uU1jaV2glwKUl-3tanCW7FplG7URVE2Q4wnmi5J6j3PfZVLLFZ-D4bhdGDhV5HunIfziFXe70zkoD6Qe9lfndmdpxwMoZrNBOJmA1Yb3SEsKFZqtv3DaNYcMrmhZHmUMi80zadyHLKBwKtDEchUn_-0muFwt44re68n4RAo2RJzDb4613587aSfjZMtDZLcELC_f_Yo4jTtRIg6bzrScYOAYuANm7rVs6487QVfYyKTTIueiOA-TopjUGB_TA6hGbh4lxC8Ek_fc_ScPTHfLrg&lib=MbFnQ52PhHg_rVPRUndImKFkwFfR2TN0r",
+  "Hockey": "https://script.googleusercontent.com/a/macros/nitjsr.ac.in/echo?user_content_key=XGiw0IcNE_VF_Hl0X7pYCJwwX4vVhEz0ddtStfxnznfKteuGTq4kdQNBBWbBj6uuaITXC6YfRozXOdhhBvC0WCrN0vrRePfpOJmA1Yb3SEsKFZqtv3DaNYcMrmhZHmUMi80zadyHLKBwKtDEchUn_-0muFwt44re68n4RAo2RJyLvEN0BXm5YsBppdXptXgRaCRpf9a7sQRTUbPKdVr1w-cQENkmkITDR9b9pe_OAJyBFz-uzMJNqjcJLUa-NCzKMn3zd4kdsXTc_ScPTHfLrg&lib=MbFnQ52PhHg_rVPRUndImKFkwFfR2TN0r"
 }
 
 function CustomSport() {
@@ -27,21 +29,21 @@ function CustomSport() {
   useEffect(() => {
     console.log(sportName)
     const fetchScore = async () => {
-  
+
       const csvUrl = ApiList[sportName];
-  
+
       setLoading(true);
-  
+
       try {
-  
+
         const response = await fetch(csvUrl, {
-  
+
           method: "GET",
-  
+
         });
-  
+
         const data = await response.json();
-  
+
         const transformedData = Object.keys(data).reduce((acc, key) => {
           acc[key] = data[key].map((item) => {
             return {
@@ -51,23 +53,23 @@ function CustomSport() {
           });
           return acc;
         }, {});
-  
+
         setScores(transformedData);
-  
+
       } catch (error) {
-  
+
         console.error(error);
-  
+
       } finally {
-  
+
         setLoading(false);
-  
+
       }
-  
+
     };
-  
+
     fetchScore();
-  
+
   }, [key]);
 
 
@@ -144,15 +146,15 @@ function CustomSport() {
 
           Object.keys(scores).map((category, index) => (
 
-            <SportsPointTable 
+            <SportsPointTable
 
-              key={index} 
+              key={index}
 
-              Title={`${category.charAt(0).toUpperCase() + category.slice(1)} Point table`} 
+              Title={`${category.charAt(0).toUpperCase() + category.slice(1)} Point table`}
 
-              sportName={sportName} 
+              sportName={sportName}
 
-              tableData={scores[category]} 
+              tableData={scores[category]}
 
             />
 

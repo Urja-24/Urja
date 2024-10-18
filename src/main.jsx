@@ -12,6 +12,7 @@ import Register from './Components/Register.jsx'
 import Players from './Components/Players.jsx'
 import MultiPurposeGallary from './Components/MultiPurposeGallary.jsx'
 import DetailedPointTable from './Components/DetailedPointTable.jsx'
+import AthleticsRegistrationForm from './Components/AthleticsRegistrationForm.jsx'
 
 const router = createBrowserRouter([{
   path: '/',
@@ -26,32 +27,35 @@ const router = createBrowserRouter([{
       element: <PointTable />
     },
     {
-      path:"/gallery",
-      element:<MultiPurposeGallary/>
+      path: "/gallery",
+      element: <MultiPurposeGallary />
     },
     {
-      path:"/our-team",
-      element:<OurTeam/>
+      path: "/our-team",
+      element: <OurTeam />
     },
     {
       path: "/sports/:key",
       element: <CustomSport />,
     },
     {
-      path:"/customMatches/:id" , 
-      element:<CustomMatches/>  ,
+      path: "/customMatches/:id",
+      element: <CustomMatches />,
     },
     {
-      path:"/register/:id" , 
-      element:<Register/>  ,
+      path: "/register/:id",
+      element: <Register />,
     },
     {
-      path: "/Players", 
-      element : <Players/>
+      path: "/Players",
+      element: <Players />
     },
     {
-      path:"/points-table" , 
-      element: <DetailedPointTable/> 
+      path: "/points-table",
+      element: <DetailedPointTable />
+    }, {
+      path: "/athletics-registration",
+      element: <AthleticsRegistrationForm />
     }
   ]
 }])
