@@ -46,7 +46,7 @@ const FormComponent = () => {
                     })
                 }
                 else
-                    alert("Something went wrong! Pleae try again")
+                    alert("Something went wrong!! Pleae try again")
                 setloading(false)
             })
             .catch((error) => {
