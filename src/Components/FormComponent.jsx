@@ -77,7 +77,6 @@ const FormComponent = ({ onClose }) => {
                 setloading(false);
 
             });
-
     };
 
 
@@ -98,7 +97,6 @@ const FormComponent = ({ onClose }) => {
                 <h2 className="text-2xl text-white font-semibold mb-6 text-center">
                     Athletics Registration Form
                 </h2>
-               
                 {/* Name Input */}
                 <div className="mb-4">
                     <label className="block text-gray-200 text-sm mb-2" htmlFor="name">
