@@ -11,6 +11,7 @@ function Footer() {
         <div className="left w-full md:w-1/2 flex">
           <div className="footer-content">
             <img className="h-12" src={logo} />
+            <p className="text-[#F5DEB3] font-bold">student activity centre</p>
             <p className="text-sm max-w-md leading-relaxed">
               Join us for a thrilling showcase of sportsmanship and camaraderie
               at NIT Jamshedpur. URJA '25 is not just a sports fest, it’s a
