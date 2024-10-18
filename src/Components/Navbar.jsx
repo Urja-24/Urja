@@ -23,6 +23,7 @@ const Navbar = () => {
           className="font-extrabold text-[#F5DEB3]"
         >
           <img className='h-16' src={logo} alt="Urja Logo" />
+          <p className='text-center'>student activity centre</p>
         </NavLink>
       </div>
 
@@ -113,7 +114,7 @@ const Navbar = () => {
       </div>
 
       {/* Hamburger Menu Icon (Visible on Mobile) */}
-      <div className="absolute top-6 right-4 md:hidden cursor-pointer px-4 py-2" onClick={toggleMenu}>
+      <div className="absolute top-6 right-2 md:hidden cursor-pointer px-4 py-2" onClick={toggleMenu}>
         {!isOpen &&<FaBars size={28} className="text-white" />}
 
       </div>

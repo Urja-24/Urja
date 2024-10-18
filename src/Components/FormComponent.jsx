@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const FormComponent = () => {
+const FormComponent = ({ onClose }) => {
     const [formData, setFormData] = useState({
         name: "",
         regNo: "",
@@ -11,48 +11,71 @@ const FormComponent = () => {
         setFormData({ ...formData, [e.target.id]: e.target.value });
     };
     const handleSubmit = async (e) => {
+
         e.preventDefault();
-        setloading(true)
+
+        setloading(true);
+
         if (!formData.name || formData.category === 0 || !formData.regNo) {
+
             alert("All fields are required");
+
+            setloading(false);
+
             return;
+
         }
-        const formDataa = new FormData()
-        formDataa.append('name', formData.name)
-        formDataa.append('regNo', formData.regNo)
-        formDataa.append('category', formData.category)
-        // try {
-        //     const data=await axios.post()
-        //     alert(`${formData.name} successfully registered for ${formData.category}`);
-        // } catch (error) {
-        //     console.error("Error:", error);
-        //     alert("An error occurred.");
-        // }
-        fetch(
-            "https://script.google.com/macros/s/AKfycbytAVY7E8rMv8buPcmG7DPArDPog9FpGC7loEepS2TZYgbUJps3QGG7D8mKjx6jOE3r/exec",
-            {
-                method: "POST",
-                body: formDataa
-            }
-        )
+
+        const formDataa = new FormData();
+
+        formDataa.append('name', formData.name);
+
+        formDataa.append('regNo', formData.regNo);
+
+        formDataa.append('category', formData.category);
+
+
+
+        // Fetch request
+
+        fetch("https://script.google.com/macros/s/AKfycbytAVY7E8rMv8buPcmG7DPArDPog9FpGC7loEepS2TZYgbUJps3QGG7D8mKjx6jOE3r/exec", {
+
+            method: "POST",
+
+            body: formDataa
+
+        })
+
             .then((data) => {
+
                 console.log(data);
+
                 if (data.status === 200) {
+
                     alert(`${formData.name} successfully registered for ${formData.category}`);
-                    setFormData({
-                        name: '',
-                        category: 0,
-                        regNo: ''
-                    })
+
+                    setFormData({ name: '', category: 0, regNo: '' });
+
+                    onClose(); // Close the modal on successful submission
+
+                } else {
+
+                    alert("Something went wrong! Please try again");
+
                 }
-                else
-                    alert("Something went wrong!! Pleae try again")
-                setloading(false)
+
+                setloading(false);
+
             })
+
             .catch((error) => {
+
                 console.log(error);
-                alert(error?.message || "Something went wrong. Please Try again")
-                setloading(false)
+
+                alert(error?.message || "Something went wrong. Please Try again");
+
+                setloading(false);
+
             });
     };
 
@@ -74,7 +97,6 @@ const FormComponent = () => {
                 <h2 className="text-2xl text-white font-semibold mb-6 text-center">
                     Athletics Registration Form
                 </h2>
-
                 {/* Name Input */}
                 <div className="mb-4">
                     <label className="block text-gray-200 text-sm mb-2" htmlFor="name">
@@ -128,10 +150,18 @@ const FormComponent = () => {
                 {/* Submit Button */}
                 {!loading && <button
                     type="submit"
-                    className="w-full py-2 bg-blue-600 text-white font-semibold rounded-md hover:bg-blue-700 transition-colors"
+                    className="w-full py-2 bg-[#F5DEB3] text-black font-semibold rounded-md hover:bg-blue-700 transition-colors"
                 >
                     Submit
                 </button>}
+                {/* close Button */}
+                <button
+                onClick={onClose}
+                    type="submit"
+                    className="mt-6 w-full py-2 bg-white text-black font-semibold rounded-md hover:bg-blue-700 transition-colors"
+                >
+                    close
+                </button>
             </form>
         </div>
     );

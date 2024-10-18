@@ -162,6 +162,15 @@
         "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
       }
     ],
+    "PreviousYearResults": [
+      {
+        "title": "Point Table",
+        "winners": [
+          { "position": "🥇", "team": "ME+PIE+ECM" },
+          { "position": "🥈", "team": "MME+ECE" }
+        ]
+      }
+    ],
     "rules": {
       "League Format": [
         "1. Urja '24 hockey tournament will follow a round-robin format.",
