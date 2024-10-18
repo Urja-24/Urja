@@ -92,7 +92,7 @@ const Navbar = () => {
                   : 'hover:text-white transition duration-300 ease-in-out'
               }
             >
-              sportwise winners
+              SportsWise Winners
             </NavLink>
           </li>
           {/* <li>
