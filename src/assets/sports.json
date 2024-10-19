@@ -449,6 +449,23 @@
         "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
       }
     ],
+    "PreviousYearResults": [
+      {
+        "title": "Boys",
+        "winners": [
+          { "position": "🥇", "team": "EE", "score": 10 },
+          { "position": "🥈", "team": "PIE+ECM", "score": 7 },
+          { "position": "🥉", "team": "CSE", "score": 5 }
+        ]
+      },
+      {
+        "title": "Girls",
+        "winners": [
+          { "position": "🥇", "team": "ME+PIE+ECM", "score": 5 },
+          { "position": "🥈", "team": "MME+ECE", "score": 3.5 }
+        ]
+      }
+    ],
     "rules": {
       "League Format": [
         "1. Urja '24 basketball tournament will follow a knockout format.",
