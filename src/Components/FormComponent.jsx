@@ -4,7 +4,8 @@ const FormComponent = ({ onClose }) => {
     const [formData, setFormData] = useState({
         name: "",
         regNo: "",
-        category: 0  // Key must be lowercase 'category' to match the id in select
+        category: 0 ,
+        branch :"", 
     });
     const [loading, setloading] = useState(false)
     const updateForm = (e) => {
@@ -33,10 +34,10 @@ const FormComponent = ({ onClose }) => {
         formDataa.append('regNo', formData.regNo);
 
         formDataa.append('category', formData.category);
+        formDataa.append('branch', formData.branch);
 
 
 
-        // Fetch request
 
         fetch("https://script.google.com/macros/s/AKfycbytAVY7E8rMv8buPcmG7DPArDPog9FpGC7loEepS2TZYgbUJps3QGG7D8mKjx6jOE3r/exec", {
 
@@ -54,9 +55,9 @@ const FormComponent = ({ onClose }) => {
 
                     alert(`${formData.name} successfully registered for ${formData.category}`);
 
-                    setFormData({ name: '', category: 0, regNo: '' });
+                    setFormData({ name: '', category: 0, regNo: '' , branch:''});
 
-                    onClose(); // Close the modal on successful submission
+                    onClose();
 
                 } else {
 
@@ -90,14 +91,23 @@ const FormComponent = ({ onClose }) => {
         "Hammer throw", "Tug of War",
         "4*100m (B)", "4*100m (G)", "4*400m (B)", "4*100m Mix", "Medley"
     ];
+    const branchs = [
+        "CSE",
+        "ECE",
+        "EE",
+        "ECM",
+        "ME",
+        "PIE",
+        "CE",
+        "MME"
+    ];
 
     return (
-        <div className="flex items-center justify-center min-h-screen">
+        <div className="flex items-center justify-center mt-28">
             <form className="backdrop-blur-lg bg-white/10 p-8 rounded-md shadow-lg w-96 border border-white/20" onSubmit={handleSubmit}>
                 <h2 className="text-2xl text-white font-semibold mb-6 text-center">
                     Athletics Registration Form
                 </h2>
-                {/* Name Input */}
                 <div className="mb-4">
                     <label className="block text-gray-200 text-sm mb-2" htmlFor="name">
                         Name
@@ -113,7 +123,6 @@ const FormComponent = ({ onClose }) => {
                     />
                 </div>
 
-                {/* Registration Number Input */}
                 <div className="mb-4">
                     <label className="block text-gray-200 text-sm mb-2" htmlFor="regNo">
                         Registration Number
@@ -129,25 +138,40 @@ const FormComponent = ({ onClose }) => {
                     />
                 </div>
 
-                {/* Select Dropdown */}
                 <div className="mb-6">
                     <label className="block text-gray-200 text-sm mb-2" htmlFor="category">
                         Category
                     </label>
                     <select
-                        id="category" // Ensure this matches the key in formData (lowercase 'category')
+                        id="category" 
                         value={formData.category}
                         name='category'
                         onChange={updateForm}
                         className="w-full px-3 py-2 text-gray-200 bg-transparent border border-gray-600 rounded-md focus:outline-none focus:border-blue-500"
                     >
                         <option value="0" className='text-black'>Select a category</option>
-                        {/* You can add more options here */}
+                      
                         {events.map(event => <option value={event} key={event} className='text-black'>{event}</option>)}
                     </select>
                 </div>
 
-                {/* Submit Button */}
+                <div className="mb-6">
+                    <label className="block text-gray-200 text-sm mb-2" htmlFor="category">
+                        Branch
+                    </label>
+                    <select
+                        id="branch" 
+                        value={formData.branch}
+                        name='branch'
+                        onChange={updateForm}
+                        className="w-full px-3 py-2 text-gray-200 bg-transparent border border-gray-600 rounded-md focus:outline-none focus:border-blue-500"
+                    >
+                        <option value="0" className='text-black'>Select a Branch</option>
+                      
+                        {branchs.map(event => <option value={event} key={event} className='text-black'>{event}</option>)}
+                    </select>
+                </div>  
+
                 {!loading && <button
                     type="submit"
                     className="w-full py-2 bg-[#F5DEB3] text-black font-semibold rounded-md hover:bg-blue-700 transition-colors"

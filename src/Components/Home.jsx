@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import FrontDisplay from "./FrontDisplay";
 import Leaderboard from "./Leaderboard";
 import Sports from "./Sports";
-import { Link } from "react-router-dom";
 import SportsHeader from "./AnimatedHeading";
 import PointTableComplete from "./PointsTableComplete";
 import FormComponent from "../Components/FormComponent";

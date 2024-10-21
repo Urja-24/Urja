@@ -23,7 +23,7 @@ const Navbar = () => {
           className="font-extrabold text-[#F5DEB3]"
         >
           <img className='h-16' src={logo} alt="Urja Logo" />
-          <p className='text-center'>student activity centre</p>
+          <p className='text-center'>Student Activity Centre</p>
         </NavLink>
       </div>
 
@@ -52,10 +52,10 @@ const Navbar = () => {
                   : 'hover:text-white transition duration-300 ease-in-out'
               }
             >
-             Detailed Points Table
+              Detailed Points Table
             </NavLink>
           </li>
-          
+
           <li>
             <NavLink
               to="/our-team"
@@ -82,8 +82,8 @@ const Navbar = () => {
               Gallery
             </NavLink>
           </li>
-          
-         
+
+
           <li>
             <NavLink
               to="/detailed-points-table"
@@ -109,13 +109,13 @@ const Navbar = () => {
             </NavLink>
           </li> */}
 
-      
+
         </ul>
       </div>
 
       {/* Hamburger Menu Icon (Visible on Mobile) */}
       <div className="absolute top-6 right-2 md:hidden cursor-pointer px-4 py-2" onClick={toggleMenu}>
-        {!isOpen &&<FaBars size={28} className="text-white" />}
+        {!isOpen && <FaBars size={28} className="text-white" />}
 
       </div>
 
@@ -149,7 +149,7 @@ const Navbar = () => {
                 Home
               </NavLink>
             </li>
-          
+
             <li>
               <NavLink
                 to="/gallery"
@@ -190,17 +190,17 @@ const Navbar = () => {
               </NavLink>
             </li>
             <li>
-            <NavLink
-              to="/points-table"
-              className={({ isActive }) =>
-                isActive
-                  ? 'border-b-2 pb-2 border-white'
-                  : 'hover:text-white transition duration-300 ease-in-out'
-              }
-            >
-             Points Table
-            </NavLink>
-          </li>
+              <NavLink
+                to="/points-table"
+                className={({ isActive }) =>
+                  isActive
+                    ? 'border-b-2 pb-2 border-white'
+                    : 'hover:text-white transition duration-300 ease-in-out'
+                }
+              >
+                Points Table
+              </NavLink>
+            </li>
             {/* <li>
             <NavLink
               to="/Players"

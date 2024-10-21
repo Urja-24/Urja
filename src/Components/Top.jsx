@@ -9,10 +9,8 @@ function Top() {
         link.rel = 'stylesheet';
         link.href = 'https://fonts.googleapis.com/css?family=Kodchasan';
 
-        // Append the link element to the document head
         document.head.appendChild(link);
 
-        // Cleanup function to remove the link element when the component unmounts
         return () => {
             document.head.removeChild(link);
         };
