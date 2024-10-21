@@ -13,7 +13,7 @@ const PointTableComplete = () => {
 
   const fetchCSVData = async () => {
     const csvUrl =
-      "https://script.googleusercontent.com/a/macros/nitjsr.ac.in/echo?user_content_key=dYYrITzDRkJWh9yjA4uqykpPvVsLHZCRuA6M1RP-DNp1A8Q4cakQzx-K2Sm0gCgrKP6oaH2La-G2WlpqacQdc0kwebZGpCOlOJmA1Yb3SEsKFZqtv3DaNYcMrmhZHmUMi80zadyHLKBwKtDEchUn_-0muFwt44re68n4RAo2RJyuczKvgFAK-7H1hUXzI6qQ1PsFo-0VxwsRSGXshehoPhDYJcTxHFJKzLNmedmMmRwf9xw3HFB-ZIaZ6ymjRTaBWg9SUTYOYLPc_ScPTHfLrg&lib=MmaNCPjJ9zLiYbtGlxrYyQFkwFfR2TN0r";
+      "https://script.googleusercontent.com/a/macros/nitjsr.ac.in/echo?user_content_key=4T2VkLmAkA7bw7So3zm9Ha14e1p070Px9UiiM-sJTXUTiMZSjWj_LCeVruGDdoJzuOWRdRGWrmhMQ96h1mufJNmXJrbyQ7AROJmA1Yb3SEsKFZqtv3DaNYcMrmhZHmUMi80zadyHLKBwKtDEchUn_-0muFwt44re68n4RAo2RJyuczKvgFAK-7H1hUXzI6qQ1PsFo-0VxwsRSGXshehoPhDYJcTxHFJKzLNmedmMmRwf9xw3HFB-ZIaZ6ymjRTaBWg9SUTYOYLPc_ScPTHfLrg&lib=MmaNCPjJ9zLiYbtGlxrYyQFkwFfR2TN0r";
     setLoading(true);
     try {
       const response = await fetch(csvUrl, {
