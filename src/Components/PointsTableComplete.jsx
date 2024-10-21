@@ -13,7 +13,7 @@ const PointTableComplete = () => {
 
   const fetchCSVData = async () => {
     const csvUrl =
-      "https://script.googleusercontent.com/a/macros/nitjsr.ac.in/echo?user_content_key=4T2VkLmAkA7bw7So3zm9Ha14e1p070Px9UiiM-sJTXUTiMZSjWj_LCeVruGDdoJzuOWRdRGWrmhMQ96h1mufJNmXJrbyQ7AROJmA1Yb3SEsKFZqtv3DaNYcMrmhZHmUMi80zadyHLKBwKtDEchUn_-0muFwt44re68n4RAo2RJyuczKvgFAK-7H1hUXzI6qQ1PsFo-0VxwsRSGXshehoPhDYJcTxHFJKzLNmedmMmRwf9xw3HFB-ZIaZ6ymjRTaBWg9SUTYOYLPc_ScPTHfLrg&lib=MmaNCPjJ9zLiYbtGlxrYyQFkwFfR2TN0r";
+      "https://script.googleusercontent.com/a/macros/nitjsr.ac.in/echo?user_content_key=dYYrITzDRkJWh9yjA4uqykpPvVsLHZCRuA6M1RP-DNp1A8Q4cakQzx-K2Sm0gCgrKP6oaH2La-G2WlpqacQdc0kwebZGpCOlOJmA1Yb3SEsKFZqtv3DaNYcMrmhZHmUMi80zadyHLKBwKtDEchUn_-0muFwt44re68n4RAo2RJyuczKvgFAK-7H1hUXzI6qQ1PsFo-0VxwsRSGXshehoPhDYJcTxHFJKzLNmedmMmRwf9xw3HFB-ZIaZ6ymjRTaBWg9SUTYOYLPc_ScPTHfLrg&lib=MmaNCPjJ9zLiYbtGlxrYyQFkwFfR2TN0r";
     setLoading(true);
     try {
       const response = await fetch(csvUrl, {
@@ -32,31 +32,31 @@ const PointTableComplete = () => {
   useEffect(() => {
     fetchCSVData();
   }, []);
-
   useEffect(() => {
     if (tableData.length > 0) {
       const teamScores = {};
-
-      tableData.forEach((sport) => {
+  
+      tableData.forEach((sport, index) => {
+        if (index === tableData.length - 1) return;
+  
         Object.keys(sport).forEach((key) => {
           if (key !== "Sport" && sport[key] !== "") {
             teamScores[key] = (teamScores[key] || 0) + parseInt(sport[key], 10);
           }
         });
       });
-
-      teamScores["ECM+PIE"] = teamScores["PIE+ECM"];
-
+  
+      teamScores["ECM+PIE"] = teamScores["PIE+ ECM"];
       delete teamScores["PIE+ECM"];
-
-      setLeader(
-        Object.entries(teamScores).map(([branch, points]) => ({
-          branch,
-          points,
-        }))
-      );
+  
+      const sortedLeaders = Object.entries(teamScores)
+        .map(([branch, points]) => ({ branch, points }))
+        .sort((a, b) => b.points - a.points);
+  
+      setLeader(sortedLeaders);
     }
   }, [tableData]);
+
   return <div className="mt-20 mb-4 container mx-auto px-4 ">
 
   <motion.h1
