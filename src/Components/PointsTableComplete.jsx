@@ -32,6 +32,7 @@ const PointTableComplete = () => {
   useEffect(() => {
     fetchCSVData();
   }, []);
+  
   useEffect(() => {
     if (tableData.length > 0) {
       const teamScores = {};
@@ -41,17 +42,17 @@ const PointTableComplete = () => {
   
         Object.keys(sport).forEach((key) => {
           if (key !== "Sport" && sport[key] !== "") {
-            teamScores[key] = (teamScores[key] || 0) + parseInt(sport[key], 10);
+            teamScores[key] = (teamScores[key] || 0) + parseFloat(sport[key]);
           }
         });
       });
   
-      teamScores["ECM+PIE"] = teamScores["PIE+ ECM"];
+      teamScores["ECM+PIE"] = teamScores["PIE+ECM"];
       delete teamScores["PIE+ECM"];
   
       const sortedLeaders = Object.entries(teamScores)
         .map(([branch, points]) => ({ branch, points }))
-        .sort((a, b) => b.points - a.points);
+        .sort((a, b) => b.points - a.points); 
   
       setLeader(sortedLeaders);
     }
