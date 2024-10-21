@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { motion } from 'framer-motion';
 import logo from '../assets/Urja.png';
-
+import collegeLogo from '../assets/logo_final.png';
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -16,6 +16,7 @@ const Navbar = () => {
       style={{ backgroundImage: "url('https://i.postimg.cc/Vk7WZy9J/wooden-bg.jpg')" }}
       className="bg-[#1E1E1E] text-[#F5DEB3] overflow-x-hidden w-full scroll"
     >
+      <img className='absolute left-2 md:left-28 top-6 md:top-4 h-20 md:h-28' src={collegeLogo}/>
       {/* Logo Section */}
       <div className="w-full flex justify-center items-center py-4">
         <NavLink
@@ -23,7 +24,7 @@ const Navbar = () => {
           className="font-extrabold text-[#F5DEB3]"
         >
           <img className='h-16' src={logo} alt="Urja Logo" />
-          <p className='text-center'>student activity centre</p>
+          <p className='text-center'>Student Activity Centre</p>
         </NavLink>
       </div>
 
@@ -52,10 +53,10 @@ const Navbar = () => {
                   : 'hover:text-white transition duration-300 ease-in-out'
               }
             >
-             Detailed Points Table
+              Detailed Points Table
             </NavLink>
           </li>
-          
+
           <li>
             <NavLink
               to="/our-team"
@@ -82,8 +83,8 @@ const Navbar = () => {
               Gallery
             </NavLink>
           </li>
-          
-         
+
+
           <li>
             <NavLink
               to="/detailed-points-table"
@@ -109,13 +110,13 @@ const Navbar = () => {
             </NavLink>
           </li> */}
 
-      
+
         </ul>
       </div>
 
       {/* Hamburger Menu Icon (Visible on Mobile) */}
       <div className="absolute top-6 right-2 md:hidden cursor-pointer px-4 py-2" onClick={toggleMenu}>
-        {!isOpen &&<FaBars size={28} className="text-white" />}
+        {!isOpen && <FaBars size={28} className="text-white" />}
 
       </div>
 
@@ -149,7 +150,7 @@ const Navbar = () => {
                 Home
               </NavLink>
             </li>
-          
+
             <li>
               <NavLink
                 to="/gallery"
@@ -190,17 +191,17 @@ const Navbar = () => {
               </NavLink>
             </li>
             <li>
-            <NavLink
-              to="/points-table"
-              className={({ isActive }) =>
-                isActive
-                  ? 'border-b-2 pb-2 border-white'
-                  : 'hover:text-white transition duration-300 ease-in-out'
-              }
-            >
-             Points Table
-            </NavLink>
-          </li>
+              <NavLink
+                to="/points-table"
+                className={({ isActive }) =>
+                  isActive
+                    ? 'border-b-2 pb-2 border-white'
+                    : 'hover:text-white transition duration-300 ease-in-out'
+                }
+              >
+                Points Table
+              </NavLink>
+            </li>
             {/* <li>
             <NavLink
               to="/Players"
