@@ -39,7 +39,7 @@ const FormComponent = ({ onClose }) => {
 
 
 
-        fetch("https://script.google.com/macros/s/AKfycbytAVY7E8rMv8buPcmG7DPArDPog9FpGC7loEepS2TZYgbUJps3QGG7D8mKjx6jOE3r/exec", {
+        fetch("https://script.google.com/macros/s/AKfycbzOMXHDRABrvLTEAEVajWjhD4Vw9geEW-kScp3WD8s-vmdaUbDbZhNkvYd7LM7fC5B-/exec", {
 
             method: "POST",
 
