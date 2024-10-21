@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { motion } from 'framer-motion';
 import logo from '../assets/Urja.png';
-
+import collegeLogo from '../assets/logo_final.png';
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -16,6 +16,7 @@ const Navbar = () => {
       style={{ backgroundImage: "url('https://i.postimg.cc/Vk7WZy9J/wooden-bg.jpg')" }}
       className="bg-[#1E1E1E] text-[#F5DEB3] overflow-x-hidden w-full scroll"
     >
+      <img className='absolute left-2 md:left-28 top-6 md:top-4 h-20 md:h-28' src={collegeLogo}/>
       {/* Logo Section */}
       <div className="w-full flex justify-center items-center py-4">
         <NavLink
