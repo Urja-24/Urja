@@ -110,8 +110,8 @@
       {
         "title": "Girls",
         "winners": [
-          { "position": "🥇", "team": "PIE+ECM+ME" },
-          { "position": "🥈", "team": "MME+ECE" }
+          { "position": "🥇", "team": "MME+ECE" },
+          { "position": "🥈", "team": "ME+PIE+ECM" }
         ]
       }
     ],
@@ -160,6 +160,15 @@
         "name": "Amarjeet Kumar",
         "position": "Vice Captain",
         "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+      }
+    ],
+    "PreviousYearResults": [
+      {
+        "title": "Point Table",
+        "winners": [
+          { "position": "🥇", "team": "ME+PIE+ECM" },
+          { "position": "🥈", "team": "MME+ECE" }
+        ]
       }
     ],
     "rules": {
