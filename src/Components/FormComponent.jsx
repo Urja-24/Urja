@@ -95,11 +95,11 @@ const FormComponent = ({ onClose }) => {
         "CSE",
         "ECE",
         "EE",
-        "ECM",
+        "ECM+PIE",
         "ME",
-        "PIE",
         "CE",
-        "MME"
+        "MME",
+        "PG"
     ];
 
     return (
