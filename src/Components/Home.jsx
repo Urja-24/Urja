@@ -15,7 +15,7 @@ function Home() {
     { id: 3, branch: "MME", points: 93 },
     { id: 4, branch: "ECE", points: 85.5 },
     { id: 5, branch: "ME", points: 84 },
-    { id: 6, branch: "ECM+PIE", points: 71 },
+    { id: 6, branch: "PIE+ECM", points: 71 },
     { id: 7, branch: "PG", points: 66 },
     { id: 8, branch: "EE", points: 52 },
   ];

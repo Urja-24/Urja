@@ -47,8 +47,8 @@ const PointTableComplete = () => {
         });
       });
   
-      teamScores["ECM+PIE"] = teamScores["PIE+ECM"];
-      delete teamScores["PIE+ECM"];
+      // teamScores["ECM+PIE"] = teamScores["PIE+ECM"];
+      // delete teamScores["PIE+ECM"];
   
       const sortedLeaders = Object.entries(teamScores)
         .map(([branch, points]) => ({ branch, points }))
