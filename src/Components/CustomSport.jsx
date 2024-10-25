@@ -75,7 +75,7 @@ function CustomSport() {
 
   return (
 
-    <div className="mt-40">
+    <div className="mt-40 md:mt-48">
 
       <div>
 
