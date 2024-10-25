@@ -23,7 +23,7 @@ const router = createBrowserRouter([{
       element: <Home />
     },
     {
-      path: "/detailed-points-table",
+      path: "/sportswise-winners",
       element: <PointTable />
     },
     {
@@ -51,7 +51,7 @@ const router = createBrowserRouter([{
       element: <Players />
     },
     {
-      path: "/points-table",
+      path: "/detailed-points-table",
       element: <DetailedPointTable />
     }, {
       path: "/athletics-registration",

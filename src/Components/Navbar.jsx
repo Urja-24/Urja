@@ -46,7 +46,7 @@ const Navbar = () => {
           </li>
           <li>
             <NavLink
-              to="/points-table"
+              to="/detailed-points-table"
               className={({ isActive }) =>
                 isActive
                   ? 'border-b-2 pb-2 border-white'
@@ -87,7 +87,7 @@ const Navbar = () => {
 
           <li>
             <NavLink
-              to="/detailed-points-table"
+              to="/sportswise-winners"
               className={({ isActive }) =>
                 isActive
                   ? 'border-b-2 pb-2 border-white'
@@ -150,10 +150,9 @@ const Navbar = () => {
                 Home
               </NavLink>
             </li>
-
             <li>
               <NavLink
-                to="/gallery"
+                to="/detailed-points-table"
                 className={({ isActive }) =>
                   isActive
                     ? 'border-b-2 pb-2 border-white'
@@ -161,9 +160,10 @@ const Navbar = () => {
                 }
                 onClick={toggleMenu}
               >
-                Gallery
+                Detailed Points Table
               </NavLink>
             </li>
+
             <li>
               <NavLink
                 to="/our-team"
@@ -179,7 +179,7 @@ const Navbar = () => {
             </li>
             <li>
               <NavLink
-                to="/detailed-points-table"
+                to="/gallery"
                 className={({ isActive }) =>
                   isActive
                     ? 'border-b-2 pb-2 border-white'
@@ -187,19 +187,20 @@ const Navbar = () => {
                 }
                 onClick={toggleMenu}
               >
-                Detailed Points Table
+                Gallery
               </NavLink>
             </li>
+           
             <li>
               <NavLink
-                to="/points-table"
+                to="/sportswise-winners"
                 className={({ isActive }) =>
                   isActive
                     ? 'border-b-2 pb-2 border-white'
                     : 'hover:text-white transition duration-300 ease-in-out'
                 }
               >
-                Points Table
+                Sportswise Winners
               </NavLink>
             </li>
             {/* <li>
