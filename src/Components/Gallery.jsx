@@ -76,7 +76,7 @@ function Gallery() {
   }, [])
 
   return (
-    <div className='mt-40'>
+    <div className='mt-40 sm:mt-48'>
       <SportsHeader heading={"Gallery"} />
       <div className='flex flex-wrap gap-x-5 justify-evenly gap-y-20 py-10 gallary container mx-auto'>
         {images.map(ele => <Photos key={Math.random()} img={ele} />)}

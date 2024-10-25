@@ -30,10 +30,10 @@ const PointTable = () => {
   }, []);
 
   return (
-    <div className="mt-40 mb-4 container mx-auto px-4">
+    <div className="mt-40 sm:mt-48 mb-4 container mx-auto px-4">
       <h1 className="flex gap-x-6 justify-center ">
-        <SportsHeader heading={"POINT"} />
-        <SportsHeader heading={"TABLE"} />
+        <SportsHeader heading={"Winners"} />
+        
       </h1>
       <div className="overflow-x-auto px-6 md:px-32">
         {loading ? (

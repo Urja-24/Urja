@@ -26,7 +26,7 @@ const images = [img3, img1, img2, img4, img5, img7, img8, img9, img10, img11, im
 
 function CarouselGallery() {
     return (
-        <div className='mt-44'>
+        <div className='mt-40'>
             <SportsHeader heading={"Gallery"} />
             <div className='my-20'>
                 <Carousel

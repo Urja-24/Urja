@@ -178,7 +178,7 @@ function OurTeam() {
   ];
 
   return (
-    <section className="container mx-auto mt-40">
+    <section className="container mx-auto mt-40 sm:mt-48">
       <div>
         <div className="flex justify-center gap-x-4">
           <SportsHeader heading={"Our"} />
