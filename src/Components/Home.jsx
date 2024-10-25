@@ -33,10 +33,12 @@ function Home() {
       </div>
       <PointTableComplete />
       <Sports />
-      <div className="mt-4 pt-3 border-t border-gray-700 flex justify-center gap-x-4">
+      <div className="mt-4 pt-3 border-t border-gray-700 gap-x-4 sm:flex  sm:justify-center ">
         <SportsHeader heading={"2k24 "} />
-        <SportsHeader heading={"OVERALL"} />
-        <SportsHeader heading={"Points"} />
+        <div className="flex justify-center space-x-4 ">
+          <SportsHeader heading={"OVERALL"} />
+          <SportsHeader heading={"Points"} />
+        </div>
       </div>
       <Leaderboard leaderboardData={leaderboardData} />
 
